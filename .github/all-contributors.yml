@@ -1,0 +1,33 @@
+# All Contributors Bot Configuration
+# https://allcontributors.org/docs/en/bot/usage
+
+# Files to update
+files:
+  - 'README.md'
+  - 'docs/translations/README.id.md'
+
+# Commit configuration
+commit:
+  # Convention used for commit messages
+  # Available: 'angular', 'atom', 'ember', 'eslint', 'jshint', 'gitmoji'
+  # You can also provide your own pattern
+  # More info: https://allcontributors.org/docs/en/bot/configuration#commit-convention
+  convention: 'angular'
+
+# Comment configuration
+contributorsPerLine: 7
+
+# Badge configuration
+badgeTemplate: '[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg)](#contributors)'
+
+# Contribution types
+# Defines which contribution types to recognize
+contributionTypes:
+  - 'code'
+  - 'doc'
+  - 'translation'
+  - 'review'
+  - 'bug'
+  - 'ideas'
+  - 'content'
+  - 'tutorial'

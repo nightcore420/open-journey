@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Diskusi / Discussions
+    url: https://github.com/firstcontributions/first-contributions/discussions
+    about: Tanya jawab dan diskusi umum / Questions and general discussions
+  - name: 🌐 Hacktoberfest Website
+    url: https://hacktoberfest.com
+    about: Informasi resmi Hacktoberfest / Official Hacktoberfest information
+  - name: 📖 Panduan Kontribusi / Contributing Guide
+    url: https://github.com/firstcontributions/first-contributions/blob/main/CONTRIBUTING.md
+    about: Pelajari cara berkontribusi / Learn how to contribute

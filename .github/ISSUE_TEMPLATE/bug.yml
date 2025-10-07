@@ -1,0 +1,85 @@
+name: 🐛 Bug Report
+description: Laporkan bug atau masalah yang Anda temukan / Report a bug or issue
+title: "[BUG]: "
+labels: ["bug", "hacktoberfest"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih telah meluangkan waktu untuk melaporkan bug!
+        Thank you for taking the time to report a bug!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Deskripsi Bug / Bug Description
+      description: Jelaskan bug yang Anda temukan / Describe the bug you found
+      placeholder: Jelaskan masalahnya dengan detail / Describe the issue in detail
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Langkah-langkah untuk Mereproduksi / Steps to Reproduce
+      description: Bagaimana cara mereproduksi masalah ini? / How can we reproduce this issue?
+      placeholder: |
+        1. Pergi ke '...'
+        2. Klik pada '...'
+        3. Lihat error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Hasil yang Diharapkan / Expected Behavior
+      description: Apa yang seharusnya terjadi? / What should happen?
+      placeholder: Seharusnya...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Hasil Aktual / Actual Behavior
+      description: Apa yang sebenarnya terjadi? / What actually happens?
+      placeholder: Yang terjadi adalah...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Jika ada, tambahkan screenshot / If applicable, add screenshots
+      placeholder: Seret dan lepas gambar di sini / Drag and drop images here
+
+  - type: input
+    id: os
+    attributes:
+      label: Sistem Operasi / Operating System
+      placeholder: "contoh: Windows 11, macOS Sonoma, Ubuntu 22.04"
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser (jika relevan / if relevant)
+      placeholder: "contoh: Chrome 120, Firefox 121, Safari 17"
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Informasi Tambahan / Additional Context
+      description: Tambahkan informasi lain yang relevan / Add any other relevant information
+      placeholder: Informasi tambahan...
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: Saya telah mencari issue yang sudah ada dan tidak menemukan duplikat / I have searched existing issues and found no duplicates
+          required: true
+        - label: Saya bersedia berkontribusi untuk memperbaiki bug ini / I am willing to contribute to fix this bug
+          required: false

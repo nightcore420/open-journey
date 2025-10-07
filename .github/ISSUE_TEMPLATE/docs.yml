@@ -1,0 +1,81 @@
+name: 📚 Documentation / Translation
+description: Perbaikan dokumentasi atau permintaan terjemahan / Documentation improvement or translation request
+title: "[DOCS]: "
+labels: ["documentation", "good first issue", "hacktoberfest"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih ingin membantu meningkatkan dokumentasi kami!
+        Thank you for wanting to help improve our documentation!
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Jenis / Type
+      description: Apa jenis perubahan yang Anda inginkan? / What type of change do you want?
+      options:
+        - Terjemahan / Translation
+        - Perbaikan Typo / Fix Typo
+        - Penambahan Konten / Content Addition
+        - Perbaikan Link / Fix Link
+        - Lainnya / Other
+    validations:
+      required: true
+
+  - type: input
+    id: file
+    attributes:
+      label: File atau Halaman / File or Page
+      description: File atau halaman mana yang perlu diperbaiki? / Which file or page needs to be fixed?
+      placeholder: "contoh: README.md, docs/translations/README.id.md"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Deskripsi / Description
+      description: Jelaskan perubahan yang Anda usulkan / Describe the change you're proposing
+      placeholder: Saya ingin menambahkan/memperbaiki...
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Konten Saat Ini / Current Content
+      description: Jika memperbaiki konten yang ada, salin teks saat ini / If fixing existing content, copy the current text
+      placeholder: Teks saat ini...
+      render: markdown
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Konten yang Diusulkan / Proposed Content
+      description: Bagaimana seharusnya konten yang baru? / What should the new content be?
+      placeholder: Teks yang diusulkan...
+      render: markdown
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Bahasa / Language (untuk terjemahan / for translations)
+      description: Bahasa apa yang Anda terjemahkan? / What language are you translating to?
+      options:
+        - Bahasa Indonesia
+        - English
+        - Lainnya / Other
+        - Tidak Relevan / Not Applicable
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: Saya telah memeriksa dokumentasi saat ini / I have checked the current documentation
+          required: true
+        - label: Saya ingin mengerjakan issue ini / I would like to work on this issue
+          required: false
+        - label: Ini adalah kontribusi pertama saya / This is my first contribution
+          required: false
