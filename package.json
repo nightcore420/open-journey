@@ -5,12 +5,18 @@
   "description": "Help beginners make their first contribution to open source projects",
   "scripts": {
     "showcase:build": "node tools/showcase/build-table.mjs",
-    "showcase:check": "node tools/showcase/check.mjs"
+    "showcase:check": "node tools/showcase/check.mjs",
+    "lint": "eslint . --ext .js,.mjs",
+    "format": "prettier -w ."
   },
   "devDependencies": {
     "glob": "^10.3.10",
     "gray-matter": "^4.0.3",
-    "markdown-table": "^3.0.3"
+    "markdown-table": "^3.0.3",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1"
   },
   "keywords": [
     "open-source",
