@@ -22,7 +22,7 @@ const REQUIRED_FIELDS = ['title', 'contributor', 'description', 'year'];
 /**
  * Validate front-matter data
  */
-function validateEntry(data, filePath) {
+function validateEntry(data, _filePath) {
   const errors = [];
   
   // Check required fields
@@ -122,7 +122,7 @@ function generateTable(entries) {
   
   return markdownTable(tableData, {
     align: ['c', 'l', 'l', 'l']
-  ]);
+  });
 }
 
 /**
