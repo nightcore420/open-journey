@@ -1,0 +1,42 @@
+name: Showcase Validation
+
+on:
+  pull_request:
+    paths:
+      - 'showcase/**'
+      - 'tools/showcase/**'
+      - 'package.json'
+      - 'package-lock.json'
+
+jobs:
+  validate-showcase:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Validate showcase entries
+        run: npm run showcase:check
+        
+      - name: Check for validation errors
+        if: failure()
+        run: |
+          echo "❌ Showcase validation failed!"
+          echo ""
+          echo "💡 To fix these issues:"
+          echo "   1. Fix any validation errors in your showcase files"
+          echo "   2. Run \`npm run showcase:build\` to regenerate the table"
+          echo "   3. Commit the updated files"
+          echo ""
+          echo "📖 For more information, see the showcase README:"
+          echo "   https://github.com/firstcontributions/first-contributions/blob/main/showcase/README.md"
