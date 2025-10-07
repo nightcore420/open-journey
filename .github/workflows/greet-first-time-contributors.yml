@@ -1,0 +1,66 @@
+name: Greet First-Time Contributors
+
+on:
+  pull_request_target:
+    types: [opened]
+  issues:
+    types: [opened]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Greet first-time contributors
+        uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            🎉 **Selamat datang di proyek First Contributions!** / **Welcome to the First Contributions project!**
+            
+            Terima kasih telah membuat issue pertama Anda! Kami sangat menghargai kontribusi Anda.
+            Thank you for creating your first issue! We really appreciate your contribution.
+            
+            Tim kami akan segera meninjau issue Anda. Mohon bersabar.
+            Our team will review your issue soon. Please be patient.
+            
+            🎃 **Hacktoberfest 2025**: Jika ini adalah kontribusi Hacktoberfest, pastikan issue Anda memiliki label yang sesuai!
+            If this is a Hacktoberfest contribution, make sure your issue has the appropriate label!
+            
+            📚 **Resources**:
+            - [CONTRIBUTING.md](../CONTRIBUTING.md)
+            - [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md)
+            - [README Bahasa Indonesia](docs/translations/README.id.md)
+            
+            Selamat berkontribusi! / Happy contributing! 🚀
+            
+          pr-message: |
+            🎉 **Selamat atas Pull Request pertama Anda!** / **Congratulations on your first Pull Request!**
+            
+            Terima kasih telah berkontribusi! Ini adalah langkah besar dalam perjalanan open source Anda.
+            Thank you for contributing! This is a big step in your open source journey.
+            
+            ✅ **Next Steps** / **Langkah Selanjutnya**:
+            - Tim kami akan meninjau PR Anda segera / Our team will review your PR soon
+            - Periksa kembali apakah ada feedback atau perubahan yang diminta / Check back for any feedback or requested changes
+            - Pastikan semua checks telah berhasil / Make sure all checks have passed
+            
+            🎃 **Hacktoberfest 2025**: 
+            - PR ini akan dihitung untuk Hacktoberfest setelah disetujui/di-merge
+            - This PR will count towards Hacktoberfest once approved/merged
+            - Pastikan Anda sudah mendaftar di [hacktoberfest.com](https://hacktoberfest.com)
+            - Make sure you're registered at [hacktoberfest.com](https://hacktoberfest.com)
+            
+            💡 **Tips**:
+            - Bersabar menunggu review (bisa memakan waktu beberapa hari) / Be patient waiting for review (may take a few days)
+            - Respons dengan cepat jika ada feedback / Respond quickly if there's feedback
+            - Belajar dari proses review ini / Learn from this review process
+            
+            📚 **Resources**:
+            - [CONTRIBUTING.md](../CONTRIBUTING.md)
+            - [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md)
+            - [README Bahasa Indonesia](docs/translations/README.id.md)
+            
+            Terima kasih dan selamat berkontribusi! / Thank you and happy contributing! 🚀
