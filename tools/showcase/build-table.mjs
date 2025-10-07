@@ -8,7 +8,7 @@ import { markdownTable } from "markdown-table";
 
 /**
  * Build showcase table from markdown files
- * Scans showcase/**/ [0 - 9][0 - 9][0 - 9][0 - 9]; /*.md files and generates a markdown table
+ * Scans showcase directories for markdown files and generates a table
  */
 
 const SHOWCASE_DIR = "showcase";
@@ -178,7 +178,7 @@ async function main() {
     console.log("🔍 Scanning showcase files...");
 
     // Find all markdown files in showcase directories
-    const pattern = join(SHOWCASE_DIR, "**", "[0-9][0-9][0-9][0-9]", "*.md").replace(/\\/g, "/");
+    const pattern = "showcase/**/[0-9][0-9][0-9][0-9]/*.md";
     const files = await glob(pattern, { ignore: ["**/README.md", "**/template.md"] });
 
     console.log(`📁 Found ${files.length} showcase files`);
