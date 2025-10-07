@@ -1,52 +1,52 @@
 #!/usr/bin/env node
 
-import { glob } from 'glob';
-import { readFileSync, writeFileSync } from 'fs';
-import { join } from 'path';
-import matter from 'gray-matter';
-import { markdownTable } from 'markdown-table';
+import { glob } from "glob";
+import { readFileSync, writeFileSync } from "fs";
+import { join } from "path";
+import matter from "gray-matter";
+import { markdownTable } from "markdown-table";
 
 /**
  * Build showcase table from markdown files
- * Scans showcase files in year directories and generates a markdown table
+ * Scans showcase directories for markdown files and generates a table
  */
 
-const SHOWCASE_DIR = 'showcase';
-const README_PATH = join(SHOWCASE_DIR, 'README.md');
-const START_MARKER = '<!-- SHOWCASE_TABLE_START -->';
-const END_MARKER = '<!-- SHOWCASE_TABLE_END -->';
+const SHOWCASE_DIR = "showcase";
+const README_PATH = join(SHOWCASE_DIR, "README.md");
+const START_MARKER = "<!-- SHOWCASE_TABLE_START -->";
+const END_MARKER = "<!-- SHOWCASE_TABLE_END -->";
 
 // Required fields in front-matter
-const REQUIRED_FIELDS = ['title', 'contributor', 'description', 'year'];
-const OPTIONAL_FIELDS = ['github', 'repo', 'demo', 'tags', 'screenshot'];
+const REQUIRED_FIELDS = ["title", "contributor", "description", "year"];
+// const OPTIONAL_FIELDS = ["github", "repo", "demo", "tags", "screenshot"];
 
 /**
  * Validate front-matter data
  */
 function validateEntry(data, filePath) {
   const errors = [];
-  
+
   // Check required fields
   for (const field of REQUIRED_FIELDS) {
     if (!data[field]) {
       errors.push(`Missing required field: ${field}`);
     }
   }
-  
+
   // Validate year is numeric
-  if (data.year && typeof data.year !== 'number') {
+  if (data.year && typeof data.year !== "number") {
     errors.push(`Year must be a number, got: ${typeof data.year}`);
   }
-  
+
   // Validate year format (YYYY)
   if (data.year && (!Number.isInteger(data.year) || data.year < 2000 || data.year > 2100)) {
     errors.push(`Year must be a valid 4-digit year (2000-2100), got: ${data.year}`);
   }
-  
+
   if (errors.length > 0) {
-    throw new Error(`Validation failed for ${filePath}:\n${errors.join('\n')}`);
+    throw new Error(`Validation failed for ${filePath}:\n${errors.join("\n")}`);
   }
-  
+
   return true;
 }
 
@@ -55,35 +55,34 @@ function validateEntry(data, filePath) {
  */
 function processFile(filePath) {
   try {
-    const content = readFileSync(filePath, 'utf8');
+    const content = readFileSync(filePath, "utf8");
     const { data } = matter(content);
-    
+
     // Validate the entry
     validateEntry(data, filePath);
-    
+
     // Get relative path for linking
-    const relativePath = filePath.replace(/\\/g, '/');
-    
+    const relativePath = filePath.replace(/\\/g, "/");
+
     // Create project link
     const projectLink = `[${data.title}](${relativePath})`;
-    
+
     // Create contributor link (with GitHub profile if available)
     let contributorLink = data.contributor;
     if (data.github) {
       contributorLink = `[${data.contributor}](${data.github})`;
     }
-    
+
     // Truncate description to 100 characters
-    const shortDescription = data.description.length > 100 
-      ? data.description.substring(0, 97) + '...' 
-      : data.description;
-    
+    const shortDescription =
+      data.description.length > 100 ? data.description.substring(0, 97) + "..." : data.description;
+
     return {
       year: data.year,
       project: projectLink,
       contributor: contributorLink,
       description: shortDescription,
-      title: data.title // For sorting
+      title: data.title, // For sorting
     };
   } catch (error) {
     console.error(`Error processing ${filePath}:`, error.message);
@@ -102,31 +101,31 @@ function generateTable(entries) {
     }
     return a.title.localeCompare(b.title); // Ascending title
   });
-  
+
   // Create table data
   const tableData = [
-    ['Year', 'Project', 'Contributor', 'Short Description'],
-    ...sortedEntries.map(entry => [
+    ["Year", "Project", "Contributor", "Short Description"],
+    ...sortedEntries.map((entry) => [
       entry.year.toString(),
       entry.project,
       entry.contributor,
-      entry.description
-    ])
+      entry.description,
+    ]),
   ];
-  
+
   return markdownTable(tableData, {
-    align: ['c', 'l', 'l', 'l']
+    align: ["c", "l", "l", "l"],
   });
 }
 
 /**
  * Update README.md with the generated table
  */
-function updateReadme(table) {
+function updateReadme(table, entriesCount) {
   let content;
-  
+
   try {
-    content = readFileSync(README_PATH, 'utf8');
+    content = readFileSync(README_PATH, "utf8");
   } catch (error) {
     // If README doesn't exist, create it with basic content
     content = `# Project Showcase
@@ -144,29 +143,31 @@ This directory contains showcase entries for projects contributed by the communi
 4. Commit your changes
 `;
   }
-  
+
   // Find and replace the table section
   const startIndex = content.indexOf(START_MARKER);
   const endIndex = content.indexOf(END_MARKER);
-  
+
   if (startIndex === -1 || endIndex === -1) {
-    throw new Error(`Could not find table markers in ${README_PATH}. Please ensure the file contains both ${START_MARKER} and ${END_MARKER}`);
+    throw new Error(
+      `Could not find table markers in ${README_PATH}. Please ensure the file contains both ${START_MARKER} and ${END_MARKER}`,
+    );
   }
-  
+
   // Replace the content between markers
   const beforeTable = content.substring(0, startIndex + START_MARKER.length);
   const afterTable = content.substring(endIndex);
-  
-  const newContent = beforeTable + '\n\n' + table + '\n\n' + afterTable;
-  
+
+  const newContent = beforeTable + "\n\n" + table + "\n\n" + afterTable;
+
   // Remove trailing spaces and ensure consistent line endings
   const cleanContent = newContent
-    .split('\n')
-    .map(line => line.trimEnd())
-    .join('\n');
-  
-  writeFileSync(README_PATH, cleanContent, 'utf8');
-  console.log(`✅ Updated ${README_PATH} with ${entries.length} showcase entries`);
+    .split("\n")
+    .map((line) => line.trimEnd())
+    .join("\n");
+
+  writeFileSync(README_PATH, cleanContent, "utf8");
+  console.log(`✅ Updated ${README_PATH} with ${entriesCount} showcase entries`);
 }
 
 /**
@@ -174,22 +175,22 @@ This directory contains showcase entries for projects contributed by the communi
  */
 async function main() {
   try {
-    console.log('🔍 Scanning showcase files...');
-    
+    console.log("🔍 Scanning showcase files...");
+
     // Find all markdown files in showcase directories
-    const pattern = join(SHOWCASE_DIR, '**', '[0-9][0-9][0-9][0-9]', '*.md').replace(/\\/g, '/');
-    console.log('Pattern:', pattern);
-    const files = await glob(pattern, { ignore: ['**/README.md', '**/template.md'] });
-    
+    const pattern = "showcase/**/[0-9][0-9][0-9][0-9]/*.md";
+    const files = await glob(pattern, { ignore: ["**/README.md", "**/template.md"] });
+
     console.log(`📁 Found ${files.length} showcase files`);
-    console.log('Files:', files);
-    
+
     if (files.length === 0) {
-      console.log('⚠️  No showcase files found. Creating empty table...');
-      updateReadme('| Year | Project | Contributor | Short Description |\n|------|---------|--------------|-------------------|\n| - | - | - | - |');
+      console.log("⚠️  No showcase files found. Creating empty table...");
+      updateReadme(
+        "| Year | Project | Contributor | Short Description |\n|------|---------|--------------|-------------------|\n| - | - | - | - |",
+      );
       return;
     }
-    
+
     // Process each file
     const entries = [];
     for (const file of files) {
@@ -197,17 +198,16 @@ async function main() {
       const entry = processFile(file);
       entries.push(entry);
     }
-    
+
     console.log(`✅ Processed ${entries.length} entries successfully`);
-    
+
     // Generate and update table
     const table = generateTable(entries);
-    updateReadme(table);
-    
-    console.log('🎉 Showcase table updated successfully!');
-    
+    updateReadme(table, entries.length);
+
+    console.log("🎉 Showcase table updated successfully!");
   } catch (error) {
-    console.error('❌ Error building showcase table:', error.message);
+    console.error("❌ Error building showcase table:", error.message);
     process.exit(1);
   }
 }

@@ -22,7 +22,7 @@ const REQUIRED_FIELDS = ['title', 'contributor', 'description', 'year'];
 /**
  * Validate front-matter data
  */
-function validateEntry(data, filePath) {
+function validateEntry(data, _filePath) {
   const errors = [];
   
   // Check required fields
@@ -155,8 +155,8 @@ async function main() {
     console.log('🔍 Checking showcase files...');
     
     // Find all markdown files in showcase directories
-    const pattern = join(SHOWCASE_DIR, '**', '[0-9][0-9][0-9][0-9]', '*.md').replace(/\\/g, '/');
-    const files = await glob(pattern, { ignore: ['**/README.md', '**/template.md'] });
+    const pattern = "showcase/**/[0-9][0-9][0-9][0-9]/*.md";
+    const files = await glob(pattern, { ignore: ["**/README.md", "**/template.md"] });
     
     console.log(`📁 Found ${files.length} showcase files`);
     
