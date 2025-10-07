@@ -42,11 +42,13 @@ jobs:
         with:
           args: >
             --config lychee.toml
+            --format markdown
+            --output lychee-report.md
             ${{ steps.changes.outputs.all_changed_files }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        # If no changed files, skip
         if: ${{ steps.changes.outputs.any_changed == 'true' }}
+        continue-on-error: true
 
       - name: No markdown changes
         if: ${{ steps.changes.outputs.any_changed != 'true' }}
@@ -77,14 +79,14 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const fs = require('fs');
-            let body = "✅ Link check completed. See artifact **lychee-report** for details.";
-            if (process.env['STATE_lychee_exitcode'] === '1') {
-              body = "❌ Link check found issues. See artifact **lychee-report** for details.";
-            }
+            const outcome = core.getInput('outcome') || '${{ steps.lychee.outcome }}';
+            const ok = outcome !== 'failure';
+            const body = ok
+              ? "✅ Link check completed. See artifact **lychee-report** for details."
+              : "❌ Link check found issues. See artifact **lychee-report** for details.";
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
               body
-            })
+            });

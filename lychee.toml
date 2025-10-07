@@ -1,11 +1,14 @@
 # Lychee configuration for fast, reliable link checking
 # Speed & resilience
 max_concurrency = 8
-timeout = "20s"
+timeout = 20 # seconds (numeric)
 retries = 2
-retry_wait_time = "5s"
+retry_wait_time = 5 # seconds (numeric)
 
-# Ignore common non-web schemes and local hosts
+# Acceptable HTTP codes
+accept = [200, 204, 206, 301, 302, 307, 308]
+
+# Exclusions
 exclude = [
     "mailto:",
     "tel:",
@@ -18,9 +21,3 @@ exclude = [
     ".localhost",
     ".test"
 ]
-
-# Consider 429/5xx transient
-accept = ["200", "204", "206", "301", "302", "307", "308"]
-
-# Save a report
-output = "lychee-report.md"
