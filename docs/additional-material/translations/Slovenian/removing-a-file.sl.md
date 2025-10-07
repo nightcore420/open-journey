@@ -1,8 +1,8 @@
 # Odstranjevanje datoteke
 
-Včasih si želiš odstraniti datoteko z Git-a, vendar je ne želiš odstraniti s svojega računalnika. To lahko storiš z uporabo naslednjega ukaza: 
+Včasih si želiš odstraniti datoteko z Git-a, vendar je ne želiš odstraniti s svojega računalnika. To lahko storiš z uporabo naslednjega ukaza:
 
-``git rm <file> --cached``
+`git rm <file> --cached`
 
 ## Kaj se je zgodilo?
 
@@ -14,10 +14,10 @@ V zgornjem primeru smo uporabili zastavico `--cached`. Če je ne bi uporabili, b
 
 ## Dodatne možnosti
 
--   Če želiš odstraniti več datotek, jih lahko vse vljučiš v en ukaz:
+- Če želiš odstraniti več datotek, jih lahko vse vljučiš v en ukaz:
 
-    `git rm file1.js file2.js file3.js --cached`
+  `git rm file1.js file2.js file3.js --cached`
 
--   Lahko uporabiš nadomestni znak (*) da odstraniš podobne datoteke. Na primer, če želiš odstraniti vse datoteke s končnico .txt s svojega repository-ja, uporabi ukaz:
+- Lahko uporabiš nadomestni znak (\*) da odstraniš podobne datoteke. Na primer, če želiš odstraniti vse datoteke s končnico .txt s svojega repository-ja, uporabi ukaz:
 
-    `git rm *.txt --cached`
+  `git rm *.txt --cached`

@@ -15,7 +15,6 @@ Membaca artikel & menonton tutorial bisa membantu, tetapi lebih baik praktek lan
 
 Jika kamu belum punya Visual Studio Code pada perangkat mu, [install disini](https://code.visualstudio.com/download).
 
-
 **Perlu Diingat:** Tutorial ini dibuat menggunakan Visual Studio Code (Versi 1.27.2) pada Windows 10. Nanti dalam tutorial ini kita akan menggunakan beberapa shortcut keyboard. Ini mungkin berbeda pada sistem operasi lain (macOS/Linux) serta bahasa keyboard (UK, DE, dll). Kamu dapat menelusuri daftar pintasan mu dengan mencari "shortcut" di Palet Perintah.
 
 ## Fork repositori ini
@@ -112,10 +111,8 @@ Rayakan kontribusi mu dan bagikan dengan teman dan pengikut kamu dengan membuka 
 
 Kamu dapat bergabung dengan tim slack kami jika memerlukan bantuan atau memiliki pertanyaan. [Bergabung dengan tim Slack](https://join.slack.com/t/firstcontributors/shared_invite/enQtMzE1MTYwNzI3ODQ0LTZiMDA2OGI2NTYyNjM1MTFiNTc4YTRhZTg4OWZjMzA0ZWZmY2UxYzVkMzI1ZmVmOWI4ODdkZWQwNTM2NDVmNjY).
 
-
 ### [ Materi tambahan ](../../additional-material/translations/additional-material.id.md)
 
-
-
 ## Tutorial menggunakan Alat lain
+
 [Kembali ke halaman utama](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools)

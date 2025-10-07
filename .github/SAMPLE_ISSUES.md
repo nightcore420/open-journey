@@ -11,11 +11,14 @@ This document contains sample issues that maintainers can create to help beginne
 **Labels**: `good first issue`, `hacktoberfest`, `documentation`
 
 **Description**:
+
 ```markdown
 ### 🎯 Description
+
 Add your name to the `Contributors.md` file to practice making your first contribution!
 
 ### 📋 Steps
+
 1. Fork this repository
 2. Clone your fork to your local machine
 3. Open `Contributors.md`
@@ -25,12 +28,14 @@ Add your name to the `Contributors.md` file to practice making your first contri
 7. Create a Pull Request
 
 ### ✅ Acceptance Criteria
+
 - Name is added to Contributors.md
 - Format matches existing entries
 - No duplicate entries
 - PR follows the template
 
 ### 💡 Helpful Resources
+
 - [README Tutorial](../README.md)
 - [CONTRIBUTING Guide](../CONTRIBUTING.md)
 - [Indonesian Guide](docs/translations/README.id.md)
@@ -47,16 +52,20 @@ Add your name to the `Contributors.md` file to practice making your first contri
 **Labels**: `good first issue`, `hacktoberfest`, `documentation`
 
 **Description**:
+
 ```markdown
 ### 🐛 Description
+
 We found some typos in [specify file/section] that need to be fixed.
 
 **Current typos**:
+
 - Line XX: "worng" should be "wrong"
 - Line YY: "teh" should be "the"
 - [Add more specific typos]
 
 ### 📋 Steps
+
 1. Fork this repository
 2. Navigate to [file path]
 3. Fix the typos mentioned above
@@ -64,12 +73,14 @@ We found some typos in [specify file/section] that need to be fixed.
 5. Create a Pull Request
 
 ### ✅ Acceptance Criteria
+
 - All mentioned typos are fixed
 - No new typos introduced
 - File format remains unchanged
 - PR description lists all fixes
 
 ### 💡 Tips
+
 - Read the entire section to find any additional typos
 - Use spell-check before submitting
 - Don't change technical terms or code
@@ -86,8 +97,10 @@ We found some typos in [specify file/section] that need to be fixed.
 **Labels**: `good first issue`, `hacktoberfest`, `translation`, `help wanted`
 
 **Description**:
+
 ```markdown
 ### 🌐 Description
+
 Help us make this project more accessible by translating [section name] to Bahasa Indonesia!
 
 **Section to translate**: [Specify section]
@@ -95,6 +108,7 @@ Help us make this project more accessible by translating [section name] to Bahas
 **Target file**: `docs/translations/[filename].id.md`
 
 ### 📋 Steps
+
 1. Fork this repository
 2. Navigate to the target file
 3. Translate the specified section to Bahasa Indonesia
@@ -103,6 +117,7 @@ Help us make this project more accessible by translating [section name] to Bahas
 6. Create a Pull Request
 
 ### ✅ Acceptance Criteria
+
 - Translation is accurate and maintains original meaning
 - Uses proper Bahasa Indonesia
 - Keeps markdown formatting intact
@@ -110,6 +125,7 @@ Help us make this project more accessible by translating [section name] to Bahas
 - Links and images are preserved
 
 ### 💡 Tips
+
 - Use natural Indonesian language (not too formal or casual)
 - Keep technical terms in English with Indonesian explanation if needed
 - Check existing Indonesian translations for consistency
@@ -127,11 +143,14 @@ Help us make this project more accessible by translating [section name] to Bahas
 **Labels**: `good first issue`, `hacktoberfest`, `documentation`, `translation`
 
 **Description**:
-```markdown
+
+````markdown
 ### 📚 Description
+
 Create a comprehensive glossary of common Git commands with Bahasa Indonesia explanations to help Indonesian beginners.
 
 ### 📋 Requirements
+
 Create a new file: `docs/indonesian/git-glossary.md` with:
 
 1. **Header and introduction** in Bahasa Indonesia
@@ -156,6 +175,7 @@ Create a new file: `docs/indonesian/git-glossary.md` with:
 4. **Add practical examples** for each command
 
 ### ✅ Acceptance Criteria
+
 - File is well-formatted markdown
 - All required commands are included
 - Examples are practical and accurate
@@ -163,16 +183,19 @@ Create a new file: `docs/indonesian/git-glossary.md` with:
 - Includes helpful tips for beginners
 
 ### 💡 Example Format
+
 ```markdown
 ## Glosarium Perintah Git
 
-| Perintah | Deskripsi (EN) | Penjelasan (ID) | Contoh |
-|----------|----------------|-----------------|---------|
+| Perintah  | Deskripsi (EN)  | Penjelasan (ID)                 | Contoh                             |
+| --------- | --------------- | ------------------------------- | ---------------------------------- |
 | git clone | Copy repository | Menyalin repository ke komputer | `git clone https://github.com/...` |
 ```
+````
 
 **Kontribusi Anda sangat membantu! / Your contribution helps a lot!** 🚀
-```
+
+````
 
 ---
 
@@ -214,10 +237,11 @@ Add a new section to `docs/additional-material/learning-resources.md` (create if
 
 ### Bahasa Indonesia
 - [Git untuk Pemula](https://example.com) - Tutorial gratis dalam Bahasa Indonesia
-```
+````
 
 **Terima kasih membantu pembelajar baru! / Thank you for helping new learners!** 💡
-```
+
+````
 
 ---
 
@@ -259,7 +283,7 @@ Update `.github/PULL_REQUEST_TEMPLATE.md` to include:
 - Includes practical tips
 
 **Mari kita bantu kontributor baru! / Let's help new contributors!** 🤝
-```
+````
 
 ---
 

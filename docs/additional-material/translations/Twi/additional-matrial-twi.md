@@ -1,15 +1,18 @@
 # Additional information
+
 Yɛfa no sɛ woakenkan mfitiaseɛ nkyerɛkyerɛ no dedaw ansa na woaba ha.
 
 ### [Commit bi a Wɔsesa](amending-a-commit-twi.md)
+
 Saa krataafa yi bɛma wo nsɛm a ɛhia sɛ wobɛsesa commit wɔ akyirikyiri akoraeɛ:> Fa yei siesie commit a woayɛ.
 
-
 ### [Git a Wɔrehyehyɛ](configuring-git.md)
+
 Saa krataafa yi bɛma wo nsɛm a wuhia na wode asiesie ɔdefoɔ ho nsɛm ne akwan foforɔ a wobɛfa so wɔ git mu:> Fa yei di dwuma ma wo git nhyehyɛɛ no ​​so tumi yie.
 
 ### [Wo Fork a Wobɛma Ne Adekorabea no Ahyia a Ɛsono](forking-a-repository-twi.md)
-Saa nwoma yi ma wo nsɛm a ɛfa sɛdeɛ wobɛma forked repository ayɛ foforɔ wɔ source repository no ho. 
+
+Saa nwoma yi ma wo nsɛm a ɛfa sɛdeɛ wobɛma forked repository ayɛ foforɔ wɔ source repository no ho.
 Eyi ho hia, na yɛwɔ anidaso sɛ wo ne afoforo pii bɛboa ma wɔayɛ adwuma yi.
 
 ### [Commit a Wobɛtu akɔ Baa Dwumadibea a Ɛsono](committing-to-a-forked-repository-twi.md)
@@ -17,6 +20,7 @@ Eyi ho hia, na yɛwɔ anidaso sɛ wo ne afoforo pii bɛboa ma wɔayɛ adwuma yi.
 Saa krataafa yi bɛma wo nsɛm a wuhia na wode commit akɔ baa dwumadibea foforo: Di anammɔn yi akyi na wode commit akɔ baa dwumadibea foforo.
 
 ### [Fael bi a Wobeyi afi Mu] (adding-a-file-to-a-repository-twi.md)
+
 Kratafa yi bɛma wo nsɛm a wuhia na wode ayi fael bi afi wo mpɔtam hɔ adekorabea: Di anammɔn yi akyi na sua sɛnea wobɛpopa fael bi ansa na woayɛ commit.
 
 ### [Baa Biara a Wobeyi Fi Wo Adekorabea no Ahyia a Ɛsono](adding-an-existing-file-to-a-repository-twi.md)
@@ -33,7 +37,7 @@ Saa krataafa yi bɛma wo nsɛm a wuhia na wode asiesie wo adekorabea a wɔwɔ gi
 
 ### [San kɔ Commit bi so](reverting-a-commit-twi.md)
 
-Saa krataafa yi bɛboa wo sɛ ɛhia sɛ wosan kɔ commit a atwam wɔ akyirikyiri akoraeɛ no so a. 
+Saa krataafa yi bɛboa wo sɛ ɛhia sɛ wosan kɔ commit a atwam wɔ akyirikyiri akoraeɛ no so a.
 
 ### [Squashing Commits a Wɔde Di Dwuma](squashing-commits-twi.md)
 
@@ -46,7 +50,7 @@ Saa krataafa yi ma wo nsɛm a wuhia na wode asan ahyɛ commit bi a ɛwɔ wo mpɔ
 ### [Nkitahodi a Mfaso Wɔ So](useful-links-for-git-twi.md)
 
 Saa krataafa yi yɛ nea wɔde ama afotuo ne akwansideɛ sites, blogs, ne sites a ɛboa mpɛn pii a ɛma yɛn asetena yɛ mmerɛ nyinaa.
-Wɔyɛ nsɛm a wɔde gyina hɔ ma a eye kyɛn so a wode bedi w’ahiade nyinaa ho dwuma, sɛ́ ebia woyɛ obi a woafi ase anaasɛ woyɛ onimdefo no. 
+Wɔyɛ nsɛm a wɔde gyina hɔ ma a eye kyɛn so a wode bedi w’ahiade nyinaa ho dwuma, sɛ́ ebia woyɛ obi a woafi ase anaasɛ woyɛ onimdefo no.
 
 ### [.gitignore Fael a wɔrebɔ](creating-a-gitignore-file-twi.md)
 

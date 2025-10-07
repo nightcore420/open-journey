@@ -1,7 +1,3 @@
-
-
-
-
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [<img align="right" width="150" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/join-slack-team.png">](https://join.slack.com/t/firstcontributors/shared_invite/zt-1hg51qkgm-Xc7HxhsiPYNN3ofX2_I8FA)
 [![ലൈസൻസ്: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -18,11 +14,11 @@
 ഈ പ്രോജക്റ്റ് പുതിയവർക്ക് അവരുടെ ആദ്യ സംഭാവന നൽകുന്നത് ലളിതമാക്കുകയാണ് ലക്ഷ്യം.
 ഒരുപക്ഷേ നിങ്ങൾക്ക് ശാന്തമായിരുന്നാൽ നിങ്ങൾ കൂടുതൽ മികച്ച രീതിയിൽ പഠിക്കും.
 
- നിങ്ങൾ നിങ്ങളുടെ ആദ്യ സംഭാവന നൽകാൻ ആഗ്രഹിക്കുന്നുവെങ്കിൽ, താഴെ കാണുന്ന ലളിതമായ ഘട്ടങ്ങൾ പിന്തുടരുക.
+നിങ്ങൾ നിങ്ങളുടെ ആദ്യ സംഭാവന നൽകാൻ ആഗ്രഹിക്കുന്നുവെങ്കിൽ, താഴെ കാണുന്ന ലളിതമായ ഘട്ടങ്ങൾ പിന്തുടരുക.
 
 നിങ്ങളുടെ **Windows കമ്പ്യൂട്ടറിൽ Git Bash ഇല്ലെങ്കിൽ**, [ഇവിടെ നിന്ന് ഇൻസ്റ്റാൾ ചെയ്യുക](https://git-scm.com/download/win).
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/fork.png" alt="ഈ റീപോസിറ്ററി Fork ചെയ്യുക" />  
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/fork.png" alt="ഈ റീപോസിറ്ററി Fork ചെയ്യുക" />
 
 ## ഈ റീപോസിറ്ററി Fork ചെയ്യുക
 
@@ -33,7 +29,7 @@
 
 ഇപ്പോൾ നിങ്ങളുടെ **Fork ചെയ്ത റീപോ** നിങ്ങളുടെ കമ്പ്യൂട്ടറിലേക്ക് Clone ചെയ്യുക.
 
- പ്രധാനമാണ്: **ഒറിജിനൽ റീപോ** Clone ചെയ്യരുത്. നിങ്ങളുടെ Fork ചെയ്‌തത് മാത്രം Clone ചെയ്യുക.
+പ്രധാനമാണ്: **ഒറിജിനൽ റീപോ** Clone ചെയ്യരുത്. നിങ്ങളുടെ Fork ചെയ്‌തത് മാത്രം Clone ചെയ്യുക.
 
 Clone ചെയ്യാൻ “Code” അമർത്തി, താഴെ കാണുന്ന URL copy ചെയ്യുക.
 
@@ -51,7 +47,7 @@ git clone <repo-url>
 git checkout -b <branch-name>
 ```
 
- ഉദാഹരണം: `add-your-name`
+ഉദാഹരണം: `add-your-name`
 
 ## ആവശ്യമായ മാറ്റങ്ങൾ വരുത്തുക
 
@@ -93,4 +89,4 @@ git push origin <branch-name>
 
 ---
 
- വേണോ ഞാൻ മുഴുവൻ ഗൈഡും (പിന്നിലെ pull request ഭാഗം വരെ) മലയാളത്തിലേക്ക് convert ചെയ്ത് തരട്ടേ?
+വേണോ ഞാൻ മുഴുവൻ ഗൈഡും (പിന്നിലെ pull request ഭാഗം വരെ) മലയാളത്തിലേക്ക് convert ചെയ്ത് തരട്ടേ?

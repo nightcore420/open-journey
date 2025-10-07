@@ -12,6 +12,7 @@ Vsebina za prvo oznako bo izhajala iz tvoje trenutne veje. Nato sledi vrstica z 
 Naša naloga je da uredimo te vrstice. Ko smo končali, naj bi datoteka izgledala točno tako, kot hočemo da izgleda. Lahko da se bo potrebno posvetovati s sodelavcem, ki je napisal vsebino, ki je v navzkrižju z našo, da se bomo lahko odločili katera koda je prava. Mogoče bo tvoja, mogoče bo njegova - ali pa mešanica obeh.
 
 Primer:
+
 ```
  <<<<<<< HEAD:mergetest
  This is my third line
@@ -31,4 +32,5 @@ Ko je bil spor razrešen, uporabi ukaz `git add`. Ne pozabi izvesti teste, s kat
 Lahko si tudi namestiš različne plugine, ki so odvisni od tvojega IDE-ja, za lažje reševanje sporov.
 
 # Kako razveljaviti združitev ( merge )?
+
 Če želiš razveljaviti združitev uporabi ukaz `git merge —abort`.

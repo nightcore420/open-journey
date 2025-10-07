@@ -6,7 +6,7 @@
 # First Contributions （首次贡献）
 
 | <img alt="GitHub Desktop" src="https://cdn.icon-icons.com/icons2/2157/PNG/512/github_git_hub_logo_icon_132878.png" width="200"> | GitHub 命令行工具 (CLI) |
-| ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
 
 这是给我们这些终端爱好者准备的指南，感谢 [Github-CLI](https://cli.github.com/)，我们可以在终端中完成所有事情。你的第一次贡献应该是有趣、有成就感的，它将激励你继续前进！
 
@@ -47,7 +47,7 @@ git switch -c add-john-doe
 
 # 做出必要更改并提交
 
-现在，你可以用文本编辑器打开  `Contributors.md` 文件并添加你的名字。将你的名字加在文件的任何地方，然后保存文件。
+现在，你可以用文本编辑器打开 `Contributors.md` 文件并添加你的名字。将你的名字加在文件的任何地方，然后保存文件。
 
 在项目目录中执行 `git status` 命令查看更改。
 <img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />

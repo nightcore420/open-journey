@@ -8,7 +8,6 @@
 | <img alt="Visual Studio Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width="40"> | Visual Studio Code |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------ |
 
-
 É difícil. É sempre difícil a primeira vez que você faz algo. Especialmente quando você está colaborando, cometer erros não é uma coisa confortável. Mas o código aberto tem tudo a ver com colaboração e trabalho em conjunto. Queríamos simplificar a maneira como os novos colaboradores de código aberto aprendem e contribuem pela primeira vez.
 
 Ler artigos e assistir a tutoriais pode ajudar, mas o que é melhor do que realmente fazer as coisas sem estragar nada. Este projeto visa fornecer orientação e simplificar a maneira como os novatos fazem sua primeira contribuição. Lembre-se, quanto mais relaxado você estiver, melhor você aprenderá. Se você está procurando fazer sua primeira contribuição, basta seguir os passos simples abaixo. Nós prometemos a você, vai ser divertido.
@@ -114,4 +113,5 @@ Você pode se juntar à nossa equipe do slack caso precise de ajuda ou tenha alg
 ### [Material adicional](../additional-material/translations/additional-material.pt_br.md)
 
 ## Tutoriais usando outras ferramentas
+
 [Back to main page](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools)

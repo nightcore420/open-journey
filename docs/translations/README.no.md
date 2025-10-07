@@ -3,8 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-
-
 # Første bidrag
 
 Det er alltid vanskelig å gjøre noe for første gang. Spesielt når man samarbeider med andre kan det være tungt å gjøre feil. Vi ønsker å gjøre det lettere for nybegynnere å bidra til open-source.
@@ -14,6 +12,7 @@ Det er alltid vanskelig å gjøre noe for første gang. Spesielt når man samarb
 _Hvis du ikke er komfortabel med terminal, [så finnes det andre metoder med bruk av GUI.](#tutorials-using-other-tools)_
 
 #### Om du ikke har git installert på din maskin, [følg denne veiledningen](https://help.github.com/articles/set-up-git/).
+
 <br/><br/>
 
 ## Fork dette prosjektet
@@ -69,6 +68,7 @@ Eksempel:
 ```bash
 git checkout -b add-alonzo-church
 ```
+
 Navnet på din branch behøver ikke å inneholde ordet _add_, men det gir mening å inkludere det i denne sammenhengen. Endre "alonzo-church" til ditt navn.
 <br/><br/>
 
@@ -81,7 +81,6 @@ Navnet på din branch behøver ikke å inneholde ordet _add_, men det gir mening
 Hvis du åpner terminalen igjen og kjører kommandoen `git status`, vil du se dine endringer.
 
 Legg endringene til i din nye branch med kommandoen `git add`:
-
 
 ```bash
 git add Contributors.md

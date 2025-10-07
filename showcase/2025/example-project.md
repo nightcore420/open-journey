@@ -1,13 +1,39 @@
+---
+title: "Example Project Entry"
+contributor: "Open Journey Team"
+github: "https://github.com/nightcore420"
+repo: ""
+demo: ""
+description: "Minimal example entry used by CI to demonstrate the showcase format."
+year: 2025
+tags: ["example", "docs"]
+screenshot: ""
+---
+
 # 🌤️ WeatherNow - Minimalist Weather App
+
+## Overview
+This is a minimal example entry used by CI to demonstrate the showcase format. It shows how to structure a project showcase entry with all required fields.
+
+## Tech Stack
+- Markdown
+
+## Links
+- GitHub: https://github.com/nightcore420
+
+## Screenshot
+(optional placeholder)
 
 ---
 
 ## 🎯 Project Information
 
 ### Project Title
+
 **WeatherNow**
 
 ### 👤 Contributor
+
 - **Name**: Alex Johnson
 - **GitHub**: [@example-user](https://github.com/example-user)
 - **Contact**: [Twitter](https://twitter.com/alexjohnson) | [Portfolio](https://alexjohnson.dev)
@@ -34,12 +60,15 @@ WeatherNow is a clean and minimalist weather forecast application that provides 
 ## 🔗 Links
 
 ### 🌐 Live Demo
+
 [View Live Project](https://weathernow-demo.vercel.app)
 
 ### 📂 Repository
+
 [GitHub Repository](https://github.com/example-user/weathernow)
 
 ### 📹 Video Demo
+
 [Watch on YouTube](https://youtube.com/watch?v=example)
 
 ---
@@ -47,16 +76,19 @@ WeatherNow is a clean and minimalist weather forecast application that provides 
 ## 📸 Screenshots / Preview
 
 ### Main Interface
+
 ![Main Weather View](https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800)
-*Clean weather dashboard showing current conditions and 5-day forecast*
+_Clean weather dashboard showing current conditions and 5-day forecast_
 
 ### Location Search
+
 ![Search Feature](https://images.unsplash.com/photo-1561553590-267fc716698a?w=800)
-*Intelligent search with auto-complete for cities worldwide*
+_Intelligent search with auto-complete for cities worldwide_
 
 ### Responsive Design
+
 ![Mobile View](https://images.unsplash.com/photo-1551830820-330a71b99659?w=400)
-*Fully responsive design works beautifully on all devices*
+_Fully responsive design works beautifully on all devices_
 
 ---
 
@@ -135,4 +167,4 @@ Building WeatherNow was an incredible learning experience! Here's what I gained:
 
 ---
 
-*This is an example showcase project. Replace this content with your own project details!*
+_This is an example showcase project. Replace this content with your own project details!_

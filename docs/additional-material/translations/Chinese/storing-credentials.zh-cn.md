@@ -47,6 +47,7 @@ git config credential.helper 'cache --timeout=<timeout>'
 默认超时时间是 900 秒（15 分钟）。
 
 #### 参考资料：
+
 [Stack Overflow](https://stackoverflow.com/questions/35942754/how-can-i-save-username-and-password-in-git)
 
 ### [附加材料](additional-material.md)

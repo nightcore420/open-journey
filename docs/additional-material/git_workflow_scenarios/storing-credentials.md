@@ -10,7 +10,7 @@ We will be covering one of the methods available to us - [git credential cache](
 
 We can use git credential cache to store our username and password.
 
-**Attention:** This method saves the credentials in *plaintext* on your PC's disk. Everyone on your computer can access it, e.g. malicious NPM modules.
+**Attention:** This method saves the credentials in _plaintext_ on your PC's disk. Everyone on your computer can access it, e.g. malicious NPM modules.
 
 ### Global Credential Cache
 
@@ -24,7 +24,7 @@ $ git config --global credential.helper cache
 
 ### Repository Credential Cache
 
-We can store the credentials for the repository we are working with using one simple command, similar to before: 
+We can store the credentials for the repository we are working with using one simple command, similar to before:
 
 ```
 $ git config credential.helper cache
@@ -43,6 +43,7 @@ git config credential.helper 'cache --timeout=<timeout>'
 Using the helper, the credentials will never touch the disk and will be erased after the specified timeout. The default value is 900 seconds (15 minutes).
 
 #### References
+
 [Stack Overflow](https://stackoverflow.com/questions/35942754/how-can-i-save-username-and-password-in-git)
 
 ### [Additional Material](additional-material.md)

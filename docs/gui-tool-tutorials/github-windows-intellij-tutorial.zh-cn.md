@@ -6,7 +6,7 @@
 # First Contributions（第一次贡献）
 
 | <img alt="IntelliJ IDEA" src="https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg" width="40"> | Intellij IDEA |
-| ---------------------------------------------------------------------------------------------------------------------- | ------------- |
+| --------------------------------------------------------------------------------------------------------------------- | ------------- |
 
 第一次做某事总是困难的。尤其是在协作时，犯错误并不是一件舒服的事。但开源的本质就是协作与共同进步。我们希望简化新手学习与第一次参与开源项目的过程。
 
@@ -123,4 +123,5 @@ IntelliJ IDEA 允许你检出（Git 中的 clone）一个已有的仓库，并�
 ### [附加资料](../additional-material/git_workflow_scenarios/additional-material.md)
 
 ## 使用其他工具的教程
+
 [返回主页](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools)

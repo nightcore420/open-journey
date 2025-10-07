@@ -1,7 +1,7 @@
 # Kaj je stiskanje?
 
 V Git-u stiskanje ( squashing ) pomeni popravljanje zgodovine svojih commit-ov, tako da na koncu ostaneš samo z enim commit-om in enim komentarjem narejenih sprememb.
-To je običajni postopek v odprto kodnih projektih, ker je velik del zgodovine vsake veje pomemben samo programerju, ki jo je ustvaril. Poleg tega na ta način poenostavimo sledenje izvedenih sprememb in jih tudi lažje povrnemo v prejšnje stanje, če je to potrebno. 
+To je običajni postopek v odprto kodnih projektih, ker je velik del zgodovine vsake veje pomemben samo programerju, ki jo je ustvaril. Poleg tega na ta način poenostavimo sledenje izvedenih sprememb in jih tudi lažje povrnemo v prejšnje stanje, če je to potrebno.
 
 # Kako stisneš commit-e?
 
@@ -25,11 +25,12 @@ Date:   10/10/20
     Commit message 2
 ```
 
-Sedaj, ko vidimo commit-e, ki jih želimo združiti v enega, lahko začnemo tako da uporabimo ukaz ```git rebase```. Predvidevam da že poznaš ukaz ```git rebase``` in lahko začnemo stiskanje commit-ov v interaktivnem načinu ukaza `git rebase`, ki ga aktiviramo tako:
+Sedaj, ko vidimo commit-e, ki jih želimo združiti v enega, lahko začnemo tako da uporabimo ukaz `git rebase`. Predvidevam da že poznaš ukaz `git rebase` in lahko začnemo stiskanje commit-ov v interaktivnem načinu ukaza `git rebase`, ki ga aktiviramo tako:
 
 ```
 git rebase -i
 ```
+
 V interaktivnem načinu ukaza rebase lahko določimo začetno in končno točko do katere nazaj želimo iti. HEAD je začetna točka, "~2" pa pomeni da gremo dva commita nazaj v zgodovino. Ukaz se uporabi takole:
 
 ```
@@ -61,6 +62,7 @@ pick blablabla2 Adding dummy01.txt file
 ```
 
 Ukazi navedeni v zgornjem sporočilu:
+
 - p, pick = uporabi commit
 - r, reword = uporabi commit, vendar uredi komentar
 - e, edit = uporabi commit, vendar se ustavi za spremembo
@@ -68,7 +70,7 @@ Ukazi navedeni v zgornjem sporočilu:
 - f, fixup = enak kot "squash", vendar zavrzi komentar tega commit-a
 - x, exec = zaženi ukaz ( preostanek vrstice ) v shell-u
 
-To pomeni da, če želimo stisniti ```blablabla2``` v ```blablablabla```, bi zgornje sporočilo spremenili tako:
+To pomeni da, če želimo stisniti `blablabla2` v `blablablabla`, bi zgornje sporočilo spremenili tako:
 
 ```
 pick blablabla Changing test01.txt file
@@ -91,4 +93,3 @@ commit message 2
 To sporočilo lahko po želji spremenimo preden zapremo urejevalnik besedila, kar shrani spremembe.
 
 Če še enkrat uporabimo ukaz `git log`, bi morali dobiti komentar commit-a, ki smo ga vnesli preden smo zaprli urejevalnik besedila, in commit-i bi morali biti združeni v enega.
-

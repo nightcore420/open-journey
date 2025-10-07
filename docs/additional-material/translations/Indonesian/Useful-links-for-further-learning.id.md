@@ -2,8 +2,8 @@
 
 Dokumen ini didedikasikan untuk semua situs web tips dan trik, postingan blog, dan situs bermanfaat yang membuat hidup kita lebih mudah. Ini adalah referensi yang bagus untuk memenuhi semua kebutuhan kita, baik itu pemula maupun ahli. Halaman ini berisi indeks dari semua tautan berguna yang akan membantu semua pemula dalam domain sumber terbuka atau seseorang yang ingin mempelajari lebih lanjut.
 
-
 ## Daftar Isi
+
 1.  [Tutorial git interaktif](https://try.github.io)
 2.  [Youtube: Git dan GitHub untuk pemula oleh freecodecamp](https://www.youtube.com/watch?v=RGOj5yH7evk)
 3.  [Git - panduan sederhana](http://rogerdudler.github.io/git-guide/)
@@ -11,12 +11,12 @@ Dokumen ini didedikasikan untuk semua situs web tips dan trik, postingan blog, d
 5.  [Git and GitHub terjemahan tutorial untuk banyak bahasa](https://github.com/Roshanjossey/first-contributions)
 6.  [Konflik Merge](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/merge-conflicts)
 7.  [Memperbaiki Konflik Merge](https://githowto.com/resolving_conflicts)
-8. [Dasar - Dasar Git - Panduan cepat dan sederhana](https://blog.praveen.science/basics-of-git-the-quick-start-guide/)
-9. [Standar - Standar Git menurut Agile Methodology Spotify](https://blog.praveen.science/git-standards-followed-in-our-way-of-spotify-agile-methodolgy/)
+8.  [Dasar - Dasar Git - Panduan cepat dan sederhana](https://blog.praveen.science/basics-of-git-the-quick-start-guide/)
+9.  [Standar - Standar Git menurut Agile Methodology Spotify](https://blog.praveen.science/git-standards-followed-in-our-way-of-spotify-agile-methodolgy/)
 10. [Pintasan pada Git](https://blog.praveen.science/git-shortcuts/)
-11.  [Contekan Git resmi semua bahasa](https://services.github.com/on-demand/resources/cheatsheets)
-12.  [Contekan Git dari Tower](https://www.git-tower.com/learn/cheat-sheets/git)
-13.  [Permasalahan Umum Git](https://www.codementor.io/citizen428/git-tutorial-10-common-git-problems-and-how-to-fix-them-aajv0katd)
+11. [Contekan Git resmi semua bahasa](https://services.github.com/on-demand/resources/cheatsheets)
+12. [Contekan Git dari Tower](https://www.git-tower.com/learn/cheat-sheets/git)
+13. [Permasalahan Umum Git](https://www.codementor.io/citizen428/git-tutorial-10-common-git-problems-and-how-to-fix-them-aajv0katd)
 14. [Rebase pada Git](https://blog.gitprime.com/git-rebase-an-illustrated-guide/)
 15. [Panduan Pemula untuk melakukan Rebase dan Squash](https://github.com/servo/servo/wiki/Beginner%27s-guide-to-rebasing-and-squashing)
 16. [Contekan Git yang menunjukan korelasi antara perintah dan file](http://ndpsoftware.com/git-cheatsheet.html)

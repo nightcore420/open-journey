@@ -19,9 +19,11 @@ screenshot: ""
 ## 🎯 Project Information
 
 ### Project Title
+
 **[Your Project Name]**
 
 ### 👤 Contributor
+
 - **Name**: Your Name
 - **GitHub**: [@your-github-username](https://github.com/your-github-username)
 - **Contact** (optional): [Twitter](https://twitter.com/yourhandle) | [LinkedIn](https://linkedin.com/in/yourprofile)
@@ -31,11 +33,13 @@ screenshot: ""
 ## 📖 Description
 
 Write a short description of your project (2-3 sentences). Explain:
+
 - What problem does it solve?
 - Who is it for?
 - What makes it unique or interesting?
 
 **Example:**
+
 > A minimalist task manager built with React and Firebase. It helps busy professionals organize their daily tasks with a clean, distraction-free interface. Features include drag-and-drop prioritization and smart notifications.
 
 ---
@@ -54,12 +58,15 @@ List the technologies, frameworks, libraries, or tools you used:
 ## 🔗 Links
 
 ### 🌐 Live Demo
+
 [View Live Project](https://your-project-url.com)
 
 ### 📂 Repository
+
 [GitHub Repository](https://github.com/yourusername/your-repo)
 
 ### 📹 Video Demo (Optional)
+
 [Watch on YouTube](https://youtube.com/your-video)
 
 ---
@@ -69,12 +76,14 @@ List the technologies, frameworks, libraries, or tools you used:
 > 💡 **Tip**: Add 1-3 screenshots or GIFs showing your project in action.
 
 ### Main Interface
+
 ![Screenshot 1](url-to-screenshot-1.png)
-*Caption describing what this shows*
+_Caption describing what this shows_
 
 ### Key Feature
+
 ![Screenshot 2](url-to-screenshot-2.png)
-*Caption describing what this shows*
+_Caption describing what this shows_
 
 ---
 
@@ -92,6 +101,7 @@ List 3-5 main features of your project:
 ## 🎓 What I Learned (Optional)
 
 Share what you learned while building this project:
+
 - New technologies or concepts
 - Challenges you overcame
 - Skills you improved

@@ -1,6 +1,6 @@
 ## ನಿಮ್ಮ Fork ಅನ್ನು ಈ ರೆಪೊಸಿಟರಿಯೊಂದಿಗೆ ಸಮನ್ವಯಗೊಳಿಸುವುದು
 
-ಮೊದಲು, ಪೂರ್ಣ ಸಮನ್ವಯದ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಬೇಕು. ಈ ಸಂದರ್ಭದಲ್ಲಿ, ನಮ್ಮಲ್ಲಿ ಮೂರು ಭಿನ್ನವಾದ ರೆಪೊಸಿಟರಿಗಳು ಇವೆ: ನನ್ನ ಸಾರ್ವಜನಿಕ ರೆಪೊಸಿಟರಿ GitHub ನಲ್ಲಿ `github.com/Roshanjossey/first-contributions/`, ನಿಮ್ಮ Fork GitHub ನಲ್ಲಿ `github.com/Your-Username/first-contributions/` ಮತ್ತು ನೀವು ಕೆಲಸ ಮಾಡುತ್ತಿರುವ ಸ್ಥಳೀಯ ರೆಪೊಸಿಟರಿ. ಈ ರೀತಿಯ ಸಹಯೋಗವನ್ನು *open source* (ಮುಕ್ತ ಆಕರ) ಪ್ರಾಜೆಕ್ಟ್‌ಗಳಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ `Triangle Workflow` ಎಂದು ಕರೆಯುತ್ತಾರೆ.
+ಮೊದಲು, ಪೂರ್ಣ ಸಮನ್ವಯದ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಬೇಕು. ಈ ಸಂದರ್ಭದಲ್ಲಿ, ನಮ್ಮಲ್ಲಿ ಮೂರು ಭಿನ್ನವಾದ ರೆಪೊಸಿಟರಿಗಳು ಇವೆ: ನನ್ನ ಸಾರ್ವಜನಿಕ ರೆಪೊಸಿಟರಿ GitHub ನಲ್ಲಿ `github.com/Roshanjossey/first-contributions/`, ನಿಮ್ಮ Fork GitHub ನಲ್ಲಿ `github.com/Your-Username/first-contributions/` ಮತ್ತು ನೀವು ಕೆಲಸ ಮಾಡುತ್ತಿರುವ ಸ್ಥಳೀಯ ರೆಪೊಸಿಟರಿ. ಈ ರೀತಿಯ ಸಹಯೋಗವನ್ನು _open source_ (ಮುಕ್ತ ಆಕರ) ಪ್ರಾಜೆಕ್ಟ್‌ಗಳಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ `Triangle Workflow` ಎಂದು ಕರೆಯುತ್ತಾರೆ.
 
 <img style="float;" src="https://firstcontributions.github.io/assets/additional-material/triangle_workflow.png" alt="triangle workflow" />
 
@@ -12,11 +12,13 @@
 #### 1. ನಿಮ್ಮ `master` ಶಾಖೆಯಲ್ಲಿ ಇರುವುದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ
 
 ನೀವು ಯಾವ ಶಾಖೆಯಲ್ಲಿ ಇರುವಿರಿ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಲು:
+
 ```bash
 git status
 ```
 
 `master` ನಲ್ಲಿ ಇಲ್ಲದಿದ್ದರೆ, ಅದಕ್ಕೆ ಬದಲಾಯಿಸಿ:
+
 ```bash
 git checkout master
 ```
@@ -56,4 +58,3 @@ git push origin master
 ಈಗ, ನಿಮ್ಮ Fork ಮತ್ತು ಸ್ಥಳೀಯ ರೆಪೊಸಿಟರಿ ಅಪ್‌ಡೇಟ್ ಆಗಿದೆ! ನಿಮಗೆ ಶುಭವಾಗಲಿ!
 
 ಪ್ರತಿಯೊಮ್ಮೆ ನಿಮ್ಮ GitHub Fork `commits behind` ಎಂಬ ಸಂದೇಶ ತೋರಿಸಿದಾಗ ಈ ಹಂತಗಳನ್ನು ಅನುಸರಿಸಿ.
-

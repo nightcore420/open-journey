@@ -216,3 +216,6 @@ async function main() {
 if (import.meta.url === `file://${process.argv[1]}`) {
   main();
 }
+
+// Export main function for testing
+export { main };

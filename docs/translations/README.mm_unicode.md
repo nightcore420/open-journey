@@ -2,7 +2,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-
 # ပထမအကြိမ် ကူညီထောက်ပံ့ခြင်း
 
 ဘယ်အရာမဆို ပထမဦးဆုံးလုပ်ဆောင်အခါ အခက်အခဲတွေ့ကြုံရပါတယ်။ အထူးသဖြင့် လူအများနဲ့ ပေါင်းသင်းလုပ်ကိုင်ကြတဲ့ အခါ မထင်မှတ်ထားတဲ့ အမှားများတွေ့ရတတ်ပြီး အဆင်မပြေတာတွေဖြစ်တတ်ပါတယ်။ Open source software များကတော့ လူအများနဲ့ ပေါင်းသင်းဆက်ဆံလုပ်ကိုင် ကြရတာပါ။ ဒါကြောင့်မို့ ပထမဦးဆုံးအကြိမ် open-source project များကို ပါဝင် ကူညီထောက်ပံ့သူများကို ပထမဆုံးအကြိမ် ကူညီထောက်ပံ့နိုင်ဖို့နဲ့ လွယ်ကူ ရိုးရှင်းတဲ့ လေ့လာနည်းဖြစ်ဖို့ ရည်ရွယ်ပါတယ်။

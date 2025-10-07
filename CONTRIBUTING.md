@@ -28,11 +28,13 @@ Kami menerima berbagai jenis kontribusi:
 We accept various types of contributions:
 
 ### ✅ Menambahkan Nama Anda / Add Your Name
+
 - Tambahkan nama Anda ke `Contributors.md`
 - Ini adalah cara termudah untuk memulai!
 - This is the easiest way to get started!
 
 ### 📝 Perbaikan Dokumentasi / Documentation Fixes
+
 - Memperbaiki typo atau kesalahan
 - Memperbaiki link yang rusak
 - Meningkatkan kejelasan instruksi
@@ -41,6 +43,7 @@ We accept various types of contributions:
 - Improve instruction clarity
 
 ### 🌐 Terjemahan / Translations
+
 - Menerjemahkan README ke bahasa Anda
 - Memperbaiki terjemahan yang ada
 - Menambahkan tutorial dalam bahasa lain
@@ -49,6 +52,7 @@ We accept various types of contributions:
 - Add tutorials in other languages
 
 ### 📚 Konten Edukatif / Educational Content
+
 - Menambahkan tutorial baru
 - Menambahkan resource pembelajaran
 - Membuat glossary atau cheat sheet
@@ -57,6 +61,7 @@ We accept various types of contributions:
 - Create glossaries or cheat sheets
 
 ### 🌟 Project Showcase / Galeri Proyek
+
 - Menambahkan proyek pribadi ke showcase
 - Membagikan aplikasi atau tool yang telah dibuat
 - Menampilkan portfolio dan karya kreatif
@@ -76,22 +81,22 @@ Ketika menambahkan proyek ke showcase, pastikan file markdown Anda menyertakan f
 
 ```yaml
 ---
-title: "Your Project Name"           # Required
-contributor: "Your Name"             # Required  
-description: "Brief description"     # Required
-year: 2025                          # Required (YYYY format)
-github: "https://github.com/you"    # Optional
+title: "Your Project Name" # Required
+contributor: "Your Name" # Required
+description: "Brief description" # Required
+year: 2025 # Required (YYYY format)
+github: "https://github.com/you" # Optional
 repo: "https://github.com/you/repo" # Optional
-demo: "https://your-demo.com"       # Optional
-tags: ["tag1", "tag2"]             # Optional
-screenshot: "https://img-url.com"   # Optional
+demo: "https://your-demo.com" # Optional
+tags: ["tag1", "tag2"] # Optional
+screenshot: "https://img-url.com" # Optional
 ---
 ```
 
 ### ✅ Validation Rules / Aturan Validasi
 
 - **Title**: Must be a non-empty string
-- **Contributor**: Must be a non-empty string  
+- **Contributor**: Must be a non-empty string
 - **Description**: Must be a non-empty string
 - **Year**: Must be a number between 2000-2100
 - **File Location**: Must be in `showcase/YYYY/filename.md` format
@@ -99,7 +104,7 @@ screenshot: "https://img-url.com"   # Optional
 
 - **Title**: Harus berupa string yang tidak kosong
 - **Contributor**: Harus berupa string yang tidak kosong
-- **Description**: Harus berupa string yang tidak kosong  
+- **Description**: Harus berupa string yang tidak kosong
 - **Year**: Harus berupa angka antara 2000-2100
 - **Lokasi File**: Harus dalam format `showcase/YYYY/filename.md`
 - **Update Tabel**: Jalankan `npm run showcase:build` setelah menambahkan file
@@ -140,6 +145,7 @@ git switch -c your-branch-name
 ```
 
 Contoh nama branch yang baik / Examples of good branch names:
+
 - `add-john-doe`
 - `fix-typo-readme`
 - `translate-readme-indonesian`
@@ -152,6 +158,7 @@ Edit file yang diperlukan menggunakan text editor favorit Anda.
 Edit the necessary files using your favorite text editor.
 
 **Tips:**
+
 - Buat perubahan yang kecil dan fokus / Make small, focused changes
 - Ikuti format yang sudah ada / Follow existing formats
 - Pastikan tidak ada typo / Make sure there are no typos
@@ -164,6 +171,7 @@ git commit -m "Deskripsi singkat perubahan Anda"
 ```
 
 Contoh commit message yang baik / Examples of good commit messages:
+
 - `Add John Doe to Contributors list`
 - `Fix typo in Indonesian README`
 - `Translate introduction section to Indonesian`
@@ -258,24 +266,28 @@ Before creating a Pull Request, make sure:
 ### Apa yang Dihitung / What Counts
 
 ✅ Pull Request yang valid:
+
 - Menambahkan nama ke Contributors.md
 - Memperbaiki bug atau typo yang nyata
 - Menambahkan konten yang berarti
 - Menerjemahkan dokumentasi
 
 ✅ Valid Pull Requests:
+
 - Adding name to Contributors.md
 - Fixing actual bugs or typos
 - Adding meaningful content
 - Translating documentation
 
 ❌ Pull Request yang tidak valid:
+
 - Perubahan whitespace saja
 - Perubahan yang merusak
 - Spam atau perubahan tidak berarti
 - Duplikasi konten
 
 ❌ Invalid Pull Requests:
+
 - Whitespace-only changes
 - Breaking changes
 - Spam or meaningless changes

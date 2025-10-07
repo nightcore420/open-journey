@@ -23,9 +23,11 @@ Nếu bạn đang dùng Github Desktop phiên bản 1.0 trở xuống, [nên xem
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/fork.png" alt="Copy kho dự án" />
 
 ## Copy kho mã nguồn (Fork)
+
 Copy kho mã nguồn này bằng cách nhấn vào nút Fork đầu trang này. Bản sao kho mã nguồn này sẽ được tạo ra trong tài khoản của bạn.
 
 ## Tải kho mã nguồn về máy (Clone)
+
 Clone sẽ cho phép bạn tải kho mã nguồn (hay còn gọi là repository) về máy. (Download locally)
 
 Để tải kho mã nguồn, nhấn vào "Clone or Download" sau đó nhấn "Open in Desktop"
@@ -72,7 +74,7 @@ Bạn có thể thấy những thay đổi của Contributors.md khi mở Github
 
 Bây giờ hãy commit các thay đổi đó. Commit sẽ lưu lại các thay đổi bạn vừa làm trên máy, nhưng chưa upload lên kho mã nguồn
 
-Viết tin nhắn thay đổi: "Add `<tên-bạn>` to Contributors list" tại phần __summary__
+Viết tin nhắn thay đổi: "Add `<tên-bạn>` to Contributors list" tại phần **summary**
 
 Nhớ đổi `<tên-bạn>` thành đúng tên của bạn.
 
@@ -85,6 +87,7 @@ Ngay bên dưới, bạn sẽ thấy ngay commit đã được tạo.
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-commit2.png" alt="commit your changes" />
 
 ## Đẩy các thay đổi lên Github (Push)
+
 Push cho phép bạn upload các thay đổi bạn đã thực hiện trên máy lên kho mã nguồn chính.
 
 Chọn File->Options và đăng nhập vào tài khoản Github.com của bạn. Gõ Github username và mật khẩu.
@@ -96,6 +99,7 @@ Nhấn vào nút `Publish` ở góc trên.
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-publish1.png" alt="push your changes" />
 
 ## Gửi những thay đổi của bạn để xem xét (Pull Request)
+
 Nếu bạn vào trang kho mã nguồn mà bạn vừa fork trên Github, bạn sẽ thấy nút `Compare & pull request`. Nhấn nút đó.
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/compare-and-pull.png" alt="create a pull request" />
@@ -121,13 +125,14 @@ Bạn có thể tham gia slack của chúng tôi trong trường hợp bạn c�
 [Quay lại trang chính](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools)
 
 ## _Chú giải thuật ngữ Tiếng Anh_
+
 **Fork**: Copy kho mã nguồn của tài khoản Github khác sang tài khoản Github của bạn. Những thay đổi bạn làm trên kho mã nguồn vừa sao chép ở tài khoản sẽ không bị ảnh hưởng ở kho mã nguồn tài khoản bên kia (nhưng nhớ phải tạo branch mới).
 
-**Clone**: Khác với nghĩa Tiếng Anh thông thường là *Sao chép*. Clone trên Git là tải kho mã nguồn về máy (Download locally). Vì thông thường khi thực hiện thay đổi trên kho mã nguồn thì bạn không nên thực hiện trực tiếp trên trang web của kho mã nguồn, tốt nhất nên tải về sau đó làm gì thì làm :).
+**Clone**: Khác với nghĩa Tiếng Anh thông thường là _Sao chép_. Clone trên Git là tải kho mã nguồn về máy (Download locally). Vì thông thường khi thực hiện thay đổi trên kho mã nguồn thì bạn không nên thực hiện trực tiếp trên trang web của kho mã nguồn, tốt nhất nên tải về sau đó làm gì thì làm :).
 
 **Branch**: Nôm na là phiên bản của kho mã nguồn. Có nhiều branch khác nhau do các tài khoản khác fork và tạo hay do chính chủ tạo. Branch thông thường bạn thấy khi mở kho mã nguồn là branch `master` hay `main`. Hay các branch khác là branch phiên bản:`v1`,`v2` ,.. hay branch `wip` (Working in progress (Đang làm) ). Các branch có thể được hợp nhất lại với nhau khi tạo Pull Request và được đồng ý bởi chính chủ. Bạn có thể chọn branch khi Fork, Clone, Commit, Push trên Github nhưng theo mặc định thì branch thông thường tên `master` hay `main`. Như ở hướng dẫn khi bạn fork mã nguồn thì phải tạo branch mới rồi thực hiện thay đổi lên branch đó chứ không thực hiện thay đổi lên branch `main` được (vì bạn không có quyền). Sau đó tạo Pull Request trên trang kho mã nguồn gốc và chờ được chủ đồng ý hợp nhất vào branch `main` .
 
-**Commit**: Lưu các thay đổi mà bạn vừa làm trên máy nhưng chưa upload lên kho mã nguồn chính trên Github. Nói rõ và dể hiểu hơn, khi bạn clone kho mã nguồn lên máy, 1 thư mục ẩn sẽ được tạo là *.git* (để xem thư mục đó bạn chọn View->Hidden Items ở File Explorer). Thư mục này đóng vai trò quản lý các thay đổi bạn vừa làm trên máy hay nói nôm na là *file dự án* của Git. Các thay đổi mà bạn thực hiện sẽ được lưu trong thư mục *.git* đó sau khi bạn commit.
+**Commit**: Lưu các thay đổi mà bạn vừa làm trên máy nhưng chưa upload lên kho mã nguồn chính trên Github. Nói rõ và dể hiểu hơn, khi bạn clone kho mã nguồn lên máy, 1 thư mục ẩn sẽ được tạo là _.git_ (để xem thư mục đó bạn chọn View->Hidden Items ở File Explorer). Thư mục này đóng vai trò quản lý các thay đổi bạn vừa làm trên máy hay nói nôm na là _file dự án_ của Git. Các thay đổi mà bạn thực hiện sẽ được lưu trong thư mục _.git_ đó sau khi bạn commit.
 
 **Push**: Upload các thay đổi bạn vừa làm trên máy lên kho mã nguồn chính. Lưu ý phải commit các thay đổi trước khi push. Bạn có thể tạo nhiều commit rồi push 1 lần.
 

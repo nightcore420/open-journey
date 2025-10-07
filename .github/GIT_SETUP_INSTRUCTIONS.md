@@ -74,6 +74,7 @@ git push -u origin --tags
 #### A. Add Repository Topics
 
 Go to your repository on GitHub → Click the gear icon next to "About" → Add topics:
+
 - `hacktoberfest`
 - `good-first-issue`
 - `beginner-friendly`
@@ -107,6 +108,7 @@ Navigate to **Settings** → **Branches** → **Add rule**:
 **Branch name pattern**: `main`
 
 Enable:
+
 - ✅ Require a pull request before merging
 - ✅ Require approvals (1)
 - ✅ Dismiss stale pull request approvals when new commits are pushed
@@ -119,15 +121,15 @@ Enable:
 
 Navigate to **Issues** → **Labels** → Create these labels if they don't exist:
 
-| Label Name | Color | Description |
-|------------|-------|-------------|
-| `hacktoberfest` | `#ff6b6b` | Hacktoberfest contributions |
-| `good first issue` | `#7057ff` | Good for newcomers |
-| `documentation` | `#0075ca` | Documentation improvements |
-| `translation` | `#5319e7` | Translation related |
-| `help wanted` | `#008672` | Extra attention needed |
-| `invalid` | `#e4e669` | Invalid contribution |
-| `spam` | `#d93f0b` | Spam PR/issue |
+| Label Name         | Color     | Description                 |
+| ------------------ | --------- | --------------------------- |
+| `hacktoberfest`    | `#ff6b6b` | Hacktoberfest contributions |
+| `good first issue` | `#7057ff` | Good for newcomers          |
+| `documentation`    | `#0075ca` | Documentation improvements  |
+| `translation`      | `#5319e7` | Translation related         |
+| `help wanted`      | `#008672` | Extra attention needed      |
+| `invalid`          | `#e4e669` | Invalid contribution        |
+| `spam`             | `#d93f0b` | Spam PR/issue               |
 
 ### 7. Enable GitHub Bots
 
@@ -146,6 +148,7 @@ Navigate to **Issues** → **Labels** → Create these labels if they don't exis
 4. Configuration is in `.github/all-contributors.yml`
 
 To add a contributor:
+
 ```
 @allcontributors please add @username for code, doc
 ```
@@ -153,24 +156,25 @@ To add a contributor:
 #### C. Stale Bot (Optional)
 
 Create `.github/workflows/stale.yml`:
+
 ```yaml
 name: Mark stale issues and pull requests
 
 on:
   schedule:
-  - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
 
 jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/stale@v9
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        stale-issue-message: 'Issue ini ditandai sebagai stale karena tidak ada aktivitas. / This issue is marked as stale due to inactivity.'
-        stale-pr-message: 'PR ini ditandai sebagai stale karena tidak ada aktivitas. / This PR is marked as stale due to inactivity.'
-        days-before-stale: 30
-        days-before-close: 7
+      - uses: actions/stale@v9
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          stale-issue-message: "Issue ini ditandai sebagai stale karena tidak ada aktivitas. / This issue is marked as stale due to inactivity."
+          stale-pr-message: "PR ini ditandai sebagai stale karena tidak ada aktivitas. / This PR is marked as stale due to inactivity."
+          days-before-stale: 30
+          days-before-close: 7
 ```
 
 ---
@@ -301,6 +305,7 @@ Your repository is now set up for Hacktoberfest 2025! Share it with the communit
 ## 📞 Need Help?
 
 If you encounter issues:
+
 1. Check GitHub documentation
 2. Search for similar issues
 3. Ask in GitHub Community

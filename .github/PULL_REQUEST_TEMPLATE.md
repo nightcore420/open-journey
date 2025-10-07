@@ -2,11 +2,10 @@
 
 <!-- Jelaskan perubahan yang Anda buat / Describe the changes you made -->
 
-
-
 ## 🔗 Issue Terkait / Related Issue
 
 <!-- Tuliskan nomor issue yang diselesaikan / Write the issue number that is resolved -->
+
 Closes #(issue number)
 
 ## ✅ Jenis Perubahan / Type of Change
@@ -36,8 +35,6 @@ Closes #(issue number)
 
 <!-- Tambahkan screenshot jika perubahan Anda mempengaruhi tampilan / Add screenshots if your changes affect the appearance -->
 
-
-
 ## 🎯 Untuk Kontributor Pertama Kali / For First-Time Contributors
 
 Selamat atas kontribusi pertama Anda! 🎉
@@ -51,4 +48,3 @@ Congratulations on your first contribution! 🎉
 ## 💬 Catatan Tambahan / Additional Notes
 
 <!-- Tambahkan informasi lain yang relevan / Add any other relevant information -->
-

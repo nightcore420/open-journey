@@ -12,21 +12,21 @@ Contoh perilaku yang berkontribusi pada lingkungan yang positif meliputi:
 
 Examples of behavior that contributes to creating a positive environment include:
 
-* Menggunakan bahasa yang ramah dan inklusif / Using welcoming and inclusive language
-* Menghormati sudut pandang dan pengalaman yang berbeda / Being respectful of differing viewpoints and experiences
-* Menerima kritik konstruktif dengan baik / Gracefully accepting constructive criticism
-* Fokus pada apa yang terbaik bagi komunitas / Focusing on what is best for the community
-* Menunjukkan empati terhadap anggota komunitas lainnya / Showing empathy towards other community members
+- Menggunakan bahasa yang ramah dan inklusif / Using welcoming and inclusive language
+- Menghormati sudut pandang dan pengalaman yang berbeda / Being respectful of differing viewpoints and experiences
+- Menerima kritik konstruktif dengan baik / Gracefully accepting constructive criticism
+- Fokus pada apa yang terbaik bagi komunitas / Focusing on what is best for the community
+- Menunjukkan empati terhadap anggota komunitas lainnya / Showing empathy towards other community members
 
 Contoh perilaku yang tidak dapat diterima meliputi:
 
 Examples of unacceptable behavior by participants include:
 
-* Penggunaan bahasa atau citra seksual dan perhatian atau rayuan seksual yang tidak diinginkan / The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, komentar menghina/merendahkan, dan serangan pribadi atau politik / Trolling, insulting/derogatory comments, and personal or political attacks
-* Pelecehan publik atau pribadi / Public or private harassment
-* Menerbitkan informasi pribadi orang lain, seperti alamat fisik atau elektronik, tanpa izin eksplisit / Publishing others' private information without explicit permission
-* Perilaku lain yang secara wajar dapat dianggap tidak pantas dalam lingkungan profesional / Other conduct which could reasonably be considered inappropriate in a professional setting
+- Penggunaan bahasa atau citra seksual dan perhatian atau rayuan seksual yang tidak diinginkan / The use of sexualized language or imagery and unwelcome sexual attention or advances
+- Trolling, komentar menghina/merendahkan, dan serangan pribadi atau politik / Trolling, insulting/derogatory comments, and personal or political attacks
+- Pelecehan publik atau pribadi / Public or private harassment
+- Menerbitkan informasi pribadi orang lain, seperti alamat fisik atau elektronik, tanpa izin eksplisit / Publishing others' private information without explicit permission
+- Perilaku lain yang secara wajar dapat dianggap tidak pantas dalam lingkungan profesional / Other conduct which could reasonably be considered inappropriate in a professional setting
 
 ## Tanggung Jawab Kami / Our Responsibilities
 
@@ -56,12 +56,12 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 
 **Don't be afraid to ask!** We were all beginners once. There are no stupid questions.
 
-* Jika Anda membuat kesalahan, tidak apa-apa! Kami akan membantu Anda memperbaikinya.
-* If you make a mistake, that's okay! We'll help you fix it.
-* Jika Pull Request Anda perlu perbaikan, kami akan memberikan feedback yang konstruktif.
-* If your Pull Request needs changes, we'll provide constructive feedback.
-* Kami di sini untuk belajar bersama dan membantu satu sama lain.
-* We're here to learn together and help each other.
+- Jika Anda membuat kesalahan, tidak apa-apa! Kami akan membantu Anda memperbaikinya.
+- If you make a mistake, that's okay! We'll help you fix it.
+- Jika Pull Request Anda perlu perbaikan, kami akan memberikan feedback yang konstruktif.
+- If your Pull Request needs changes, we'll provide constructive feedback.
+- Kami di sini untuk belajar bersama dan membantu satu sama lain.
+- We're here to learn together and help each other.
 
 ## Atribusi / Attribution
 

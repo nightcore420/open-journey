@@ -2,7 +2,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-
 #### _קרא [בשפות אחרות](Translations.md)._
 
 <kbd>[<img title="Shqip" alt="Shqip" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/al.svg" width="22">](README.al.md)</kbd>
@@ -115,7 +114,6 @@ _אם אינכם חשים בנוח להשתמש בשורת פקודה, [כאן �
 git clone "url you just copied"
 ```
 
-  
 כאשר הביטוי `"url you just copied"` (ללא סימני הגרשיים) הוא הקישור למאגר זה שביצעתם עליו FORK קודם לכן. ראו את הצעדים הקודמים כדי להשיג את הקישור.
 
 <img align="left" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
@@ -126,7 +124,6 @@ git clone "url you just copied"
 git clone git@github.com:this-is-you/first-contributions.git
 ```
 
-  
 כאשר `this-is-you` הוא שם המשתמש שלכם ב-GitHub. לכאן אתם מעתיקים את התוכן של מאגר first-contributions ב-GitHub לתוך המחשב שלכם.
 
 ## יצירת ענף
@@ -137,14 +134,13 @@ git clone git@github.com:this-is-you/first-contributions.git
 cd first-contributions
 ```
 
-  
 כעת, צרו ענף (branch) בשימוש הפעולה `git switch`:
 
 ```bash
 git switch -c your-new-branch-name
 ```
 
-  לדוגמא:
+לדוגמא:
 
 ```bash
 git switch -c add-alonzo-church
@@ -167,7 +163,6 @@ git checkout -b your-new-branch-name
 
 ## ערכו שינויים הכרחיים ובצעו להם commit
 
-  
 כעת פתחו את הקובץ `Contributors.md` בתוכנת עריכת טקסט והוסיפו את השם שלכם אליו. אל תוסיפו את השם בתחילת הקובץ או בסופו. הוסיפו אותו באמצע. לאחר שסיימתם, שמרו את הקובץ.
 
 <img align="left" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
@@ -180,26 +175,22 @@ git checkout -b your-new-branch-name
 git add Contributors.md
 ```
 
-  
 עכשיו, בצעו commit לשינויים הללו תוך שימוש בפקודת `git commit`:
 
 ```bash
 git commit -m "Add your-name to Contributors list"
 ```
 
-  
 החליפו את הביטוי `your-name` עם השם שלכם.
 
 ## לדחוף את השינויים ל-GitHub
 
-  
 דחפו את השינויים תוך שימוש בפקודה `git push`:
 
 ```bash
 git push origin add-your-branch-name
 ```
 
-  
 החליפו את `add-your-branch-name` עם השם של הענף שיצרתם מוקדם יותר.
 
 <div dir="rtl">
@@ -223,22 +214,25 @@ fatal: Authentication failed for 'https://github.com/<your-username>/first-contr
 כמו כן, ייתכן שתרצה להריץ את הפקודה 'git remote -v' כדי לבדוק את הכתובת המרוחקת שלך.
 
 אם זה דומה לזה:
+
 ```bash
 origin	https://github.com/your-username/your_repo.git (fetch)
 origin https://github.com/your-username/your_repo.git (push)
 ```
 
 תחליף את זה בעזרת הפקודה:
+
 ```bash
 git remote set-url origin git@github.com:your-username/your_repo.git
 ```
+
 אחרת, עדיין תתבקש לספק שם משתמש וסיסמה ותקבל שגיאת אימות.
+
 </details>
 </div>
 
 ## הגישו את השינויים שלכם לסקירה
 
-  
 אם תלכו למאגר שלכם ב-GitHub, תוכלו לראות כפתור עם הכיתוב `Compare & pull request`. לחצו על כפתור זה.
 
 <img style="float: left;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
@@ -262,7 +256,7 @@ git remote set-url origin git@github.com:your-username/your_repo.git
 ## הדרכות בשימוש כלים אחרים
 
 | <a href="../gui-tool-tutorials/github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a> | <a href="../gui-tool-tutorials/github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Visual_Studio_2017_Logo.svg" width="100"></a> | <a href="../gui-tool-tutorials/gitkraken-tutorial.md"><img alt="GitKraken" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/gitkraken-tutorial/gk-icon.png" width="100"></a> | <a href="../gui-tool-tutorials/github-windows-vs-code-tutorial.md"><img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=100></a> | <a href="../gui-tool-tutorials/sourcetree-macos-tutorial.md"><img alt="Sourcetree App" src="https://wac-cdn.atlassian.com/dam/jcr:81b15cde-be2e-4f4a-8af7-9436f4a1b431/Sourcetree-icon-blue.svg" width=100></a> | <a href="../gui-tool-tutorials/github-windows-intellij-tutorial.md"><img alt="IntelliJ IDEA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/512px-IntelliJ_IDEA_Icon.svg.png" width=100></a> |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [GitHub Desktop](../gui-tool-tutorials/github-desktop-tutorial.md)                                                                                             | [Visual Studio 2017](../gui-tool-tutorials/github-windows-vs2017-tutorial.md)                                                                                                                          | [GitKraken](../gui-tool-tutorials/gitkraken-tutorial.md)                                                                                                                                        | [Visual Studio Code](../gui-tool-tutorials/github-windows-vs-code-tutorial.md)                                                                                                                  | [Atlassian Sourcetree](../gui-tool-tutorials/sourcetree-macos-tutorial.md)                                                                                                                                      | [IntelliJ IDEA](../gui-tool-tutorials/github-windows-intellij-tutorial.md)                                                                                                                                                          |
 
 <p>פרוייקט זה נתמך על ידי:</p>

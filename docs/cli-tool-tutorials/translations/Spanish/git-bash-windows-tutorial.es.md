@@ -6,7 +6,7 @@
 # Primeras Contribuciones
 
 | <img alt="Git Bash" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/git_scm_logo_icon_170096.png" width="200"> | Versión de Git Bash |
-| ------------------------------------------------------------------------------------------------------------------ | --------------------- |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------- |
 
 Es difícil. Siempre es difícil la primera vez que haces algo. Especialmente cuando colaboras, cometer errores puede ser incómodo. Pero el código abierto trata precisamente de colaboración y trabajo en conjunto. Queríamos simplificar el proceso mediante el cual nuevos colaboradores aprenden y hacen su primera contribución.
 
@@ -69,6 +69,7 @@ Ejemplo: `add-james-smith`
 Abre el archivo `Contributors.md` en tu editor, ve al final del archivo y agrega tu nombre.
 
 Ejemplo:
+
 ```md
 [James Smith](https://github.com/jamessmith)
 ```

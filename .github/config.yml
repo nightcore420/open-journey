@@ -3,122 +3,122 @@
 # Comment to be posted to on first time issues
 newIssueWelcomeComment: >
   🎉 **Selamat datang di First Contributions!** / **Welcome to First Contributions!**
-  
-  
+
+
   Terima kasih telah membuat issue pertama Anda! Kami sangat senang Anda bergabung dengan komunitas kami.
-  
+
   Thank you for creating your first issue! We're excited to have you in our community.
-  
-  
+
+
   📋 **Checklist**:
-  
+
   - Pastikan Anda sudah membaca [CONTRIBUTING.md](../CONTRIBUTING.md) / Make sure you've read the CONTRIBUTING.md
-  
+
   - Periksa apakah issue serupa sudah ada / Check if similar issues already exist
-  
+
   - Gunakan label yang sesuai / Use appropriate labels
-  
-  
+
+
   🤝 **Ingin Mengerjakan Issue Ini?** / **Want to Work on This?**
-  
+
   Komentari issue ini agar kami tahu Anda tertarik!
-  
+
   Comment on this issue to let us know you're interested!
-  
-  
+
+
   🎃 **Hacktoberfest 2025**: Kontribusi Anda akan dihargai! / Your contribution will be valued!
 
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: >
   🎉 **Selamat atas Pull Request pertama Anda!** / **Congratulations on your first Pull Request!**
-  
-  
+
+
   Ini adalah pencapaian besar! Terima kasih telah berkontribusi ke proyek kami.
-  
+
   This is a great achievement! Thank you for contributing to our project.
-  
-  
+
+
   ✅ **Apa Selanjutnya?** / **What's Next?**
-  
+
   1. Tim kami akan meninjau PR Anda / Our team will review your PR
-  
+
   2. Periksa apakah semua checks berhasil / Check if all checks pass
-  
+
   3. Responsif terhadap feedback jika ada / Be responsive to feedback if any
-  
+
   4. Bersabar - review membutuhkan waktu / Be patient - reviews take time
-  
-  
+
+
   📚 **Tips untuk Kontributor Baru** / **Tips for New Contributors**:
-  
+
   - Jangan takut jika ada perubahan yang diminta / Don't worry if changes are requested
-  
+
   - Setiap feedback adalah kesempatan belajar / Every feedback is a learning opportunity
-  
+
   - Tanya jika ada yang tidak jelas / Ask if anything is unclear
-  
+
   - Rayakan pencapaian Anda! / Celebrate your achievement!
-  
-  
+
+
   🎃 **Hacktoberfest 2025**:
-  
+
   PR ini akan dihitung setelah di-merge atau approved oleh maintainer.
-  
+
   This PR will count after being merged or approved by a maintainer.
-  
+
   Pastikan Anda sudah mendaftar di [hacktoberfest.com](https://hacktoberfest.com)!
-  
+
   Make sure you're registered at [hacktoberfest.com](https://hacktoberfest.com)!
-  
-  
+
+
   Selamat berkontribusi! / Happy contributing! 🚀
 
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
   🎊 **Selamat! Pull Request pertama Anda telah di-merge!** / **Congratulations! Your first Pull Request has been merged!**
-  
-  
+
+
   Anda resmi menjadi kontributor open source! Ini adalah awal dari perjalanan yang luar biasa.
-  
+
   You're officially an open source contributor! This is the beginning of an amazing journey.
-  
-  
+
+
   🌟 **Apa yang Baru Saja Anda Lakukan?** / **What Did You Just Do?**
-  
+
   - ✅ Berkontribusi ke proyek open source / Contributed to an open source project
-  
+
   - ✅ Belajar workflow Git dan GitHub / Learned Git and GitHub workflow
-  
+
   - ✅ Berkolaborasi dengan developer lain / Collaborated with other developers
-  
+
   - ✅ Membangun portfolio Anda / Built your portfolio
-  
-  
+
+
   🚀 **Langkah Selanjutnya** / **Next Steps**:
-  
+
   1. Rayakan pencapaian Anda! / Celebrate your achievement!
-  
+
   2. Bagikan di media sosial / Share on social media
-  
+
   3. Cari issue lain untuk dikerjakan / Find another issue to work on
-  
+
   4. Bantu kontributor baru lainnya / Help other new contributors
-  
+
   5. Eksplorasi proyek open source lainnya / Explore other open source projects
-  
-  
+
+
   💡 **Resources untuk Melanjutkan** / **Resources to Continue**:
-  
+
   - [Good First Issues](https://github.com/firstcontributions/first-contributions/labels/good%20first%20issue)
-  
+
   - [Hacktoberfest Projects](https://hacktoberfest.com)
-  
+
   - [GitHub Explore](https://github.com/explore)
-  
-  
+
+
   🎃 **Hacktoberfest 2025**: Kontribusi ini dihitung! Hanya 3 lagi untuk menyelesaikan Hacktoberfest!
-  
+
   This contribution counts! Only 3 more to complete Hacktoberfest!
-  
-  
+
+
   Terima kasih dan terus berkontribusi! / Thank you and keep contributing! 🎉

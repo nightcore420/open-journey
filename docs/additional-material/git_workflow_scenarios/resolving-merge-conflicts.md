@@ -11,6 +11,7 @@ The contents after the first marker originate from your current working branch. 
 Our job is now to clean up these lines: when we're done, the file should look exactly as we want it to look. It is advisable to consult the teammate who wrote the conflicting changes to decide which version should be final. It could be either one of yours - or maybe a mixture between the two.
 
 e.g. :
+
 ```
  <<<<<<< HEAD:mergetest
  This is my third line
@@ -21,15 +22,14 @@ e.g. :
 
 `<<<<<<<`: Indicates the start of the lines that had a merge conflict. The first set of lines are the lines from the file that you were trying to merge the changes into.  
 `=======`: Indicates the break point used for comparison. Breaks up changes that user has committed (above) to changes coming from merge (below) to visually see the differences.  
-`>>>>>>>`: Indicates the end of the lines that had a merge conflict.  
+`>>>>>>>`: Indicates the end of the lines that had a merge conflict.
 
 You resolve a conflict by editing the file and then manually merging the parts of the file that git had trouble merging. This may mean discarding either your changes or someone else's or going ahead with a mix of the two. You will also need to delete the '<<<<<<<', '=======', and '>>>>>>>' in the file.
-
 
 Once you have resolved the conflict do a `git add`. Do not forget to run the tests, as you have to make sure that you have resolved the conflict.
 
 You can also download different plugins depending on the IDE you are using for an easier way to resolve merge conflicts.
 
-
 # How to undo a merge?
+
 If you want to undo a merge then you can do `git merge —abort`

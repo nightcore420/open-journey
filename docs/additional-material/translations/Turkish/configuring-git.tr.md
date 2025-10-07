@@ -63,3 +63,4 @@ color.ui - Git mesajlarında renkli çıktı kullanılıp kullanılmayacağını
 Basitlik adına bazı detayları atladık. Daha fazla bilgi için git-scm.com adresine başvurabilirsiniz.
 
 Bu şekilde tüm içerik **tek bir Markdown** dosyasında birleştirilmiş ve Türkçe olarak sunulmuştur.
+```

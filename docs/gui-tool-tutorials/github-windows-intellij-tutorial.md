@@ -6,8 +6,7 @@
 # First Contributions
 
 | <img alt="IntelliJ IDEA" src="https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg" width="40"> | Intellij IDEA |
-| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------ |
-
+| --------------------------------------------------------------------------------------------------------------------- | ------------- |
 
 It's hard. It's always hard the first time you do something. Especially when you are collaborating, making mistakes isn't a comfortable thing. But open source is all about collaboration & working together. We wanted to simplify the way new open-source contributors learn & contribute for the first time.
 
@@ -35,7 +34,7 @@ The next step is to clone your repo down to your machine, so you can begin makin
 
 **CAREFUL:** One common mistake that new contributors often make is to clone the repo you forked _from_ rather than cloning your repo. Check your browser's address bar and make sure you are cloning your repo.
 
-Now open up IntelliJ IDEA. 
+Now open up IntelliJ IDEA.
 
 IntelliJ IDEA allows you to check out (in Git terms clone) an existing repository and create a new project based on the data you've downloaded.
 
@@ -105,8 +104,8 @@ Celebrate your contribution and share it with your friends and followers by goin
 
 You can join our slack team in case you need any help or have any questions. [Join slack team](https://join.slack.com/t/firstcontributors/shared_invite/zt-1hg51qkgm-Xc7HxhsiPYNN3ofX2_I8FA).
 
-
 ### [Additional material](../additional-material/git_workflow_scenarios/additional-material.md)
 
 ## Tutorials Using Other Tools
+
 [Back to main page](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools)

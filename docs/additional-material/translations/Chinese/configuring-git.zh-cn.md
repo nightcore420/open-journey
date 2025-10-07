@@ -19,7 +19,7 @@ Git 在创建提交时需要知道你是谁。当你在团队中协作时，你�
 
 有多种方法可以为 `git commit` 命令提供你的电子邮件和用户名，下面我们将介绍几种常用的方法。
 
-### 全局配置 
+### 全局配置
 
 当你将某个配置存储在全局配置中时，它在你工作的所有仓库中都是可访问的。这是推荐的方式，并且适用于大多数使用场景。
 
@@ -74,5 +74,3 @@ $ git config user.name "Your Name"
 3. `color.ui` - 指定是否在 git 输出中使用颜色的布尔值。
 
 为了便于理解，我们简化了一些细节。如果你想进一步了解，访问 [git-scm.com](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)。
-
-

@@ -15,17 +15,17 @@ Senkronizasyon Adımları
 
 Öncelikle ana dalda olduğunuzdan emin olun. Hangi dalda olduğunuzu öğrenmek için şu komutu çalıştırın:
 
-* git status
+- git status
 
 Eğer ana dalda (master) değilseniz, ana dala geçin:
 
-* git checkout master
+- git checkout master
 
 2. Ana Depoyu upstream Olarak Ekleyin
 
 Yerel deponuzu ana depo ile senkronize etmek için önce ana depoyu upstream olarak ekleyin:
 
-* git remote add upstream https://github.com/firstcontributions/first-contributions.git
+- git remote add upstream https://github.com/firstcontributions/first-contributions.git
 
 Bu komut, Git'e belirttiğiniz adreste bu projenin başka bir versiyonunun bulunduğunu ve bunu upstream olarak adlandırdığımızı söyler.
 
@@ -33,7 +33,7 @@ Bu komut, Git'e belirttiğiniz adreste bu projenin başka bir versiyonunun bulun
 
 Ardından, ana depodan en son değişiklikleri alın:
 
-* git fetch upstream
+- git fetch upstream
 
 Bu komut, upstream (ana depo) üzerindeki tüm son değişiklikleri yerel deponuza indirir.
 
@@ -48,6 +48,6 @@ Bu komut, ana depodaki değişiklikleri yerel ana dalınızla birleştirir. Yere
 
 Son olarak, yerel ana dalınızı GitHub'daki çatal deponuza itin:
 
-* git push origin master
+- git push origin master
 
 Bu komut, yerel deponuzdaki değişiklikleri GitHub'daki çatal deponuza gönderir. Artık tüm depolarınız günceldir!

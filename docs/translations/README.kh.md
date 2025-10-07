@@ -94,7 +94,7 @@ _ប្រសិនបើអ្នកមិនសូវស្រួលជាម�
 
 ## ស៊ាំសាខានេះ (Fork this repository)
 
-សូមស៊ាំសាខានេះដោយចុចលើប៊ូតុង Fork ដែលនៅផ្នែកខាងលើនៃទំព័រនេះ។ 
+សូមស៊ាំសាខានេះដោយចុចលើប៊ូតុង Fork ដែលនៅផ្នែកខាងលើនៃទំព័រនេះ។
 វានឹងបង្កើតច្បាប់ចម្លងនៃសាខានេះក្នុងគណនីរបស់អ្នក។
 
 ## ចម្លងសាខានេះ (Clone the repository)
@@ -177,11 +177,11 @@ git push -u origin your-branch-name
 <summary> <strong>ប្រសិនបើអ្នកទទួលបានកំហុសណាមួយនៅពេលរុញ សូមចុចទីនេះ៖</strong> </summary>
 
 - ### កំហុសនៅក្នុងការ Authentication (Authentication Error)
-     <pre>remote: ការគាំទ្រសម្រាប់ការបញ្ចូលពាក្យសម្ងាត់ត្រូវបានដកហូតនៅថ្ងៃទី 13 ខែសីហា ឆ្នាំ 2021។ សូមប្រើ **Personal Access Token** ជំនួស។
+       <pre>remote: ការគាំទ្រសម្រាប់ការបញ្ចូលពាក្យសម្ងាត់ត្រូវបានដកហូតនៅថ្ងៃទី 13 ខែសីហា ឆ្នាំ 2021។ សូមប្រើ **Personal Access Token** ជំនួស។
   remote: សូមមើល https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ សម្រាប់ព័ត៌មានបន្ថែម។
   fatal: ការ Authenticate បរាជ័យសម្រាប់ 'https://github.com/<your-username>/first-contributions.git/'</pre>
   សូមចូលទៅកាន់ [GitHub's tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) ដើម្បីបង្កើត និងកំណត់រចនាសម្ព័ន្ធ SSH Key ទៅក្នុងគណនី GitHub របស់អ្នក។
-</details>
+  </details>
 
 ## ដាក់បញ្ជូនការផ្លាស់ប្តូររបស់អ្នកសម្រាប់ការពិនិត្យ
 

@@ -3,14 +3,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-
 # Mchango wa Kwanza
 
 Ni vigumu. Mara zote ni vigumu kufanya kitu kwa mara ya kwanza. Hasa kama unashirikiana na wengine, kufanya makosa sio jambo la kushangaza. Tulitaka kurahisisha namna ambavyo wachangiaji wapya wa mifumo ya wazi wanavyojifunza na kuchangia kwa mara ya kwanza.
 
 Kusoma makala na kuangalia mafunzo ya video yaweza kusaidia, lakini ni jambo lipi bora zaidi kuliko kufanya kwa vitendo katika mazingira ya kujifunzia? Mradi huu unalenga kutoa mwongozo na kurahisisha namna ambavyo wachangiaji wapya wanavyoweza kuchangia kwa mara ya kwanza. Ikiwa unataka kuchangia kwa mara ya kwanza , fuata hatua zifuatazo.
 
-#### *Kama haujazoea kutumia 'command line', [waweza kutumia GUI.](#Makala ya namna ya kutumia nyenzo nyingine)*
+#### _Kama haujazoea kutumia 'command line', [waweza kutumia GUI.](#Makala ya namna ya kutumia nyenzo nyingine)_
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
 
@@ -25,9 +24,9 @@ Kwa kufanya hivyo nakala ya repository hii itatengenezwa kwenye akaunti yako ya 
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
 
-Sasa clone repository kwenye kompyuta yako. Nenda kwenye akaunti yako ya Github bonyeza kitufe kilichoandikwa clone na baada ya hapo bonyeza kitufe kilichoandikwa *copy to clipboard* icon.
+Sasa clone repository kwenye kompyuta yako. Nenda kwenye akaunti yako ya Github bonyeza kitufe kilichoandikwa clone na baada ya hapo bonyeza kitufe kilichoandikwa _copy to clipboard_ icon.
 
-Fungua terminal >_ kwenye kompyuta yako kisha command ifuatayo:
+Fungua terminal >\_ kwenye kompyuta yako kisha command ifuatayo:
 
 ```
 git clone "url-uliyo-nakili-github"
@@ -65,7 +64,7 @@ Kwa mfano:
 git checkout -b add-luke-oliff
 ```
 
-(Jina la branch sio lazima lianze na neno *add*.)
+(Jina la branch sio lazima lianze na neno _add_.)
 
 ## Fanya mabadiliko na baada ya hapo commit:
 
@@ -126,5 +125,5 @@ Sasa tuanze kuchangia kwenye miradi mingine. Tumekusanya orodha ya miradi ambayo
 ## Mafunzo ya namna ya kutumia nyenzo nyingine
 
 | <a href="../gui-tool-tutorials/github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a> | <a href="../gui-tool-tutorials/github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Visual_Studio_2017_Logo.svg" width="100"></a> | <a href="../gui-tool-tutorials/gitkraken-tutorial.md"><img alt="GitKraken" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/gitkraken-tutorial/gk-icon.png" width="100"></a> | <a href="../gui-tool-tutorials/github-windows-vs-code-tutorial.md"><img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=100></a> | <a href="../gui-tool-tutorials/sourcetree-macos-tutorial.md"><img alt="Sourcetree App" src="https://wac-cdn.atlassian.com/dam/jcr:81b15cde-be2e-4f4a-8af7-9436f4a1b431/Sourcetree-icon-blue.svg" width=100></a> | <a href="../gui-tool-tutorials/github-windows-intellij-tutorial.md"><img alt="IntelliJ IDEA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/512px-IntelliJ_IDEA_Icon.svg.png" width=100></a> |
-| --- | --- | --- | --- | --- | --- |
-| [GitHub Desktop](../gui-tool-tutorials/github-desktop-tutorial.md) | [Visual Studio 2017](../gui-tool-tutorials/github-windows-vs2017-tutorial.md) | [GitKraken](../gui-tool-tutorials/gitkraken-tutorial.md) | [Visual Studio Code](../gui-tool-tutorials/github-windows-vs-code-tutorial.md) | [Atlassian Sourcetree](../gui-tool-tutorials/sourcetree-macos-tutorial.md) | [IntelliJ IDEA](../gui-tool-tutorials/github-windows-intellij-tutorial.md) |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [GitHub Desktop](../gui-tool-tutorials/github-desktop-tutorial.md)                                                                                             | [Visual Studio 2017](../gui-tool-tutorials/github-windows-vs2017-tutorial.md)                                                                                                                          | [GitKraken](../gui-tool-tutorials/gitkraken-tutorial.md)                                                                                                                                        | [Visual Studio Code](../gui-tool-tutorials/github-windows-vs-code-tutorial.md)                                                                                                                  | [Atlassian Sourcetree](../gui-tool-tutorials/sourcetree-macos-tutorial.md)                                                                                                                                      | [IntelliJ IDEA](../gui-tool-tutorials/github-windows-intellij-tutorial.md)                                                                                                                                                          |

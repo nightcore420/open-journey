@@ -19,8 +19,8 @@ Git necesita saber quién eres tú al crear una confirmación. Cuando trabajas e
 
 Hay varias formas de proporcionar el comando `git commit` con su correo electrónico y nombre. Veremos algunos de ellos a continuación.
 
-
 ### Configuración global
+
 Cuando almacenas algo en la configuración global, es accesible en todos los sistemas y repositorios en los que trabajas. Esta es la forma principal y funciona para la mayoría de los casos de uso.
 
 Para almacenar algo en la configuración usa el comando `config` de la siguiente manera:

@@ -1,8 +1,9 @@
 # उपयोगी लिंक्स
 
-यह लेख उन सभी युक्तियों और युक्तियों वाली वेबसाइटों, ब्लॉग पोस्टों और सहायक साइटों को समर्पित है जो हमारे जीवन को आसान बनाती हैं। वे हमारी सभी जरूरतों को पूरा करने के लिए एक महान संदर्भ हैं, चाहे वह नौसिखिया हो या विशेषज्ञ। इस पृष्ठ को उन सभी उपयोगी लिंक के सूचकांक के रूप में कार्य करना चाहिए जो ओपन-सोर्स डोमेन में नए लोगों या किसी ऐसे व्यक्ति की मदद करेगा जो अधिक सीखना चाहता है। 
+यह लेख उन सभी युक्तियों और युक्तियों वाली वेबसाइटों, ब्लॉग पोस्टों और सहायक साइटों को समर्पित है जो हमारे जीवन को आसान बनाती हैं। वे हमारी सभी जरूरतों को पूरा करने के लिए एक महान संदर्भ हैं, चाहे वह नौसिखिया हो या विशेषज्ञ। इस पृष्ठ को उन सभी उपयोगी लिंक के सूचकांक के रूप में कार्य करना चाहिए जो ओपन-सोर्स डोमेन में नए लोगों या किसी ऐसे व्यक्ति की मदद करेगा जो अधिक सीखना चाहता है।
 
 ## सूची
+
 1.  [गिट के लिए इंटरैक्टिव ट्यूटोरियल](https://try.github.io)
 2.  [यूट्यूब: फ़्रीकोडकैंप द्वारा शुरुआती लोगों के लिए Git और GitHub](https://www.youtube.com/watch?v=RGOj5yH7evk)
 3.  [git - सरल मार्गदर्शक](http://rogerdudler.github.io/git-guide/)
@@ -10,12 +11,12 @@
 5.  [Git और GitHub ट्यूटोरियल का कई भाषाओं में अनुवाद किया गया](https://github.com/Roshanjossey/first-contributions)
 6.  [संघर्षों को मर्ज करें](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/merge-conflicts)
 7.  [मर्ज विवादों का समाधान](https://githowto.com/resolving_conflicts)
-8. [Git की मूल बातें - सरल त्वरित प्रारंभ मार्गदर्शिका](https://blog.praveen.science/basics-of-git-the-quick-start-guide/)
-9. [Spotify एजाइल मेथडोलॉजी के हमारे तरीके में Git मानकों का पालन किया गया](https://blog.praveen.science/git-standards-followed-in-our-way-of-spotify-agile-methodolgy/)
+8.  [Git की मूल बातें - सरल त्वरित प्रारंभ मार्गदर्शिका](https://blog.praveen.science/basics-of-git-the-quick-start-guide/)
+9.  [Spotify एजाइल मेथडोलॉजी के हमारे तरीके में Git मानकों का पालन किया गया](https://blog.praveen.science/git-standards-followed-in-our-way-of-spotify-agile-methodolgy/)
 10. [गिट शॉर्टकट](https://blog.praveen.science/git-shortcuts/)
-11.  [कई भाषाओं में आधिकारिक Git चीट शीट](https://services.github.com/on-demand/resources/cheatsheets)
-12.  [टॉवर से गिट चीट शीट](https://www.git-tower.com/learn/cheat-sheets/git)
-13.  [सामान्य गिट समस्याएँ](https://www.codementor.io/citizen428/git-tutorial-10-common-git-problems-and-how-to-fix-them-aajv0katd)
+11. [कई भाषाओं में आधिकारिक Git चीट शीट](https://services.github.com/on-demand/resources/cheatsheets)
+12. [टॉवर से गिट चीट शीट](https://www.git-tower.com/learn/cheat-sheets/git)
+13. [सामान्य गिट समस्याएँ](https://www.codementor.io/citizen428/git-tutorial-10-common-git-problems-and-how-to-fix-them-aajv0katd)
 14. [Git रिबेस](https://blog.gitprime.com/git-rebase-an-illustrated-guide/)
 15. [रीबेस और स्क्वैष करना सीखें](https://github.com/servo/servo/wiki/Beginner%27s-guide-to-rebasing-and-squashing)
 16. [Git चीटशीट जो कमांड और फ़ाइलों के बीच संबंध दिखाती है](http://ndpsoftware.com/git-cheatsheet.html)
@@ -42,4 +43,4 @@
 37. [GitHub के लिए कीबोर्ड शॉर्टकट](https://docs.github.com/en/get-started/using-github/keyboard-shortcuts)
 38. [संपूर्ण Git और GitHub ट्यूटोरियल कुणाल कुशवाह द्वारा](https://www.youtube.com/watch?v=apGV9Kg7ics&ab_channel=KunalKushwaha)
 39. [गिट वर्कफ़्लो चीट शीट](https://drive.google.com/uc?export=download&id=1QPRh5YmqQm4DFfitelPYlBTWC2I6tTTM)
-और अधिक लिंक जोड़ते रहें, जो आपको उपयोगी लगें।
+    और अधिक लिंक जोड़ते रहें, जो आपको उपयोगी लगें।

@@ -10,31 +10,41 @@ Naslednji korak bo, da pošljemo tvoj lokalni repository v tvojo GitHub različi
 No pa poglejmo kako se to naredi:
 
 Najprej moraš biti v svoji glavni veji ( master branch ). Da izveš na kateri veji si trenutno, izvedi ta ukaz in poglej prvo vrstico odgovora:
+
 ```
 git status
 ```
+
 Če nisi na glavni veji uporabi:
+
 ```
 git checkout master
 ```
 
 Potem dodaš moj javni repository svojemu git-u z ukazom `add upstream remote-url`:
+
 ```
 git remote add upstream https://github.com/Roshanjossey/first-contributions
 ```
+
 Na ta način povemo git-u da obstaja še ena verzija tega projekta na podanem naslovu in da jo imenujemo `upstream`. Sedaj, ko ima tvoj git ime in naslov, lahko s tega naslova pridobimo zadnjo verzijo javnega repository-ja z ukazom `fetch`:
+
 ```
 git fetch upstream
 ```
 
 Pravkar ste pridobili zadnjo verzijo moje različice (`upstream` remote). Sedaj pa je potrebno še združiti javni repository v tvojo glavno vejo (master branch).
+
 ```
 git rebase upstream/master
 ```
+
 Tukaj združuješ javni repository s svojo glavno vejo. Glavna veja na tvojem računalniku je sedaj posodobljena. Na koncu pošlješ še svojo glavno vejo v tvojo različico (fork) na GitHub-u in tudi ta bo posodobljena z zadnjimi spremembami:
+
 ```
 git push origin master
 ```
+
 Tukaj lahko vidiš da pošiljaš v oddaljeni repository imenovan `origin`.
 
 Na tej točki, so vsi tvoji repository-ji posodobljeni. Dobro opravljeno! To stori vsakič, ko te tvoj GitHub repository opozori, da ni sinhroniziran z ostalimi repository-ji.

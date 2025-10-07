@@ -19,8 +19,8 @@ o Git precisa saber quem você é ao criar um commit. Quando você está trabalh
 
 Existem várias maneiras de fornecer o comando `git commit` com seu email e nome. Veremos algumas delas a seguir.
 
-
 ### Configuração global
+
 Quando você armazena algo na configuração global, fica acessível em todos os sistemas e repositórios nos quais você trabalha. Essa é principal forma e funciona para a maioria dos casos de uso.
 
 Para armazenar algo na configuração use o comando `config` da seguinte maneira:
@@ -70,8 +70,8 @@ Entre os três metodos descritos aqui, a ordem de precedência é `linha de coma
 Nós lidamos apenas com os detalhes do usuário até agora, enquanto trabalhamos com a configuração. No entanto, existem várias outras opcões disponíveis. Algumas delas são:
 
 1. `core.editor` - para especificar o nome do editor usado para escrever mensagens de commit etc
-2.  `commit.template` - para especificar um arquivo no sistema como o modelo de commit inicial
-3.  `color.ui` - para especificar um valor booleano para usar cores na saída do git
+2. `commit.template` - para especificar um arquivo no sistema como o modelo de commit inicial
+3. `color.ui` - para especificar um valor booleano para usar cores na saída do git
 
 Nós abstraimos alguns detalhes para facilitar o entendimento. Para ler mais, acesse:
 
