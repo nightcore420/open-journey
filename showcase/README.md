@@ -30,9 +30,11 @@ Whether you've built:
 
 ### 📋 Showcased Projects
 
-| Year | Project Name | Contributor | Description |
-|------|-------------|-------------|-------------|
-| 2025 | Example Weather App | [@example-user](https://github.com/example-user) | A minimalist weather forecast app using OpenWeather API |
+<!-- SHOWCASE_TABLE_START -->
+| Year | Project | Contributor | Short Description |
+|------|---------|--------------|-------------------|
+| - | - | - | - |
+<!-- SHOWCASE_TABLE_END -->
 
 *Your project could be next!*
 
@@ -61,7 +63,15 @@ git push origin main
 4. Use this PR title format: `feat(showcase): Add [Your Project Name]`
 5. In the PR description, briefly explain what makes your project special
 
-#### Step 5: Wait for Review
+#### Step 5: Update the Table
+After creating your project file, run the following commands to update the showcase table:
+
+```bash
+npm install
+npm run showcase:build
+```
+
+#### Step 6: Wait for Review
 Maintainers will review your submission and may suggest improvements. Once approved, your project will be added to the showcase table!
 
 ### ✅ Contribution Guidelines
@@ -108,9 +118,11 @@ Apakah kamu telah membangun:
 
 ### 📋 Proyek yang Dipamerkan
 
-| Tahun | Nama Proyek | Kontributor | Deskripsi |
-|-------|-------------|-------------|-----------|
-| 2025 | Example Weather App | [@example-user](https://github.com/example-user) | Aplikasi prakiraan cuaca minimalis menggunakan OpenWeather API |
+<!-- SHOWCASE_TABLE_START -->
+| Year | Project | Contributor | Short Description |
+|------|---------|--------------|-------------------|
+| - | - | - | - |
+<!-- SHOWCASE_TABLE_END -->
 
 *Proyekmu bisa menjadi yang berikutnya!*
 
@@ -139,7 +151,15 @@ git push origin main
 4. Gunakan format judul PR: `feat(showcase): Add [Nama Proyekmu]`
 5. Dalam deskripsi PR, jelaskan secara singkat apa yang membuat proyekmu spesial
 
-#### Langkah 5: Tunggu Review
+#### Langkah 5: Update Tabel
+Setelah membuat file proyek, jalankan perintah berikut untuk memperbarui tabel showcase:
+
+```bash
+npm install
+npm run showcase:build
+```
+
+#### Langkah 6: Tunggu Review
 Maintainer akan meninjau submisi kamu dan mungkin memberikan saran perbaikan. Setelah disetujui, proyekmu akan ditambahkan ke tabel showcase!
 
 ### ✅ Panduan Kontribusi

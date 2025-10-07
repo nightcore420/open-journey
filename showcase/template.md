@@ -1,3 +1,15 @@
+---
+title: ""
+contributor: ""
+github: "https://github.com/your-handle"
+repo: ""
+demo: ""
+description: ""
+year: 2025
+tags: []
+screenshot: ""
+---
+
 # [Your Project Title Here]
 
 > 📝 **Instructions**: Copy this template and fill in all sections. Remove this instruction block when done.
