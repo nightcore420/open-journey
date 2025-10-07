@@ -14,8 +14,8 @@ Ten przewodnik jest nieco trudniejszy, ponieważ w ogóle nie używamy żadnego 
 
 Pierwszymi wymaganiami jest posiadanie:
 
-  - zainstalowanego Git (jak zainstalować [git](https://git-scm.com/downloads))
-  - konta Github
+- zainstalowanego Git (jak zainstalować [git](https://git-scm.com/downloads))
+- konta Github
 
 Teraz musimy zainstalować narzędzie `github-cli` w naszym systemie, postępując zgodnie z [oficjalną dokumentacją](https://github.com/cli/cli#installation).
 
@@ -27,7 +27,7 @@ gh auth login
 
 Postępuj zgodnie z instrukcjami i gotowe\!
 
------
+---
 
 # Fork this repository
 
@@ -39,7 +39,7 @@ gh repo fork firstcontributions/first-contributions
 
 **Ważne: Zostaniesz zapytany, czy chcesz również sklonować, wybierz opcję "yes".**
 
------
+---
 
 # Create your branch
 
@@ -49,7 +49,7 @@ Ten krok wykonamy za pomocą git, więc wprowadź to polecenie, zastępując `na
 git switch -c add-john-doe
 ```
 
------
+---
 
 # Make necessary changes and commit those changes
 
@@ -65,7 +65,7 @@ Teraz zatwierdź te zmiany za pomocą polecenia `git commit`:
 `git commit -m "Add your-name to Contributors list"`
 zastępując `your-name` swoim imieniem.
 
------
+---
 
 # Push changes to github
 
@@ -80,7 +80,7 @@ zastępując `your-branch-name` nazwą gałęzi, którą utworzyłeś wcześniej
 \<details\>
 \<summary\> \<strong\>Jeśli podczas wypychania wystąpią błędy, kliknij tutaj:\</strong\> \</summary\>
 
-  - ### Authentication Error
+- ### Authentication Error
 
      \<pre\>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
   remote: Please see [https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/) for more information.
@@ -89,7 +89,7 @@ zastępując `your-branch-name` nazwą gałęzi, którą utworzyłeś wcześniej
 
 \</details\>
 
------
+---
 
 # Submit your changes for review
 
@@ -103,11 +103,11 @@ Następnie wyślij pull request.
 
 Możesz użyć polecenia `gh status`, aby zobaczyć swój pull request w akcji.
 
------
+---
 
 ## Where to go from here?
 
-Gratulacje\! Właśnie ukończyłeś standardowy cykl pracy *fork -\> clone -\> edit -\> pull request*, który często napotkasz jako kontrybutor\!
+Gratulacje\! Właśnie ukończyłeś standardowy cykl pracy _fork -\> clone -\> edit -\> pull request_, który często napotkasz jako kontrybutor\!
 
 Uczcij swój wkład i podziel się nim ze znajomymi i obserwującymi, przechodząc do [web app](https://firstcontributions.github.io/#social-share).
 
@@ -117,7 +117,7 @@ Teraz zacznijmy kontrybuować do innych projektów. Zebraliśmy listę projektó
 
 ### [Additional material](https://www.google.com/search?q=additional-material/git_workflow_scenarios/additional-material.md)
 
------
+---
 
 ## Tutorials Using Other Tools
 

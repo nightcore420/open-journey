@@ -16,22 +16,21 @@ Se você não tem o Visual Studio 2017 na sua máquina, [instale-o](https://code
 
 **Nota:** Este tutorial foi feito utilizando o Visual Studio Code (Versão 1.27.2) no Windows 10. Mais tarde, neste tutorial, vamos utilizar alguns atalhos no teclado. Eles podem ser diferentes em outros sistemas operacionais (mac/OS/Linux) assim como em teclados de outras linguagens (UK, DE, etc). Você pode pesquisar na lista de atalhos, buscando por "atalhos" na Paleta de Comando.
 
-## Faça o *Fork* deste repositório
+## Faça o _Fork_ deste repositório
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
 
-Faça um *fork* deste repositório clicando no botão *fork* (bifurcar) no canto superior direito desta página. Isso criará uma cópia deste repositório em sua conta do GitHub.
+Faça um _fork_ deste repositório clicando no botão _fork_ (bifurcar) no canto superior direito desta página. Isso criará uma cópia deste repositório em sua conta do GitHub.
 
-O GitHub rastreia a relação entre seu repositório e o original, o qual você fez o *fork*. Você pode pensar em seu repositório como uma cópia de trabalho.
+O GitHub rastreia a relação entre seu repositório e o original, o qual você fez o _fork_. Você pode pensar em seu repositório como uma cópia de trabalho.
 
-Muitos dos repositórios matrizes do GitHub (ou seja, aqueles que não são *Fork* de nenhum outro repositório) tem um pequeno grupo de pessoas que podem fazer commits de modificações diretamente. Todos os outros contribuidores devem fazer um *fork* do repositório e fazer alterações no *fork*, em seguida, devem criar um Pull Request para solicitar um *Merge* (mesclagem) das modificações feitas no repositório original.
+Muitos dos repositórios matrizes do GitHub (ou seja, aqueles que não são _Fork_ de nenhum outro repositório) tem um pequeno grupo de pessoas que podem fazer commits de modificações diretamente. Todos os outros contribuidores devem fazer um _fork_ do repositório e fazer alterações no _fork_, em seguida, devem criar um Pull Request para solicitar um _Merge_ (mesclagem) das modificações feitas no repositório original.
 
-Se um dos administradores do repositório gostar e aprovar as tuas mudanças, eles *mergearão* e você ganhará fama e fortuna imediatamente! Abaixo, há mais detalhes sobre como fazer isso.
+Se um dos administradores do repositório gostar e aprovar as tuas mudanças, eles _mergearão_ e você ganhará fama e fortuna imediatamente! Abaixo, há mais detalhes sobre como fazer isso.
 
 ## Clone o seu repositório
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
-
 
 O próximo passo será clonar seu repositório em sua máquina para que você possa modificá-lo. Visual Studio precisa da URL do seu repositório, portanto clique no botão "clone" e então clique no ícone "copy to clipboard".
 
@@ -52,15 +51,15 @@ Selecione a opção `Git: Clone` e então aperte `Enter`.
 
 Cole a URL do seu repositório e aperte `Enter`. Isso vai abrir o Explorador de Arquivo onde você pode escolher onde o repositório Git será armazenado.
 
-**Importante**: Tenha certerza que este é o repositório *forkeado* e não é o original. Se não, não funcionará.
+**Importante**: Tenha certerza que este é o repositório _forkeado_ e não é o original. Se não, não funcionará.
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs-code-tutorial/vscode-2018-08-clone3.png" alt="Status popup" />
 
 Você pode ver uma janela do status no canto inferior direito do Visual Studio Code. Depois de finalizado esse processo, você pode abrir o repositório clonado (agora, uma pasta na sua máquina) e usar os botões no diálogo.
 
-## Crie uma *branch*
+## Crie uma _branch_
 
-Abra a Paleta de Comando novamente, pressionando `F1`. Digite nele `branch` e selecione o comando `create branch` a partir das sugestões. No próximo passo, digite o nome da sua nova *branch*, por exemplo: `add-david-kroell`. Presione `Enter` e a *branch* será criada. A *branch* também está preparada para o *check out*. [*O que isso significa?*](https://www.git-scm.com/docs/git-checkout)
+Abra a Paleta de Comando novamente, pressionando `F1`. Digite nele `branch` e selecione o comando `create branch` a partir das sugestões. No próximo passo, digite o nome da sua nova _branch_, por exemplo: `add-david-kroell`. Presione `Enter` e a _branch_ será criada. A _branch_ também está preparada para o _check out_. [_O que isso significa?_](https://www.git-scm.com/docs/git-checkout)
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs-code-tutorial/vscode-2018-08-branch.png" alt="Branches Command Palette" />
 
@@ -72,18 +71,18 @@ Copie uma das outras linhas dos contribuidores e modifique-a com o seu nome. Ten
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs-code-tutorial/vscode-2018-08-changes.png" alt="Add your name" />
 
-## Faça um *Commit* & um *Push* das suas mudanças para o GitHub
+## Faça um _Commit_ & um _Push_ das suas mudanças para o GitHub
 
 No lado esquerdo do VS Code tem um menu com 5 ícones a amostra. Selecione o ícone de `Controle de Versão/Controle da Fonte`.
 (Atalho : Ctrl + Shift + G)
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs-code-tutorial/vscode-2018-08-commit.png" alt="Commit changes" />
 
-O Explorador de arquivos mostra todos os arquivos que foram mudados depois do último commit. Sobrepondo o mouse nos arquivos e clicando no `+` (mais) os arquivos serão colocados no *stage*.
+O Explorador de arquivos mostra todos os arquivos que foram mudados depois do último commit. Sobrepondo o mouse nos arquivos e clicando no `+` (mais) os arquivos serão colocados no _stage_.
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs-code-tutorial/vscode-2018-08-commit1.png" alt="Stashed Files">
 
-Escreva algo na caixa de texto, no topo do explorador e pressione o botão de *check*. As mudanças agora foram *commitadas* para a sua cópia local. Agora, as mudanças tem que serem mandadas para o GitHub.
+Escreva algo na caixa de texto, no topo do explorador e pressione o botão de _check_. As mudanças agora foram _commitadas_ para a sua cópia local. Agora, as mudanças tem que serem mandadas para o GitHub.
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs-code-tutorial/vscode-2018-08-push.png" alt="Stashed Files">
 
@@ -93,29 +92,27 @@ Use o ícone dos três pontos para abrir o menu onde você selecionará a opçã
 
 ## Submeta suas mudanças para uma revisão
 
-Nesse ponto, você completou suas mudanças, mas elas ainda estão no seu repositório. Esse passo vai mostrar para você como submeter uma requisição para o administrador do repositório original para *mergear* suas mudanças.
+Nesse ponto, você completou suas mudanças, mas elas ainda estão no seu repositório. Esse passo vai mostrar para você como submeter uma requisição para o administrador do repositório original para _mergear_ suas mudanças.
 
 No seu repositório no GitHub você verá o botão `Compare & Pull request` próximo a notificação da branch. Clique nesse botão.
 
 <img src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
 
-Agora, submeta o *pull request*.
+Agora, submeta o _pull request_.
 
 <img src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
 
-Breve as suas mudanças serão *mergeadas* na branch `master` desse projeto. Você será notificado por email uma vez que as mudanças forem *mergeadas*.
+Breve as suas mudanças serão _mergeadas_ na branch `master` desse projeto. Você será notificado por email uma vez que as mudanças forem _mergeadas_.
 
 ## Para onde ir ?
 
-
-Parabéns! Você acabou de completar o fluxo de trabalho *fork -> clone -> edit -> PR* que vocẽ vai realizar frequentemente como um contribuidor!
+Parabéns! Você acabou de completar o fluxo de trabalho _fork -> clone -> edit -> PR_ que vocẽ vai realizar frequentemente como um contribuidor!
 
 Celebre a sua contribuição e compartilhe-a com os seus amigos e seguidores indo para o [web app](https://firstcontributions.github.io#social-share).
 
 Você pode se juntar à nossa comunidade no slack, caso precise de alguma ajuda ou tenha alguma dúvida.
 
 [Faça parte da nossa comunidade no Slack!](https://join.slack.com/t/firstcontributors/shared_invite/enQtMzE1MTYwNzI3ODQ0LTZiMDA2OGI2NTYyNjM1MTFiNTc4YTRhZTg4OWZjMzA0ZWZmY2UxYzVkMzI1ZmVmOWI4ODdkZWQwNTM2NDVmNjY)
-
 
 ### [Material adicional](../additional-material/git_workflow_scenarios/additional-material.md)
 

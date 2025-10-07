@@ -8,7 +8,6 @@
 | <img alt="Visual Studio Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width="40"> | Visual Studio Code |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------ |
 
-
 Es ist schwer. Es ist immer schwer, wenn man etwas zum ersten Mal macht. Vor allem, wenn man mit anderen zusammenarbeitet, ist es nicht angenehm, Fehler zu machen. Aber bei Open Source geht es gerade um Zusammenarbeit und gemeinsames Arbeiten. Wir wollten neuen Open-Source-Mitwirkenden den Einstieg erleichtern, damit sie lernen und zum ersten Mal einen Beitrag leisten können.
 
 Das Lesen von Artikeln und das Anschauen von Tutorials kann hilfreich sein, aber nichts ist besser, als die Dinge einfach auszuprobieren, ohne etwas zu vermasseln. Dieses Projekt zielt darauf ab, Anfängern eine Anleitung zu bieten und ihnen den Weg zu ihrem ersten Beitrag zu erleichtern. Denke daran: Je entspannter Du bist, desto besser lernst Du. Wenn Du Deinen ersten Beitrag leisten möchtest, folge einfach den folgenden einfachen Schritten. Wir versprechen Dir, es wird Spaß machen.
@@ -112,8 +111,8 @@ Feiere Deinen Beitrag zum Projekt und teile ihn mit Deinen Freunden und Follower
 
 Du kannst dem Slack-Team beitreten, falls Du Hilfe benötigst oder Fragen hast. [Slack-Team beitreten](https://join.slack.com/t/firstcontributors/shared_invite/zt-1hg51qkgm-Xc7HxhsiPYNN3ofX2_I8FA).
 
-
 ### [Weiterführende Materialien](../additional-material/git_workflow_scenarios/additional-material.md)
 
 ## Tutorials mit anderen Tools
+
 [Zurück zur Hauptseite](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools)

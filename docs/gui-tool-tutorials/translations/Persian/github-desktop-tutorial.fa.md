@@ -93,7 +93,7 @@
 
 ## تغییرات خود را برای بررسی، ثبت کنید
 
-اگر به مخزن خود در github بروید، دکمه  `Compare & pull request` را خواهید دید. روی آن دکمه کلیک کنید
+اگر به مخزن خود در github بروید، دکمه `Compare & pull request` را خواهید دید. روی آن دکمه کلیک کنید
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/compare-and-pull.png" alt="create a pull request" />
 

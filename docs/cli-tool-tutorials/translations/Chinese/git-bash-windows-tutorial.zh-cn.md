@@ -23,6 +23,7 @@
 这将在你的 GitHub 账户中创建一个副本。
 
 ## 克隆这个仓库
+
 现在将此仓库克隆到你的本地机器。
 
 **重要：不要克隆原始仓库。请到你自己的 fork 页面进行克隆。**
@@ -63,7 +64,7 @@ git clone <repo-url>
 git checkout -b <branch-name>
 ```
 
-将 `<add-your-name>`替换为例如  "add-james-smith" 的格式。
+将 `<add-your-name>`替换为例如 "add-james-smith" 的格式。
 
 <img src="https://firstcontributions.github.io/assets/cli-tool-tutorials/git-bash-windows-tutorial/gb-branch.png" alt="create a branch" />
 
@@ -101,7 +102,7 @@ git commit -m "Add your-name to Contributors list"
 
 <img src="https://firstcontributions.github.io/assets/cli-tool-tutorials/git-bash-windows-tutorial/gb-commit.png" alt="commit changes" />
 
-你可以使用 `git log --oneline`  命令确认提交记录。
+你可以使用 `git log --oneline` 命令确认提交记录。
 
 ## 推送更改到 GitHub
 

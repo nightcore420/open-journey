@@ -22,14 +22,16 @@ git push -u origin --all
 ### 2. Add Topics (1 minute)
 
 Go to your repo on GitHub → Click ⚙️ next to "About" → Add:
+
 - `hacktoberfest`
-- `good-first-issue`  
+- `good-first-issue`
 - `beginner-friendly`
 
 ### 3. Create Labels (1 minute)
 
 Go to Issues → Labels → New label:
-- `hacktoberfest` 
+
+- `hacktoberfest`
 - `good first issue`
 - `documentation`
 - `translation`
@@ -47,12 +49,14 @@ Issues → New Issue → Copy from `.github/SAMPLE_ISSUES.md` → Issue #1
 Want the full setup? Follow these:
 
 ### Essential (Must Do)
+
 - [ ] Push code to GitHub
 - [ ] Add `hacktoberfest` topic
 - [ ] Create 3-5 good first issues
 - [ ] Test contribution flow yourself
 
 ### Recommended (Should Do)
+
 - [ ] Create labels
 - [ ] Install Welcome bot
 - [ ] Enable branch protection
@@ -60,6 +64,7 @@ Want the full setup? Follow these:
 - [ ] Create CONTRIBUTING.md ✅ (already done)
 
 ### Optional (Nice to Have)
+
 - [ ] Install All Contributors bot
 - [ ] Enable GitHub Discussions
 - [ ] Add Stale bot
@@ -72,6 +77,7 @@ Want the full setup? Follow these:
 ### Copy-Paste Ready Issues
 
 **Issue 1: Add Your Name**
+
 ```
 Title: Add Your Name to Contributors List
 Labels: good first issue, hacktoberfest
@@ -94,6 +100,7 @@ Happy contributing! 🎉
 ```
 
 **Issue 2: Fix Typo**
+
 ```
 Title: Fix Typos in Documentation
 Labels: good first issue, hacktoberfest, documentation
@@ -111,6 +118,7 @@ Easy first contribution! 🙏
 ```
 
 **Issue 3: Indonesian Translation**
+
 ```
 Title: Help Translate to Bahasa Indonesia
 Labels: good first issue, hacktoberfest, translation
@@ -136,13 +144,15 @@ Terima kasih! 🙏
 ## 🤖 Bot Installation (5 minutes)
 
 ### Welcome Bot
+
 1. Visit: https://github.com/apps/welcome
 2. Click "Install"
 3. Select your repository
 4. ✅ Done! (config already in `.github/config.yml`)
 
 ### All Contributors Bot
-1. Visit: https://github.com/apps/allcontributors  
+
+1. Visit: https://github.com/apps/allcontributors
 2. Click "Install"
 3. Select your repository
 4. Use: `@allcontributors please add @username for code`
@@ -161,13 +171,14 @@ Terima kasih! 🙏
 ## 📢 Announce Your Repo
 
 ### Twitter/X
+
 ```
 🎃 My repo is ready for #Hacktoberfest 2025!
 
 Perfect for beginners & Indonesian developers 🇮🇩
 
 ✅ Good first issues
-📚 Step-by-step guides  
+📚 Step-by-step guides
 🌐 Bahasa Indonesia support
 
 Start your open source journey: [URL]
@@ -176,8 +187,9 @@ Start your open source journey: [URL]
 ```
 
 ### LinkedIn
+
 ```
-Excited to participate in Hacktoberfest 2025! 
+Excited to participate in Hacktoberfest 2025!
 
 I've prepared a beginner-friendly repository with:
 - Clear contribution guidelines
@@ -190,7 +202,9 @@ Link: [URL]
 ```
 
 ### Dev.to / Hashnode
+
 Write a blog post:
+
 - Title: "My Repository is Ready for Hacktoberfest 2025!"
 - Explain what Hacktoberfest is
 - Share your repo setup
@@ -218,16 +232,19 @@ Before announcing, test the full flow:
 ## 🆘 Common Issues
 
 **Q: Bot not working?**
+
 - Check it's installed for your repo
 - Verify config file syntax
 - Give it a few minutes to activate
 
 **Q: Actions failing?**
+
 - Check Actions tab for error details
 - Verify YAML syntax
 - Ensure required files exist
 
 **Q: Contributors confused?**
+
 - Point them to CONTRIBUTING.md
 - Share Indonesian guide
 - Be patient and helpful!
@@ -237,14 +254,16 @@ Before announcing, test the full flow:
 ## 📊 Monitor Progress
 
 Check regularly:
+
 - **Issues** - New questions or bug reports
 - **Pull Requests** - New contributions
 - **Discussions** - Community questions
 - **Actions** - Workflow status
 
 **Set aside 15-30 min daily during October to:**
+
 - Review PRs
-- Answer questions  
+- Answer questions
 - Merge contributions
 - Thank contributors!
 

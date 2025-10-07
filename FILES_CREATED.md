@@ -8,40 +8,40 @@ This document lists all files created or modified for the Hacktoberfest 2025 set
 
 ### Root Directory
 
-| File | Purpose |
-|------|---------|
-| `CODE_OF_CONDUCT.md` | Bilingual code of conduct for contributors |
-| `CONTRIBUTING.md` | Comprehensive contribution guide for beginners |
-| `HACKTOBERFEST_SETUP.md` | Complete setup documentation and guide |
-| `QUICK_START.md` | 5-minute quick start guide |
-| `FILES_CREATED.md` | This file - lists all created files |
-| `.gitignore` | Git ignore patterns |
+| File                     | Purpose                                        |
+| ------------------------ | ---------------------------------------------- |
+| `CODE_OF_CONDUCT.md`     | Bilingual code of conduct for contributors     |
+| `CONTRIBUTING.md`        | Comprehensive contribution guide for beginners |
+| `HACKTOBERFEST_SETUP.md` | Complete setup documentation and guide         |
+| `QUICK_START.md`         | 5-minute quick start guide                     |
+| `FILES_CREATED.md`       | This file - lists all created files            |
+| `.gitignore`             | Git ignore patterns                            |
 
 ### GitHub Configuration (`.github/`)
 
-| File | Purpose |
-|------|---------|
-| `config.yml` | Welcome bot configuration |
-| `all-contributors.yml` | All Contributors bot configuration |
+| File                        | Purpose                                |
+| --------------------------- | -------------------------------------- |
+| `config.yml`                | Welcome bot configuration              |
+| `all-contributors.yml`      | All Contributors bot configuration     |
 | `GIT_SETUP_INSTRUCTIONS.md` | Detailed Git/GitHub setup instructions |
-| `SAMPLE_ISSUES.md` | 6 sample good first issues templates |
-| `PULL_REQUEST_TEMPLATE.md` | PR template with checklist |
+| `SAMPLE_ISSUES.md`          | 6 sample good first issues templates   |
+| `PULL_REQUEST_TEMPLATE.md`  | PR template with checklist             |
 
 ### Issue Templates (`.github/ISSUE_TEMPLATE/`)
 
-| File | Purpose |
-|------|---------|
-| `bug.yml` | Bug report template (bilingual) |
-| `docs.yml` | Documentation/translation template |
-| `config.yml` | Issue template configuration |
+| File         | Purpose                            |
+| ------------ | ---------------------------------- |
+| `bug.yml`    | Bug report template (bilingual)    |
+| `docs.yml`   | Documentation/translation template |
+| `config.yml` | Issue template configuration       |
 
 ### GitHub Actions (`.github/workflows/`)
 
-| File | Purpose |
-|------|---------|
-| `markdown-check.yml` | Automated markdown link checking |
-| `markdown-link-check-config.json` | Configuration for link checker |
-| `greet-first-time-contributors.yml` | Welcome message automation |
+| File                                | Purpose                          |
+| ----------------------------------- | -------------------------------- |
+| `markdown-check.yml`                | Automated markdown link checking |
+| `markdown-link-check-config.json`   | Configuration for link checker   |
+| `greet-first-time-contributors.yml` | Welcome message automation       |
 
 ---
 
@@ -49,14 +49,14 @@ This document lists all files created or modified for the Hacktoberfest 2025 set
 
 ### Root Directory
 
-| File | Changes Made |
-|------|--------------|
+| File        | Changes Made                                    |
+| ----------- | ----------------------------------------------- |
 | `README.md` | Added Hacktoberfest 2025 welcome section at top |
 
 ### Translations
 
-| File | Changes Made |
-|------|--------------|
+| File                             | Changes Made                                                                                                                 |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | `docs/translations/README.id.md` | Enhanced with:<br>- Hacktoberfest welcome<br>- Git glossary in Indonesian<br>- FAQ section<br>- Tips & tricks<br>- Resources |
 
 ---
@@ -120,6 +120,7 @@ first-contributions-id/
 ## 🎯 Key Features Implemented
 
 ### 1. Beginner-Friendly Documentation ✅
+
 - Clear step-by-step guides
 - Bilingual (English/Indonesian)
 - FAQ sections
@@ -127,27 +128,32 @@ first-contributions-id/
 - Visual clarity with emojis
 
 ### 2. GitHub Templates ✅
+
 - Issue templates (bug & docs)
 - Pull request template
 - Configuration files
 
 ### 3. Automation ✅
+
 - Link checking in markdown files
 - Welcome messages for contributors
 - First-time contributor greetings
 
 ### 4. Bot Integration ✅
+
 - Welcome bot configuration
 - All Contributors bot setup
 - Proactive contributor engagement
 
 ### 5. Hacktoberfest Optimization ✅
+
 - Hacktoberfest badges
 - Good first issue examples
 - Spam prevention guidelines
 - Quality contribution standards
 
 ### 6. Indonesian Localization ✅
+
 - Enhanced Indonesian README
 - Git glossary in Bahasa Indonesia
 - Bilingual templates
@@ -171,15 +177,15 @@ All files are created and ready to use. Next steps:
 
 ## 📚 Documentation Quick Reference
 
-| Need to... | See File |
-|------------|----------|
-| Set up Git & GitHub | `.github/GIT_SETUP_INSTRUCTIONS.md` |
-| Quick 5-min setup | `QUICK_START.md` |
-| Complete overview | `HACKTOBERFEST_SETUP.md` |
-| Create issues | `.github/SAMPLE_ISSUES.md` |
-| Understand code of conduct | `CODE_OF_CONDUCT.md` |
-| Know how to contribute | `CONTRIBUTING.md` |
-| Indonesian guide | `docs/translations/README.id.md` |
+| Need to...                 | See File                            |
+| -------------------------- | ----------------------------------- |
+| Set up Git & GitHub        | `.github/GIT_SETUP_INSTRUCTIONS.md` |
+| Quick 5-min setup          | `QUICK_START.md`                    |
+| Complete overview          | `HACKTOBERFEST_SETUP.md`            |
+| Create issues              | `.github/SAMPLE_ISSUES.md`          |
+| Understand code of conduct | `CODE_OF_CONDUCT.md`                |
+| Know how to contribute     | `CONTRIBUTING.md`                   |
+| Indonesian guide           | `docs/translations/README.id.md`    |
 
 ---
 
@@ -237,4 +243,4 @@ If you need help with any file:
 
 **Repository is 100% ready for Hacktoberfest 2025!** 🎃
 
-*Last updated: October 7, 2025*
+_Last updated: October 7, 2025_

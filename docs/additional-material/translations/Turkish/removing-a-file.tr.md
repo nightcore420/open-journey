@@ -2,7 +2,7 @@
 
 Bazen bir dosyayı GIT kontrolünden kaldırmanız gerekebilir, ancak onu bilgisayarınızda tutmanız gerekebilir. Bu, aşağıdaki komut kullanılarak gerçekleştirilebilir:
 
-``git rm <dosya> --cached``
+`git rm <dosya> --cached`
 
 ## Ne oldu?
 
@@ -16,8 +16,8 @@ Yukarıdaki örnekte `--cached` bayrağının kullanıldığına dikkat edin. E�
 
 - Birden fazla dosyayı silmek istiyorsanız, tüm dosyaları tek bir komutta listeleyerek bunu yapabilirsiniz:
 
- `git rm dosya1.js dosya2.js dosya3.js --cached`
+`git rm dosya1.js dosya2.js dosya3.js --cached`
 
-- Benzer adlara sahip dosyaları silmek için joker karakteri (*) kullanabilirsiniz; örneğin, yerel depoda bulunan tüm .txt dosyalarını silmek istiyorsanız şunu yazın:
+- Benzer adlara sahip dosyaları silmek için joker karakteri (\*) kullanabilirsiniz; örneğin, yerel depoda bulunan tüm .txt dosyalarını silmek istiyorsanız şunu yazın:
 
- `git rm *.txt --cached`
+`git rm *.txt --cached`

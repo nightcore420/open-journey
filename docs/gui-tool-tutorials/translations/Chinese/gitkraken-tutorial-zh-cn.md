@@ -6,7 +6,7 @@
 # 第一次参与开源项目
 
 | <img alt="GitKraken" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/gitkraken-tutorial/gk-icon.png" width="200"> | GitKraken 版 |
-| ------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
 
 万事开头难。特别是当你正与其他人合作的时侯，出错不是一件舒服的事情。不过，开源的本质就是和他人合作。我们想要简化开源初学者第一次学习和贡献的方法。
 
@@ -26,7 +26,7 @@
 
 ## Fork（复制）本代码仓库
 
-点击页面顶部的 “Fork”  按钮来分叉（Fork）这个仓库。<img align="right" width="300" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/gitkraken-tutorial/fork.png" alt="fork this repository" />
+点击页面顶部的 “Fork” 按钮来分叉（Fork）这个仓库。<img align="right" width="300" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/gitkraken-tutorial/fork.png" alt="fork this repository" />
 这将在你的账户中创建这个存储库的副本。
 
 ## Clone（克隆）代码仓库

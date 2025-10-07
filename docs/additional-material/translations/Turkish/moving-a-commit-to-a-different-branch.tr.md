@@ -1,8 +1,10 @@
 # Taahhütleri başka bir dala taşıma
+
 Peki ya bir değişiklik yapıp daha sonra başka bir dala geçtiğinizi fark ederseniz?
 Bunu nasıl değiştirebilirsiniz? İşte bu eğitim tam da bunu anlatıyor.
 
 ## Son yapılan commit'leri mevcut bir dala taşıma
+
 Böyle bir hareket için şunu yazın:
 
 `` `git reset HEAD ~ --soft` `` - Son commit'i geri alır, ancak değişiklikleri kullanılabilir bırakır.
@@ -15,8 +17,8 @@ Böyle bir hareket için şunu yazın:
 
 Değişiklikleriniz artık doğru dalda.
 
-
 ### Son yapılan commit'leri yeni bir dala taşıma
+
 Böyle bir hareket için şunu yazın:
 `` `git branch newbranch` `` - Tüm commit'leri koruyarak yeni bir dal oluşturur.
 `` `git reset --hard HEAD ~ [n]` `` - Ana dalı n adet commit'e geri döndürür. Bu commitlerde yer alan değişikliklerin master dalından tamamen silineceğini aklınızda bulundurun.

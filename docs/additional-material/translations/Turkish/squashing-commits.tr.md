@@ -25,7 +25,7 @@ Tarih: 10/10/20
  Mesaj 2'yi kaydet
 ```
 
-Şimdi, birleştirmek istediğimiz commitleri gördüğümüzde ``git rebase`` ile oraya gidebiliriz. ``git rebase`` ile zaten aşina olduğunuzu varsayarak, etkileşimli git rebase modunda commit'leri ezmeye başlayabiliriz; bu şu şekilde etkinleştirilebilir:
+Şimdi, birleştirmek istediğimiz commitleri gördüğümüzde `git rebase` ile oraya gidebiliriz. `git rebase` ile zaten aşina olduğunuzu varsayarak, etkileşimli git rebase modunda commit'leri ezmeye başlayabiliriz; bu şu şekilde etkinleştirilebilir:
 
 ```
 git rebase -i
@@ -61,7 +61,7 @@ blablabla2'yi seçin dummy01.txt dosyası ekleniyor
 # Boş commit'lerin yorum satırına alındığını unutmayın
 ```
 
-Yani, ```blablabla2```'yi ```blablablabla```'ya sıkıştırmak istiyorsanız, aşağıdakileri değiştirmeniz gerekir:
+Yani, `blablabla2`'yi `blablablabla`'ya sıkıştırmak istiyorsanız, aşağıdakileri değiştirmeniz gerekir:
 
 ```
 pick blablabla test01.txt dosyasını değiştirme

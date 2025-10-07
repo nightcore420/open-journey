@@ -112,7 +112,7 @@ Congrats! You just completed the standard _fork -> clone -> edit -> PR_ workflow
 
 ฉลองการมีส่วนร่วมของคุณและแบ่งปันให้เพื่อน ๆ หรือผู้ติดตามของคุณ ได้ทราบโดยการไปที่ [หน้าเว็บนี้](https://firstcontributions.github.io#social-share)
 
-คุณสามารถเข้าร่วม Slack ของเราได้หากคุณต้องการความช่วยเหลือหรือมีคำถามใด ๆ  [เข้าร่วมทีม Slack](https://join.slack.com/t/firstcontributors/shared_invite/zt-1hg51qkgm-Xc7HxhsiPYNN3ofX2_I8FA)
+คุณสามารถเข้าร่วม Slack ของเราได้หากคุณต้องการความช่วยเหลือหรือมีคำถามใด ๆ [เข้าร่วมทีม Slack](https://join.slack.com/t/firstcontributors/shared_invite/zt-1hg51qkgm-Xc7HxhsiPYNN3ofX2_I8FA)
 
 ### [ข้อมูลเพิ่มเติม](../additional-material/git_workflow_scenarios/additional-material.md)
 

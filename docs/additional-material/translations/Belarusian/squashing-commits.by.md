@@ -25,7 +25,7 @@ Date:   10/10/20
     Commit message 2
 ```
 
-Такім чынам, зараз, калі вы бачыце каміты, якія вы хочаце злучыць з адным, мы можам перайсці да гэтага з `` git rebase `` . Зыходзячы з таго, што вы ўжо знаёмыя з `` git rebase `` , мы можам пачаць squashing камітаў ў інтэрактыўным рэжыме git rebase, які можна актываваць так:
+Такім чынам, зараз, калі вы бачыце каміты, якія вы хочаце злучыць з адным, мы можам перайсці да гэтага з `git rebase` . Зыходзячы з таго, што вы ўжо знаёмыя з `git rebase` , мы можам пачаць squashing камітаў ў інтэрактыўным рэжыме git rebase, які можна актываваць так:
 
 ```
 git rebase -i
@@ -61,7 +61,7 @@ pick blablabla2 Adding dummy01.txt file
 # Note that empty commits are commented out
 ```
 
-Такім чынам, калі вы хочаце squash ``` blablabla2``` на ``` blablablabla```, вы змяніце наступнае:
+Такім чынам, калі вы хочаце squash ` blablabla2` на ` blablablabla`, вы змяніце наступнае:
 
 ```
 pick blablabla Changing test01.txt file

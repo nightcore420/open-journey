@@ -31,8 +31,7 @@ Omit --global to set the identity only in this repository.
 
 `` `
 $ git config --global user.email "you@example.com"
-$ git config --global user.name "Your Name"
-`` `
+$ git config --global user.name "Your Name" `` `
 
 ### Канфігурацыя рэпазітара
 
@@ -46,8 +45,7 @@ $ git config --global user.name "Your Name"
 
 `` `
 $ git config user.email "you@alternate.com"
-$ git config user.name "Your Name"
-`` `
+$ git config user.name "Your Name" `` `
 
 ### Канфігурацыя ў камандным радку
 

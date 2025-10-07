@@ -3,11 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-
 # Πρώτες Συνεισφορές
 
-|<img alt="GitKraken" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/gitkraken-tutorial/gk-icon.png" width="200">|Έκδοση GitKraken|
-|---|---|
+| <img alt="GitKraken" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/gitkraken-tutorial/gk-icon.png" width="200"> | Έκδοση GitKraken |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
 
 Είναι δύσκολο. Είναι πάντα δύσκολο, όταν κάνετε κάτι για πρώτη φορά. Ειδικά όταν συνεργάζεστε, το να κάνεις κάποιο λάθος δεν είναι κάτι άνετο. Αλλά ο ανοιχτός κώδικας αφορά τη συνεργασία και τη συνεργασία. Θέλαμε να απλοποιήσουμε τον τρόπο με τον οποίο νέοι συνεισφέροντες ανοιχτού κώδικα μαθαίνουν και συνεισφέρουν για πρώτη φορά.
 
@@ -54,7 +53,6 @@
 Εάν έχετε το αποθετήριο ανοικτό στο GitKraken, θα δείτε ότι υπάρχουν αλλαγές. Ελέγξτε και κάντε stage αυτές τις αλλαγές επιλέγοντας την νεότερη δέσμευση που είναι σημειωμένη με "// WIP" και τον αριθμό των αρχείων που έχουν αλλάξει και τον τύπο της αλλαγής.
 
 <img style="float: right;" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/gitkraken-tutorial/gk-edit.png" alt="edit some file(s)" />
-
 
 Επανεξετάστε τα αρχεία που έχουν αλλάξει και αποφασίστε τι θέλετε να τα κάνετε stage. Το staging είναι σημαντικό για να πείτε στο Git ακριβώς ποιες αλλαγές αρχείων θέλετε να συσχετίσετε με αυτήν τη δέσμευση.
 
@@ -104,4 +102,5 @@
 ### [Πρόσθετο υλικό](../additional-material/git_workflow_scenarios/additional-material.md)
 
 ## Οδηγοί Χρήσης Άλλων Εργαλείων
+
 [Επιστροφή στην κύρια σελίδα](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools)

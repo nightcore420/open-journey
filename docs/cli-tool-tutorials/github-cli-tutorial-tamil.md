@@ -1,4 +1,4 @@
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/ )
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [<img align="right" width="150" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/join-slack-team.png">](https://join.slack.com/t/firstcontributors/shared_invite/zt-1hg51qkgm-Xc7HxhsiPYNN3ofX2_I8FA)
 [![உரிமம்: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![திறந்த மூல உதவியாளர்கள்](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
@@ -6,7 +6,7 @@
 # முதல் பங்களிப்புகள்
 
 | <img alt="Git Bash" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/git_scm_logo_icon_170096.png" width="200"> | Git Bash பதிப்பு |
-| ------------------------------------------------- ------------------------------------------------- ------------- | ---------------- |
+| ------------------------------------------------------------------------------------------------------------------ | ---------------- |
 
 இது கடினமானது. நீங்கள் முதல் முறையாக ஏதாவது செய்யும்போது எப்போதும் கடினமாக இருக்கும். குறிப்பாக நீங்கள் ஒத்துழைக்கும்போது, ​​தவறுகள் செய்வது வசதியான விஷயம் அல்ல. ஆனால் ஓப்பன் சோர்ஸ் என்பது ஒத்துழைப்பு மற்றும் ஒன்றாக வேலை செய்வதாகும். புதிய திறந்த மூல பங்களிப்பாளர்கள் முதல் முறையாக கற்றுக் கொள்ளும் மற்றும் பங்களிக்கும் முறையை எளிதாக்க விரும்புகிறோம்.
 

@@ -7,7 +7,6 @@
 
 Mashruucan ujeedadiisu waxey tahay in la fududeyo iyo in la hago kuwa bilawga ah si ay usameyan wax ku biirintooda kowaad "First contribution". Hadii aad raadinayso sida aad usameyn laheyd wax ku biirintaada kowaad, talaabooyinkan soo socda raac.
 
-
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
 
 #### Haddii git uusan kuugu jirrin kombiyuutarkaaga, [Soo dagso](https://docs.github.com/en/get-started/quickstart/set-up-git).
@@ -29,7 +28,7 @@ Waxaad furta "Teminal" ka kadib waxad ku qorta amarada git-ka soo socda:
 git clone "url-ka aad hadda soo koobbiyeysay"
 ```
 
-Iyadoo "url-ka aad hadda soo koobbiyeysay"  (oo aan lahayn calaamadaha xigashada) uu yahay url-ka ama linkiga kaydkaan. waxaad dib usoo eegtaa talaabooyinkii hore si aad u hesho url-ka
+Iyadoo "url-ka aad hadda soo koobbiyeysay" (oo aan lahayn calaamadaha xigashada) uu yahay url-ka ama linkiga kaydkaan. waxaad dib usoo eegtaa talaabooyinkii hore si aad u hesho url-ka
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
@@ -80,7 +79,6 @@ Tusaale:
 ```
 
 Hubi in aysan jirin meelo bannaan oo u dhexeeya `](`. Keydi oo xidh faylka.
-
 
 <img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
 

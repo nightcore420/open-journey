@@ -2,13 +2,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-
 # Birinchi hissalar
 
 Ushbu loyiha yangi boshlanuvchilarning birinchi hissasini(Contribution) qo'shish usullarini soddalashtirish va yo'naltirishga qaratilgan. Agar siz birinchi hissangizni qo'shmoqchi bo'lsangiz, quyidagi amallarni bajaring.
 
 _Agar buyruq satri sizga mos bo'lmasa, [Bu erda GUI vositalaridan foydalanib amalga oshirishga oid darsliklari mavjud](#boshqa-vositalardan-foydalanish-uchun-qollanmalar)_
-
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="repositoryni fork qiling" />
 
@@ -41,7 +39,7 @@ Misol uchun:
 git clone https://github.com/bu-siz/first-contributions.git
 ```
 
-bu yerdagi `bu-siz` sizning Github hisobingiz nomi (username). Bu yerda Githubdagi  first-contributions repositorysining kontentlarini kompyuteringizga
+bu yerdagi `bu-siz` sizning Github hisobingiz nomi (username). Bu yerda Githubdagi first-contributions repositorysining kontentlarini kompyuteringizga
 ko'chiryapsiz.
 
 ## Branch yaratish
@@ -61,12 +59,12 @@ git switch -c yangi-branch-nomingiz
 Misol uchun:
 
 ```bash
-git switch -c new_branch # yangi branch 
+git switch -c new_branch # yangi branch
 ```
 
 ## O'zgartirishlar kiriting va commit yarating!
 
-Endi matn muharririda `Contributors.md` faylini oching, unga ismingizni qo'shing. Uni faylning boshiga yoki oxiriga qo'shmang. Uni istalgan o'rta qismga  qo'shing. Endi faylni saqlang.
+Endi matn muharririda `Contributors.md` faylini oching, unga ismingizni qo'shing. Uni faylning boshiga yoki oxiriga qo'shmang. Uni istalgan o'rta qismga qo'shing. Endi faylni saqlang.
 
 <img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
 
@@ -83,6 +81,7 @@ Endi `git commit` buyrug'i yordamida bu o'zgarishlarni commit qiling:
 ```bash
 git commit -m "Contributors ro'yxatiga ismingiz-ni kiritish"
 ```
+
 `ismingiz-` ni o'rniga o'zingizni ismingizni yozing.
 
 ## O'zgarishlarni Githubga push qilish
@@ -126,9 +125,6 @@ Tabriklayman! Siz hozirgina contributor sifatida tez-tez uchraydigan standard is
 Hissangizni nishonlang va [web app](https://firstcontributions.github.io/#social-share)ga o'tish orqali do'stlaringizga va ergashuvchilaringizga ulashing.
 
 Agar koʻproq mashq qilishni istasangiz, [kod hissalarini](https://github.com/roshanjossey/code-contributions) tekshiring.
-
-
-
 
 Endi boshqa proyektlarga hissa qo‘shishni boshlaylik. Siz boshlashingiz mumkin bo'lgan oson masalalar bilan proyektlar ro'yxatini tuzdik. Ko'zdan kechiring [web appdagi proyektlar ro'yxati](https://firstcontributions.github.io/#project-list).
 

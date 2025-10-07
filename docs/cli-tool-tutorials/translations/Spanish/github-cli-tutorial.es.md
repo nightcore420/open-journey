@@ -3,44 +3,50 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-
 # First Contributions
 
 | <img alt="GitHub Desktop" src="https://cdn.icon-icons.com/icons2/2157/PNG/512/github_git_hub_logo_icon_132878.png" width="200"> | GitHub Command Line Interface (CLI) |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+| ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
 
 Esta es una guía para nosotros, los nerds de terminales, que queremos hacer todo en el terminal, y gracias a [Github-CLI](https://cli.github.com/), podemos lograrlo, recordando tu primera contribución. ¡Debe ser divertido, gratificante y motivador para seguir adelante!
 
 Esta guía es un poco más desafiante ya que no usamos ninguna interfaz gráfica, pero aún así es muy divertida y ¡definitivamente puedes seguirla!
 
 El primer requisito es tener:
+
 - Git instalado (cómo instalar [git](https://git-scm.com/downloads))
 - Cuenta de Github
 
 Ahora vamos a necesitar instalar el `github-cli` En nuestro sistema siguiendo la [documentación oficial](https://github.com/cli/cli#installation)
 
 Después, debemos iniciar sesión en **CLI** (Interfaz de Línea de Comandos) usando el siguiente comando:
-```bash 
+
+```bash
 gh auth login
 ```
 
 Sigue las instrucciones y estamos listos.!
 
 # Bifurcar este repositorio
+
 Es tan fácil como ejecutar este comando:
 
 ```bash
 gh repo fork firstcontributions/first-contributions
 ```
+
 **Importante: Te preguntará si también quieres clonarlo, selecciona la opción "sí"**
 
 # Crea tu sucursal
+
 Haremos este paso con git, así que ingresa este comando reemplazando el nombre con tu nombre, por ejemplo:
-```bash 
+
+```bash
 git switch -c add-john-doe
 ```
 
 # Realizar los cambios necesarios y confirmar esos cambios.
+
 Ahora puede abrir el archivo `Contributors.md` en un editor de texto y agregarle su nombre. Coloque su nombre en cualquier lugar entre el principio y el final, luego guarde el archivo.
 
 En el directorio del proyecto ejecute `git status` y verá los cambios.
@@ -54,6 +60,7 @@ Ahora confirma esos cambios usando el comando `git commit`:
 reemplazando `your-name` con tu nombre.
 
 # Enviar cambios a github
+
 Empuje sus cambios usando el comando `git push`:
 
 ```
@@ -74,9 +81,10 @@ reemplazando `your-branch-name` con el nombre de la sucursal que creaste anterio
 </details>
 
 # Envíe sus cambios para su revisión
+
 Ahora, ejecutar este comando en el directorio de nuestro repositorio nos permitirá crear una solicitud de extracción para revisión:
 
-```bash 
+```bash
 gh pr create --repo firstcontributions/first-contributions
 ```
 

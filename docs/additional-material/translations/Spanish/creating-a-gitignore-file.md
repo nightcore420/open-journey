@@ -5,9 +5,11 @@ El archivo .gitignore es un archivo de texto que le indica a Git qué archivos o
 Un archivo .gitignore local generalmente se coloca en el directorio raíz de un proyecto. También puedes crear un archivo .gitignore global, y cualquier entrada en ese archivo será ignorada en todos tus repositorios de Git.
 
 ## ¿Por qué .gitignore?
+
 Ahora te preguntarás por qué querrías que Git ignorara ciertos archivos y carpetas. Es porque no quieres que archivos como los de construcción, archivos de caché, otras configuraciones locales como los módulos de Node, archivos de compilación, archivos temporales que crean los IDEs, etc., sean rastreados por Git. Normalmente se utiliza para evitar comprometer archivos transitorios de tu directorio de trabajo que no son útiles para otros colaboradores.
 
 ## Empezando
+
 Para crear un archivo .gitignore local, crea un archivo de texto y nómbralo .gitignore (recuerda incluir el . al principio). Luego edita este archivo según sea necesario. Cada nueva línea debe listar un archivo o carpeta adicional que deseas que Git ignore.
 
 Las entradas en este archivo también pueden seguir un patrón de coincidencia.
@@ -37,6 +39,7 @@ node_modules
 .sass-cache
 
 ```
+
 Para agregar o cambiar tu archivo .gitignore global, ejecuta el siguiente comando:
 git config --global core.excludesfile ~/.gitignore_global
 
@@ -53,14 +56,18 @@ Para deshacer el seguimiento de todos los archivos en .gitignore:
 
 Primero, confirma cualquier cambio de código pendiente y luego ejecuta:
 git rm -r --cached
+
 ```
 
 Esto elimina cualquier archivo cambiado del índice (área de preparación), luego ejecuta:
 git add .
 
 ```
+
 Confirma:
 git commit -m ".gitignore ahora está funcionando."
-```
+
+````
 
 Para deshacer ```git rm --cached filename```, usa git ```add filename```.
+````

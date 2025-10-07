@@ -5,16 +5,19 @@ This document lists the GitHub labels that should be configured for the Project 
 ## Required Labels
 
 ### 1. `showcase`
+
 - **Color**: `#FF6B9D` (Pink)
 - **Description**: Related to project showcase submissions
 - **Usage**: Apply to all PRs that add projects to the showcase section
 
 ### 2. `project`
+
 - **Color**: `#7057FF` (Purple)
 - **Description**: Community project submissions
 - **Usage**: General label for any project-related contributions
 
 ### 3. `hacktoberfest`
+
 - **Color**: `#FF8C00` (Dark Orange)
 - **Description**: Valid for Hacktoberfest participation
 - **Usage**: Apply to eligible PRs during Hacktoberfest season
@@ -72,16 +75,19 @@ curl -X POST \
 ## Label Usage Guidelines
 
 ### When to Use `showcase`
+
 - ✅ PRs adding new projects to `showcase/` folder
 - ✅ Updates to existing showcase projects
 - ✅ Improvements to showcase documentation
 
 ### When to Use `project`
+
 - ✅ Any community project submissions
 - ✅ Can be combined with `showcase` label
 - ✅ Project-related discussions
 
 ### When to Use `hacktoberfest`
+
 - ✅ During Hacktoberfest period (October)
 - ✅ PRs that meet Hacktoberfest quality standards
 - ✅ Must be meaningful contributions (no spam)
@@ -92,18 +98,22 @@ curl -X POST \
 You might also want to create these complementary labels:
 
 ### `good first issue`
+
 - **Color**: `#7057FF`
 - **Description**: Good for newcomers
 
 ### `help wanted`
+
 - **Color**: `#008672`
 - **Description**: Extra attention is needed
 
 ### `question`
+
 - **Color**: `#D876E3`
 - **Description**: Further information is requested
 
 ### `documentation`
+
 - **Color**: `#0075CA`
 - **Description**: Improvements or additions to documentation
 

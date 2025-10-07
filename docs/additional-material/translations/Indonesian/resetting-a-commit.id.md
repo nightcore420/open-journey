@@ -8,7 +8,6 @@ dan `git revert` menghapus _commit_ dari repositori remote.<br/>
 `git reset` dapat dicapai dengan menggunakan perintah berikut:
 
 - Perintah berikut ini akan memberikan ringkasan dari semua commit dengan menggunakan dua parameter berikut:
-
   - Tujuh karakter pertama dari commit hash - inilah yang perlu kita rujuk dalam perintah **reset**.
   - Pesan commit
 

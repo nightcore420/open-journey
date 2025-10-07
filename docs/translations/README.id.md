@@ -136,23 +136,24 @@ ganti bagian `<tambahkan-nama-cabang-baru>` dengan nama cabang yang sebelumnya A
 <summary> <strong>Jika Anda mendapatkan kesalahan saat melakukan <i>push</i>, klik disini:</strong> </summary>
 
 - ### Kesalahan Autentikasi
-     <pre>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+
+       <pre>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+
   remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
   fatal: Authentication failed for 'https://github.com/<your-username>/first-contributions.git/'</pre>
   Buka [tutorial GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) untuk menghasilkan dan mengkonfigurasi sebuah kunci SSH ke akun Anda.
 
   Jika kelihatannya seperti ini:
-  
-  <pre>origin	https://github.com/your-username/your_repo.git (fetch)
-  origin	https://github.com/your-username/your_repo.git (push)</pre>
+
+    <pre>origin	https://github.com/your-username/your_repo.git (fetch)
+    origin	https://github.com/your-username/your_repo.git (push)</pre>
 
   Buat perubahan dengan perintah:
-     
-  <pre>git remote set-url origin git@github.com:your-username/your_repo.git</pre>
+
+    <pre>git remote set-url origin git@github.com:your-username/your_repo.git</pre>
 
   Jika tidak, Anda akan tetap dimintai nama pengguna dan kata sandi serta mendapatkan kesalahan autentikasi.
-</details>
-
+  </details>
 
 ## Kirim Perubahan Untuk Diperiksa
 
@@ -172,7 +173,6 @@ Selamat! Anda baru saja menyelesaikan standar _fork_ -> _clone_ -> _edit_ -> _pu
 
 Rayakan kontribusi Anda dan bagikan dengan teman-teman dan pengikut Anda dengan membuka [web app](https://firstcontributions.github.io/#social-share).
 
-
 Sekarang mari kita mulai dengan berkontribusi di proyek lain. Kami sudah menyusun daftar proyek dengan isu yang mudah dikerjakan sehingga Anda dapat segera memulai. Cek di [daftar proyek web app](https://firstcontributions.github.io/#project-list).
 
 ## [Materi tambahan](../additional-material/translations/additional-material.id.md)
@@ -189,22 +189,23 @@ Sekarang mari kita mulai dengan berkontribusi di proyek lain. Kami sudah menyusu
 
 Berikut adalah istilah-istilah Git yang sering digunakan:
 
-| Istilah | Penjelasan |
-|---------|------------|
+| Istilah               | Penjelasan                                                 |
+| --------------------- | ---------------------------------------------------------- |
 | **Repository (Repo)** | Folder proyek yang berisi semua file dan riwayat perubahan |
-| **Fork** | Membuat salinan repository ke akun GitHub Anda |
-| **Clone** | Mengunduh repository dari GitHub ke komputer Anda |
-| **Branch** | Cabang terpisah untuk mengembangkan fitur atau perbaikan |
-| **Commit** | Menyimpan perubahan dengan pesan deskriptif |
-| **Push** | Mengunggah commit dari komputer ke GitHub |
-| **Pull Request (PR)** | Mengajukan perubahan Anda untuk ditinjau dan digabungkan |
-| **Merge** | Menggabungkan perubahan dari satu branch ke branch lain |
-| **Main/Master** | Branch utama dalam repository |
-| **Origin** | Nama default untuk remote repository |
+| **Fork**              | Membuat salinan repository ke akun GitHub Anda             |
+| **Clone**             | Mengunduh repository dari GitHub ke komputer Anda          |
+| **Branch**            | Cabang terpisah untuk mengembangkan fitur atau perbaikan   |
+| **Commit**            | Menyimpan perubahan dengan pesan deskriptif                |
+| **Push**              | Mengunggah commit dari komputer ke GitHub                  |
+| **Pull Request (PR)** | Mengajukan perubahan Anda untuk ditinjau dan digabungkan   |
+| **Merge**             | Menggabungkan perubahan dari satu branch ke branch lain    |
+| **Main/Master**       | Branch utama dalam repository                              |
+| **Origin**            | Nama default untuk remote repository                       |
 
 ## 🎯 Tips untuk Kontribusi Sukses
 
 ### ✅ DO (Lakukan)
+
 - ✅ Baca dokumentasi dengan teliti sebelum mulai
 - ✅ Pilih satu issue pada satu waktu
 - ✅ Tulis commit message yang jelas dan deskriptif
@@ -214,6 +215,7 @@ Berikut adalah istilah-istilah Git yang sering digunakan:
 - ✅ Tanyakan jika ada yang tidak jelas
 
 ### ❌ DON'T (Jangan)
+
 - ❌ Membuat perubahan yang tidak perlu
 - ❌ Mengerjakan issue yang sudah dikerjakan orang lain
 - ❌ Membuat banyak PR spam untuk Hacktoberfest
@@ -224,25 +226,32 @@ Berikut adalah istilah-istilah Git yang sering digunakan:
 ## 🆘 FAQ (Pertanyaan yang Sering Diajukan)
 
 ### Apakah saya harus pandai coding?
+
 Tidak! Kontribusi tidak selalu tentang kode. Anda bisa:
+
 - Memperbaiki typo
 - Menambahkan dokumentasi
 - Menerjemahkan konten
 - Menambahkan nama Anda ke Contributors.md
 
 ### Bagaimana jika Pull Request saya ditolak?
+
 Tidak apa-apa! Baca feedback yang diberikan, perbaiki, dan coba lagi. Setiap penolakan adalah kesempatan belajar.
 
 ### Berapa lama review membutuhkan waktu?
+
 Maintainer volunteer yang melakukan review. Bisa memakan waktu beberapa jam hingga beberapa hari. Bersabarlah!
 
 ### Apakah kontribusi saya dihitung untuk Hacktoberfest?
+
 Ya, selama PR Anda:
+
 - Dibuat di repository yang berpartisipasi (ada label/topic hacktoberfest)
 - Tidak ditandai sebagai spam atau invalid
 - Merged atau approved oleh maintainer
 
 ### Saya stuck, harus bagaimana?
+
 - Cek dokumentasi lagi
 - Tanya di [Discussions](https://github.com/firstcontributions/first-contributions/discussions)
 - Buat issue baru dengan pertanyaan Anda
@@ -251,6 +260,7 @@ Ya, selama PR Anda:
 ## 🌟 Kontribusi Anda Penting!
 
 Setiap kontribusi, sekecil apapun, sangat berarti! Anda sedang:
+
 - 🌱 Belajar skill baru
 - 🤝 Membantu komunitas
 - 💪 Membangun portfolio

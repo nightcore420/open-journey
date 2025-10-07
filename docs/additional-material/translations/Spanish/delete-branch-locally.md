@@ -2,7 +2,7 @@
 
 Esto será útil cuando accidentalmente escribiste mal el nombre de una rama.
 
-Esto se puede hacer de *3* maneras:
+Esto se puede hacer de _3_ maneras:
 
 ```
 git branch -D <nombre_rama>

@@ -1,11 +1,9 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/CodeWithAjaySaini)
 
-
 # First Contributions
 
 | <img alt="Visual Studio Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width="40"> | Visual Studio Code |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------ |
-
 
 यह मुश्किल है। पहली बार जब आप कुछ करते हैं तो यह हमेशा कठिन होता है। खासकर जब आप सहयोग कर रहे हों, तो गलतियाँ करना सहज बात नहीं है। लेकिन ओपन सोर्स सहयोग और एक साथ काम करने के बारे में है। हम नए ओपन-सोर्स योगदानकर्ताओं के पहली बार सीखने और योगदान करने के तरीके को सरल बनाना चाहते थे।
 
@@ -109,8 +107,8 @@
 
 यदि आपको किसी सहायता की आवश्यकता हो या कोई प्रश्न पूछना हो तो आप हमारी सुस्त टीम में शामिल हो सकते हैं। [स्लैक टीम में शामिल हों](https://join.slack.com/t/firstcontributors/shared_invite/zt-1hg51qkgm-Xc7HxhsiPYNN3ofX2_I8FA)।
 
-
 ### [अतिरिक्त सामग्री](../additional-material/git_workflow_scenarios/additional-material.md)
 
 ## अन्य टूल्स का उपयोग करने वाले ट्यूटोरियल
+
 [मुख्य पृष्ठ पर वापस जाएं](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools)

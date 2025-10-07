@@ -2,7 +2,7 @@
 
 Às vezes, você pode querer remover um arquivo do Git, mas não excluí-lo do seu computador. Você pode fazer isso usando o seguinte comando:
 
-``git rm <file> --cached``
+`git rm <file> --cached`
 
 ## Então o que aconteceu?
 
@@ -12,13 +12,12 @@ Observe que no exemplo acima, o sinalizador `--cached` é utilizado. Se não adi
 
 Se você confirmar a mudança com `git commit -m" Remove file1.js "` e enviar para o repositório remoto usando `git push origin master`, o repositório remoto removerá o arquivo.
 
-
 ## Características adicionais
 
 - Se você deseja remover mais de um arquivo, pode incluí-los todos no mesmo comando:
 
-    `git rm file1.js file2.js file3.js --cached`
+  `git rm file1.js file2.js file3.js --cached`
 
-- Você pode utilizar o caractere coringa (*) para remover todos os arquivos semelhantes.  Por exemplo se você deseja remover todos os .txt do seu repositório local:
+- Você pode utilizar o caractere coringa (\*) para remover todos os arquivos semelhantes. Por exemplo se você deseja remover todos os .txt do seu repositório local:
 
-    `git rm *.txt --cached`
+  `git rm *.txt --cached`

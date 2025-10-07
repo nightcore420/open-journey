@@ -2,7 +2,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-
 # First Contributions
 
 এই প্ৰকল্পই আৰম্ভণকাৰীসকলৰ বাবে প্ৰথম অৱদানটো সহজ আৰু পোষকভাৱে কৰিবলৈ সহায় কৰে। যদি আপুনি আপোনাৰ প্রথম অৱদানটো কৰিবলৈ বিচাৰে, তলত দিয়া পদক্ষেপসমূহ অনুসৰণ কৰক।
@@ -14,6 +13,7 @@
 যদি আপোনাৰ মেচিনত git নাই, ইনষ্টল কৰক [install it](https://docs.github.com/en/get-started/quickstart/set-up-git).
 
 ## এই ৰেপ'জিট'ৰিটো Fork কৰক
+
 এই পৃষ্ঠাৰ ওপৰত থকা fork বুটামত ক্লিক কৰি এই ৰেপ'জিট'ৰিটো Fork কৰক। এইটো আপোনাৰ একাউণ্টত এই ৰেপ'জিট'ৰিটোৰ এটা কপি সৃষ্টি কৰিব।
 
 ## ৰেপ'জিট'ৰিটো ক্লোন কৰক
@@ -41,6 +41,7 @@ git clone git@github.com:this-is-you/first-contributions.git
 য'ত this-is-you হৈছে আপোনাৰ GitHub ইউজাৰনেম। ইয়াত আপুনি first-contributions ৰেপ'জিট'ৰিটোৰ বিষয়বস্তু GitHub ৰ পৰা আপোনাৰ কম্পিউটাৰত কপি কৰি থৈছা।
 
 ## Branch সৃষ্টি কৰক
+
 আপোনাৰ কম্পিউটাৰৰ ৰেপ'জিট'ৰিৰ ডাইৰেক্টৰীত পৰিৱৰ্তন কৰক (যদি আপুনি ইতিমধ্যেই তাত নোহোৱাঁ):
 
 ```bash
@@ -109,25 +110,32 @@ git push -u origin your-branch-name
 <summary> <strong>যদি আপুনি Push কৰাৰ সময়ত কোনো ত্ৰুটি পায়, ইয়াত ক্লিক কৰক:</strong> </summary>
 
 - ### প্ৰমাণীকৰণ ত্ৰুটি
-     <pre>remote: পাসৱৰ্ড প্ৰমাণীকৰণৰ সহায়তা অপসাৰণ কৰা হৈছিল 13 আগষ্ট, 2021 তাৰিখে
+
+       <pre>remote: পাসৱৰ্ড প্ৰমাণীকৰণৰ সহায়তা অপসাৰণ কৰা হৈছিল 13 আগষ্ট, 2021 তাৰিখে
+
   remote: অনুগ্ৰহ কৰি চাওক:: https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ অধিক তথ্যৰ বাবে
-অনুগ্ৰহ কৰি এইটো চাওক: 'https://github.com/<your-username>/first-contributions.git/'</pre>
+  অনুগ্ৰহ কৰি এইটো চাওক: 'https://github.com/<your-username>/first-contributions.git/'</pre>
   যাওক [GitHub's tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) SSH কী সৃষ্ট আৰু কনফিগাৰ কৰাৰ জন্য যোৱা
 
   আপুনি 'git remote -v' কমাণ্ডটো চলাব পাৰে আপোনাৰ দূৰৱর্তী ঠিকনাটো পৰীক্ষা কৰিবলৈ।
 
 যদি ইয়াৰ আউটপুটটি এইদৰে দেখায়:
+
   <pre>origin	https://github.com/your-username/your_repo.git (fetch)
   origin	https://github.com/your-username/your_repo.git (push)</pre>
-  
-  কমাণ্ড ব্যৱহাৰ কৰি ইয়াক পৰিবৰ্তন কৰক:
-  ```bash
-  git remote set-url origin git@github.com:your-username/your_repo.git
-  ```
- নহলে আপুনি কেতিয়াও লগইনৰ বাবে নিৰ্দিষ্ট নাম আৰু পাছৱৰ্ড দিয়া হব আৰু লগইন ত্ৰুটি হব।
+
+কমাণ্ড ব্যৱহাৰ কৰি ইয়াক পৰিবৰ্তন কৰক:
+
+```bash
+git remote set-url origin git@github.com:your-username/your_repo.git
+```
+
+নহলে আপুনি কেতিয়াও লগইনৰ বাবে নিৰ্দিষ্ট নাম আৰু পাছৱৰ্ড দিয়া হব আৰু লগইন ত্ৰুটি হব।
+
 </details>
 
 ## আপোনাৰ পৰিবৰ্তনসমূহ পৰ্যালোচনাৰ বাবে জমা দিয়ক
+
 যদি আপুনি GitHub ত আপোনাৰ ৰেপ'জিট'ৰিটোত যায়, আপুনি `Compare & pull request` বুটামটো দেখিব। এই বুটামটোত ক্লিক কৰক।
 
 <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
@@ -139,6 +147,7 @@ Pull Request জমা দিয়ক
 আপোনাৰ পৰিবৰ্তনসমূহ তাড়তে প্ৰকল্পৰ মুখ্য শাখাত মিলাই দিম। পৰিবৰ্তনসমূহ মিলোৱা হ'লে আপুনি এটা অৱগতিমূলক ইমেইল লাভ কৰিব।
 
 ## য়াৰ পৰা ক’লৈ যাব?
+
 অভিনন্দন! আপুনি কেৱল সম্পূৰ্ণ কৰিলে fork -> clone -> edit -> pull request কাৰ্যধাৰাটোৰ মানসংগত ৰূপ যি প্ৰায়ে এক অবদানকাৰী হিচাপে সন্মুখীন হ'ব!
 
 আপোনাৰ অৱদান উদযাপন কৰক আৰু আপোনাৰ বন্ধু আৰু অনুসাৰকসকলৰ সৈতে ইয়াক শেয়াৰ কৰক [web app](https://firstcontributions.github.io/#social-share).
@@ -146,7 +155,6 @@ Pull Request জমা দিয়ক
 যদি আপুনি অধিক অনুশীলন কৰিব বিচাৰে, [code contributions](https://github.com/roshanjossey/code-contributions) পৰীক্ষা কৰক।
 
 এতিয়া আপোনাক আন প্ৰকল্পত অৱদান কৰিবলৈ আৰম্ভ কৰা যাক। আমি সহজ সমস্যাসমূহ সহ কিছু প্ৰকল্পৰ তালিকা সংকলন কৰিছো যাৰ সহায়ত আপুনি আৰম্ভ কৰিব পাৰে। [ৱেব এপত প্ৰকল্পসমূহৰ তালিকা পৰীক্ষা কৰক](https://firstcontributions.github.io/#project-list).
-
 
 ### [অতিৰিক্ত সামগ্ৰী](additional-material/git_workflow_scenarios/additional-material.md)
 
@@ -162,5 +170,3 @@ Pull Request জমা দিয়ক
     <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="201px">
   </a>
 </p>
-
-

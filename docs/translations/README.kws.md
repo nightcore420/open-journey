@@ -2,20 +2,15 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-
-
 # Mchango wa Kwanza
-
 
 Ni vigumu. Ni vigumu daima mara ya kwanza unafanya kitu. Hasa wakati unashirikiana, kufanya makosa sio jambo la kushangaza. Tulitaka kurahisisha njia mpya ya wafadhili wa kujifunza na kuchangia kwa mara ya kwanza.
 
 Kusoma makala na mafunzo ya kutazama yanaweza kusaidia, lakini ni nini bora zaidi kuliko kufanya mambo halisi katika mazingira ya mazoezi? Mradi huu unalenga kutoa mwongozo na kurahisisha wasanidi wa njia kufanya mchango wao wa kwanza. Ikiwa unatafuta kufanya mchango wako wa kwanza, fuata hatua zifuatazo.
 
-#### *Ikiwa huna urahisi na mstari wa amri, [hapa ni mafunzo kwa kutumia zana za GUI.](#Mafundisho-Kutumia-Zana-Zingine)*
-
+#### _Ikiwa huna urahisi na mstari wa amri, [hapa ni mafunzo kwa kutumia zana za GUI.](#Mafundisho-Kutumia-Zana-Zingine)_
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
-
 
 ## Vuta hifadhi hii
 
@@ -26,7 +21,6 @@ Vuta repo hii kwa kubonyeza kifungo cha fakia juu ya ukurasa huu. Hii itaunda na
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
 
 Sasa nakala repo iliyovutwa kwa mashine yako. Nenda kwenye akaunti yako ya GitHub, fungua repo iliyovutwa, bonyeza kitufe cha kamba na kisha bofya nakala kwenye clipboard.
-
 
 Fungua terminal na uendesha amri yafuatayo:
 
@@ -56,7 +50,6 @@ cd first-contributions
 
 Sasa unda tawi kwa kutumia git `checkout` amri:
 
-
 ```
 git checkout -b <add-your-new-branch-name>
 ```
@@ -76,7 +69,6 @@ Sasa fungua `Contributors.md` faili katika mhariri wa maandishi, uongeze jina la
 <img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
 
 Ikiwa unakwenda kwenye saraka ya mradi na kutekeleza amri `git status`, utaona kuna mabadiliko.
-
 
 Ongeza mabadiliko hayo kwenye tawi ulilojenga kwa kutumia `git add` amri:
 
@@ -116,7 +108,7 @@ Hivi karibuni nitaunganisha mabadiliko yako yote kwenye tawi la mradi huu. Utapa
 
 ## Wapi kutoka hapa?
 
-Hongera! Wewe umekamilisha fomu ya kawaida *fork -> clone -> hariri -> pull request* ambayo unakutana mara nyingi kama mchangiaji!
+Hongera! Wewe umekamilisha fomu ya kawaida _fork -> clone -> hariri -> pull request_ ambayo unakutana mara nyingi kama mchangiaji!
 
 Sherehekea mchango wako na marafiki na wafuasi wako kwa kuenda kwenye [programu ya wavuti](https://firstcontributions.github.io/#social-share).
 
@@ -129,5 +121,5 @@ Sasa hebu tuanze uanze na kuchangia kwenye miradi mingine. Tumeandika orodha ya 
 ## Mafundisho Kutumia Zana Zingine
 
 | <a href="../gui-tool-tutorials/github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a> | <a href="../gui-tool-tutorials/github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Visual_Studio_2017_Logo.svg" width="100"></a> | <a href="../gui-tool-tutorials/gitkraken-tutorial.md"><img alt="GitKraken" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/gitkraken-tutorial/gk-icon.png" width="100"></a> | <a href="../gui-tool-tutorials/github-windows-vs-code-tutorial.md"><img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=100></a> | <a href="../gui-tool-tutorials/sourcetree-macos-tutorial.md"><img alt="Sourcetree App" src="https://wac-cdn.atlassian.com/dam/jcr:81b15cde-be2e-4f4a-8af7-9436f4a1b431/Sourcetree-icon-blue.svg" width=100></a> | <a href="../gui-tool-tutorials/github-windows-intellij-tutorial.md"><img alt="IntelliJ IDEA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/512px-IntelliJ_IDEA_Icon.svg.png" width=100></a> |
-| --- | --- | --- | --- | --- | --- |
-| [GitHub Desktop](../gui-tool-tutorials/github-desktop-tutorial.md) | [Visual Studio 2017](../gui-tool-tutorials/github-windows-vs2017-tutorial.md) | [GitKraken](../gui-tool-tutorials/gitkraken-tutorial.md) | [Visual Studio Code](../gui-tool-tutorials/github-windows-vs-code-tutorial.md) | [Atlassian Sourcetree](../gui-tool-tutorials/sourcetree-macos-tutorial.md) | [IntelliJ IDEA](../gui-tool-tutorials/github-windows-intellij-tutorial.md) |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [GitHub Desktop](../gui-tool-tutorials/github-desktop-tutorial.md)                                                                                             | [Visual Studio 2017](../gui-tool-tutorials/github-windows-vs2017-tutorial.md)                                                                                                                          | [GitKraken](../gui-tool-tutorials/gitkraken-tutorial.md)                                                                                                                                        | [Visual Studio Code](../gui-tool-tutorials/github-windows-vs-code-tutorial.md)                                                                                                                  | [Atlassian Sourcetree](../gui-tool-tutorials/sourcetree-macos-tutorial.md)                                                                                                                                      | [IntelliJ IDEA](../gui-tool-tutorials/github-windows-intellij-tutorial.md)                                                                                                                                                          |

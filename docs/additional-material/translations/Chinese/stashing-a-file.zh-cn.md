@@ -8,7 +8,7 @@
 
 ## 暂存你的工作（Stashing）
 
-假设你在项目的某个分支中修改了一些文件，此时运行  ```git status``` 可以看到：
+假设你在项目的某个分支中修改了一些文件，此时运行 `git status` 可以看到：
 
 ```
 $ git status
@@ -25,7 +25,7 @@ $ git status
 #
 ```
 
-此时你想切换分支，但又不想提交更改。那就使用 ```git stash```:
+此时你想切换分支，但又不想提交更改。那就使用 `git stash`:
 
 ```
 $ git stash
@@ -35,7 +35,7 @@ HEAD is now at 049d078 added the index file
 (要恢复这些更改，输入 "git stash apply")
 ```
 
-现在你的工作目录是干净的，可以使用 ```git status``` 查看：
+现在你的工作目录是干净的，可以使用 `git status` 查看：
 
 ```
 $ git status
@@ -43,7 +43,7 @@ $ git status
 没有要提交的内容，工作目录干净
 ```
 
-此时你可以切换到任意分支继续开发。你 stash 的内容被保存在一个栈（stack）中。你可以使用 ```git stash list``` 查看所有保存的 stash：
+此时你可以切换到任意分支继续开发。你 stash 的内容被保存在一个栈（stack）中。你可以使用 `git stash list` 查看所有保存的 stash：
 
 ```
 $ git stash list
@@ -52,8 +52,8 @@ stash@{1}: WIP on master: c264051 Revert "added file_size"
 stash@{2}: WIP on master: 21d80a5 added number to log
 ```
 
-如果你想重新应用刚刚保存的 stash，可以使用 ```git stash apply```。默认情况下，它会应用最近一次保存的 stash。  
-如果你想应用指定的 stash，可以使用命令 ```git stash apply <stash-name>```，将 `<stash-name>` 替换为对应名称：
+如果你想重新应用刚刚保存的 stash，可以使用 `git stash apply`。默认情况下，它会应用最近一次保存的 stash。  
+如果你想应用指定的 stash，可以使用命令 `git stash apply <stash-name>`，将 `<stash-name>` 替换为对应名称：
 
 ```
 $ git stash apply
@@ -74,7 +74,7 @@ $ git stash apply
 即使当前工作目录中存在未提交的更改，也可以应用 stash；但如果某些内容无法干净地应用，Git 会提示合并冲突。
 
 文件中的更改虽然恢复了，但之前已暂存（staged）的文件并没有恢复到暂存区。  
-要恢复这些被暂存的更改，你需要使用带有 ```--index``` 参数的 ```git stash apply```：
+要恢复这些被暂存的更改，你需要使用带有 `--index` 参数的 `git stash apply`：
 
 ```
 $ git stash apply --index
@@ -93,7 +93,7 @@ $ git stash apply --index
 
 `apply` 命令仅仅是恢复 stash 内容，它不会自动从 stash 栈中移除对应条目。
 
-如果你想删除某个 stash，可以使用 ```git stash drop``` 并指定 stash 名称：
+如果你想删除某个 stash，可以使用 `git stash drop` 并指定 stash 名称：
 
 ```
 $ git stash list
@@ -104,18 +104,18 @@ $ git stash drop stash@{0}
 Dropped stash@{0} (364e91f3f268f0900bc3ee613f9f733e82aaed43)
 ```
 
-你也可以使用 ```git stash pop``` 命令，它会应用最后一次 stash 的内容并将其从栈中删除。
+你也可以使用 `git stash pop` 命令，它会应用最后一次 stash 的内容并将其从栈中删除。
 
 ## 取消应用已应用的 Stash（Un-applying）
 
 有时你应用了 stash，做了一些工作，但之后想要**撤销**刚刚恢复的 stash 更改。  
-Git 并没有内建 ```git unapply``` 命令，但你可以使用“反向补丁”来实现类似效果：
+Git 并没有内建 `git unapply` 命令，但你可以使用“反向补丁”来实现类似效果：
 
-```$ git stash show -p stash@{0} | git apply -R```
+`$ git stash show -p stash@{0} | git apply -R`
 
 如果不指定 stash，Git 默认使用最新的 stash：
 
-```$ git stash show -p | git apply -R```
+`$ git stash show -p | git apply -R`
 
 你也可以为此配置一个快捷别名：
 
@@ -131,7 +131,7 @@ $ git stash-unapply
 如果你 stash 了某些更改，但后来继续在该分支上进行开发，  
 再次应用 stash 时可能会因为文件已被修改而引发**冲突**。
 
-如果你想更方便地重新测试 stash 的内容，可以使用 ```git stash branch``` 命令。  
+如果你想更方便地重新测试 stash 的内容，可以使用 `git stash branch` 命令。  
 它会执行以下操作：
 
 1. 创建一个新分支；

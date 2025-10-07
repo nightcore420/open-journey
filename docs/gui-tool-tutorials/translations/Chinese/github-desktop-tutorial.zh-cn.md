@@ -68,7 +68,7 @@
 
 现在提交这些更改：
 
-在_summary_字段中写下消息“Add `<你的名字>`to Contributors list”。
+在*summary*字段中写下消息“Add `<你的名字>`to Contributors list”。
 
 将“<你的名字>”替换为你的名字。
 
@@ -104,7 +104,7 @@
 
 ## 下一步我该去哪里？
 
-恭喜！您刚刚完成了作为贡献者经常遇到的标准_fork->clone->edit->PR_工作流程！
+恭喜！您刚刚完成了作为贡献者经常遇到的标准*fork->clone->edit->PR*工作流程！
 
 庆祝你的贡献，并通过以下方式与你的朋友和追随者分享[web app](https://firstcontributions.github.io#social-share).
 

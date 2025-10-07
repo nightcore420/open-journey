@@ -10,34 +10,45 @@ Our second move will be to push your local repo to your GitHub fork. As you've s
 Now, let's see how to do it:
 
 First, you must be on your main branch. To know which branch you are on, check the first line of:
+
 ```
 git status
 ```
+
 if you are not already on main:
+
 ```
 git checkout main
 ```
 
 Then you should add my public repo to your git with `add upstream remote-url`:
+
 ```
 git remote add upstream https://github.com/firstcontributions/first-contributions.git
 ```
+
 This is a way of telling git that another version of this project exists in the specified url and we're calling it `upstream`. Once your git has a name let's fetch the latest version of the public repository:
+
 ```
 git fetch upstream
 ```
 
 You've just fetched the latest version of my fork (`upstream` remote). Now, you need to merge the public repository into your main branch.
+
 ```
 git rebase upstream/main
 ```
+
 Here you're merging the public repository with your main branch. Your local machine's main branch is now up-to-date. Lastly, if you push your main branch to your fork, your GitHub fork will also have the changes:
+
 ```
 git push origin main
 ```
+
 Notice here you're pushing to the remote named `origin`.
 
 If you want to fetch and merge the latest changes of my fork (`upstream` remote) to your local branch at same time then you can directly go for:
+
 ```
 git pull upstream main
 ```

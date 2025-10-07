@@ -1,9 +1,7 @@
-
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [<img align="right" width="150" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/join-slack-team.png">](https://join.slack.com/t/firstcontributors/shared_invite/enQtNjkxNzQwNzA2MTMwLTVhMWJjNjg2ODRlNWZhNjIzYjgwNDIyZWYwZjhjYTQ4OTBjMWM0MmFhZDUxNzBiYzczMGNiYzcxNjkzZDZlMDM)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
-
 
 # प्रथम योगदान
 
@@ -52,7 +50,6 @@ git switch -c add-जॉन-डूई
 आता तुम्ही मजकूर संपादकामध्ये `Contributors.md` फाईल उघडू शकता आणि त्यात तुमचे नाव जोडू शकता. तुमचे नाव सुरुवातीपासून शेवटच्या दरम्यान कुठेही ठेवा, नंतर फाइल सेव्ह करा.
 
 प्रोजेक्ट डिरेक्टरीमध्ये `git status` कार्यान्वित करा आणि तुम्हाला बदल दिसतील.
-
 
 ते बदल तुम्ही 'git add' कमांड वापरून तयार केलेल्या शाखेत जोडा:
 `git add contributors.md`

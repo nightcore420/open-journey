@@ -2,7 +2,7 @@
 
 有时你可能想要从 Git 中移除一个文件，但不想从你的计算机中删除它。你可以使用以下命令来实现：
 
-``git rm <file> --cached``
+`git rm <file> --cached`
 
 ## 那么发生了什么？
 
@@ -16,8 +16,8 @@ Git 将不再跟踪被移除文件的更改。对 Git 来说，就像你删除�
 
 - 如果你想删除多个文件，可以将它们全部包含在同一命令中：
 
-    `git rm file1.js file2.js file3.js --cached`
+  `git rm file1.js file2.js file3.js --cached`
 
-- 你可以使用通配符（*）删除相似的文件。例如，如果你想从本地仓库中删除所有 `.txt` 文件：
+- 你可以使用通配符（\*）删除相似的文件。例如，如果你想从本地仓库中删除所有 `.txt` 文件：
 
-    `git rm *.txt --cached`
+  `git rm *.txt --cached`

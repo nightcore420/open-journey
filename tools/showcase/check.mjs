@@ -122,7 +122,7 @@ function generateTable(entries) {
   
   return markdownTable(tableData, {
     align: ['c', 'l', 'l', 'l']
-  ]);
+  });
 }
 
 /**

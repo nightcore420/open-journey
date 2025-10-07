@@ -11,6 +11,7 @@ Bir birleştirme çakışmasıyla karşılaşıldığında, git dosyadaki sorunl
 Bizim görevimiz bu satırları temizlemek: İşimiz bittiğinde dosya istediğimiz gibi görünmeli. Çelişkili değişiklikleri yazan takım arkadaşınıza danışarak hangi versiyonun nihai olacağına karar vermeniz önerilir. Ya sizin olabilir ya da ikisinin karışımı olabilir.
 
 Örneğin:
+
 ```
  <<<<<<< HEAD:birleştirmetesti
  Bu üçüncü satırım.
@@ -30,4 +31,5 @@ Bizim görevimiz bu satırları temizlemek: İşimiz bittiğinde dosya istediği
 Birleştirme çakışmalarını daha kolay çözebilmek için kullandığınız IDE'ye bağlı olarak farklı eklentiler de indirebilirsiniz.
 
 # Birleştirme nasıl geri alınır?
+
 Birleştirmeyi iptal etmek istiyorsanız `git merge --abort` komutunu kullanabilirsiniz

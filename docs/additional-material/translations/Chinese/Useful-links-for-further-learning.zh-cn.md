@@ -5,6 +5,7 @@
 这个页面将作为一个索引，汇总所有对开源领域新人或想深入了解的人有帮助的链接。
 
 ## 链接列表
+
 **请注意: 以下所有链接均为英文内容。**
 
 1.  [Git 交互式教程](https://try.github.io)
@@ -14,12 +15,12 @@
 5.  [Git 和 GitHub 教程（多语言版本）](https://github.com/Roshanjossey/first-contributions)
 6.  [解决合并冲突](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/merge-conflicts)
 7.  [Git How To：解决合并冲突](https://githowto.com/resolving_conflicts)
-8. [Git 基础 - 快速入门指南](https://blog.praveen.science/basics-of-git-the-quick-start-guide/)
-9. [我们在 Spotify Agile 方法中使用的 Git 标准](https://blog.praveen.science/git-standards-followed-in-our-way-of-spotify-agile-methodolgy/)
+8.  [Git 基础 - 快速入门指南](https://blog.praveen.science/basics-of-git-the-quick-start-guide/)
+9.  [我们在 Spotify Agile 方法中使用的 Git 标准](https://blog.praveen.science/git-standards-followed-in-our-way-of-spotify-agile-methodolgy/)
 10. [Git 快捷方式](https://blog.praveen.science/git-shortcuts/)
-11.  [官方 Git 多语言备忘单](https://services.github.com/on-demand/resources/cheatsheets)
-12.  [来自 Tower 的 Git 备忘单](https://www.git-tower.com/learn/cheat-sheets/git)
-13.  [常见 Git 问题及解决方法](https://www.codementor.io/citizen428/git-tutorial-10-common-git-problems-and-how-to-fix-them-aajv0katd)
+11. [官方 Git 多语言备忘单](https://services.github.com/on-demand/resources/cheatsheets)
+12. [来自 Tower 的 Git 备忘单](https://www.git-tower.com/learn/cheat-sheets/git)
+13. [常见 Git 问题及解决方法](https://www.codementor.io/citizen428/git-tutorial-10-common-git-problems-and-how-to-fix-them-aajv0katd)
 14. [Git Rebase 图解指南](https://blog.gitprime.com/git-rebase-an-illustrated-guide/)
 15. [新手 Rebasing 与 Squashing 指南](https://github.com/servo/servo/wiki/Beginner%27s-guide-to-rebasing-and-squashing)
 16. [命令与文件关联的 Git 速查表](http://ndpsoftware.com/git-cheatsheet.html)

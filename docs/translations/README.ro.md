@@ -3,7 +3,6 @@
 [![Licență: MIT](https://img.shields.io/badge/Licență-MIT-green)](https://opensource.org/licenses/MIT)
 [![Contribuitori](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-
 # Primele Contribuții
 
 Acest proiect își propune să simplifice și să îndrume modul în care începătorii își fac prima contribuție. Dacă doriți să faceți prima contribuție, urmați pașii de mai jos.
@@ -30,6 +29,7 @@ Deschideți un terminal și executați următoarea comandă Git:
 ```bash
 git clone "URL-ul pe care l-ați copiat"
 ```
+
 unde `URL-ul pe care l-ați copiat` (fără ghilimele) este URL-ul către acest depozit (bifurcarea dvs. a acestui proiect). Consultați pașii anteriori pentru a obține URL-ul.
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="Copiați URL-ul în clipboard" />
@@ -39,6 +39,7 @@ De exemplu:
 ```bash
 git clone https://github.com/numele-tau/first-contributions.git
 ```
+
 unde `numele-tau` reprezintă numele dvs. de utilizator GitHub. Aici copiați conținutul depozitului _first-contributions_ de pe GitHub pe computerul dvs.
 
 ## Creați o ramură
@@ -80,6 +81,7 @@ Acum comiteți acele modificări folosind comanda `git commit`:
 ```bash
 git commit -m "Adaug numele-tau la lista de Contribuitori"
 ```
+
 înlocuind `numele-tau` cu numele dvs.
 
 ## Încărcați modificările pe GitHub
@@ -89,16 +91,17 @@ git commit -m "Adaug numele-tau la lista de Contribuitori"
 ```bash
 git push -u origin numele-ramurii-tale
 ```
+
 înlocuind `numele-ramurii-tale` cu numele ramurii pe care ați creat-o anterior.
 
 <details>
 <summary> <strong>Dacă întâmpinați erori în timpul încărcării, apăsați aici:</strong> </summary>
 
-  - ### Eroare de autentificare
-   <pre>remote: Suportul pentru autentificarea prin parolă a fost eliminat la 13 august 2021. Vă rugăm să utilizați un token de acces personal în schimb.
-remote: Vă rugăm să consultați https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ pentru mai multe informații.
-fatal: Autentificare eșuată pentru 'https://github.com/<numele-tau>/first-contributions.git/'</pre>
-înlocuind `numele-tau` cu numele dvs. de utilizator GitHub.
+- ### Eroare de autentificare
+     <pre>remote: Suportul pentru autentificarea prin parolă a fost eliminat la 13 august 2021. Vă rugăm să utilizați un token de acces personal în schimb.
+  remote: Vă rugăm să consultați https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ pentru mai multe informații.
+  fatal: Autentificare eșuată pentru 'https://github.com/<numele-tau>/first-contributions.git/'</pre>
+  înlocuind `numele-tau` cu numele dvs. de utilizator GitHub.
 
 Mergeți la [tutorialul GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) pentru a genera și configura o cheie SSH pentru contul dvs.
 
@@ -127,7 +130,6 @@ Puteți să vă alăturați echipei noastre Slack dacă aveți nevoie de ajutor 
 Acum să vă începem cu contribuția la alte proiecte. Am compilat o listă de proiecte cu probleme ușoare cu care puteți începe. Verificați [lista de proiecte din aplicația web](https://firstcontributions.github.io/#project-list).
 
 ### [Materiale suplimentare](additional-material/git_workflow_scenarios/additional-material.md)
-
 
 ## Tutoriale Folosind Alte Unelte (GUI)
 

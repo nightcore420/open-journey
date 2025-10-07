@@ -5,8 +5,8 @@
 
 # First Contributions — हिंदी
 
-|<img alt="Sublime Merge" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/sublime-merge-tutorial/sublime-merge.png" width="200">|Sublime Merge Git क्लाइंट|
-|---|---|
+| <img alt="Sublime Merge" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/sublime-merge-tutorial/sublime-merge.png" width="200"> | Sublime Merge Git क्लाइंट |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
 
 पहली बार कुछ करना हमेशा थोड़ा कठिन लगता है। खासकर जब आप सहयोग (collaboration) कर रहे हों या कुछ नया आज़मा रहे हों — गलतियाँ करना सहज नहीं लगता। लेकिन ओपन सोर्स का मूल ही सहयोग और मिलकर काम करना है। हम चाहते हैं कि नए ओपन-सोर्स योगदानकर्ता पहली बार योगदान देना आसानी से सीखें और कर पाएं।
 
@@ -108,4 +108,5 @@ GitHub पर अपनी रिपॉज़िटरी में जाएँ
 ### [अतिरिक्त सामग्री](../additional-material/git_workflow_senarios/additional-material.md)
 
 ## अन्य टूल्स के साथ ट्यूटोरियल्स
+
 [मुख्य पृष्ठ पर वापस जाएँ](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools)

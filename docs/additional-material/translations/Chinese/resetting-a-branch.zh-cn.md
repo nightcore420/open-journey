@@ -6,13 +6,16 @@
 ## 命令
 
 执行 `git reset` 重置分支非常简单。
+
 ```
 git reset <base_branch> <origin_branch>
 ```
 
 一个示例如下：
+
 ```
 git reset stage master --hard
 ```
+
 上述命令将 `stage` 分支重置为 `master`，因此 `stage` 分支将与 `master` 完全相同。
 你可能会想，为什么要使用 `--hard` 标志？这是为了忽略在重置之前或之后被暂存的所有更改。

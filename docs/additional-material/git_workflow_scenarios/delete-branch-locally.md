@@ -2,7 +2,7 @@
 
 This will be handy when you accidentally misspelled a branch name.
 
-This can be done in *3* ways
+This can be done in _3_ ways
 
 ```
 git branch -D <branch_name>

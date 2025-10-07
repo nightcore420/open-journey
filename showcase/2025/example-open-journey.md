@@ -19,9 +19,11 @@ screenshot: "https://example.com/screenshot.png"
 ## 🎯 Project Information
 
 ### Project Title
+
 **Open Journey**
 
 ### 👤 Contributor
+
 - **Name**: Alex Developer
 - **GitHub**: [@alexdev](https://github.com/alexdev)
 - **Contact**: [Twitter](https://twitter.com/alexdev) | [LinkedIn](https://linkedin.com/in/alexdev)
@@ -50,12 +52,15 @@ The platform helps learners stay engaged by adapting to their preferred learning
 ## 🔗 Links
 
 ### 🌐 Live Demo
+
 [View Live Project](https://open-journey-demo.vercel.app)
 
 ### 📂 Repository
+
 [GitHub Repository](https://github.com/alexdev/open-journey)
 
 ### 📹 Video Demo
+
 [Watch on YouTube](https://youtube.com/watch?v=example)
 
 ---
@@ -63,16 +68,19 @@ The platform helps learners stay engaged by adapting to their preferred learning
 ## 📸 Screenshots / Preview
 
 ### Main Dashboard
+
 ![Dashboard Screenshot](https://example.com/dashboard.png)
-*Personalized learning dashboard showing progress and recommendations*
+_Personalized learning dashboard showing progress and recommendations_
 
 ### AI Learning Path
+
 ![Learning Path Screenshot](https://example.com/learning-path.png)
-*AI-generated learning path adapted to user's skill level*
+_AI-generated learning path adapted to user's skill level_
 
 ### Interactive Lessons
+
 ![Interactive Lesson Screenshot](https://example.com/lesson.png)
-*Interactive lesson with real-time AI feedback*
+_Interactive lesson with real-time AI feedback_
 
 ---
 

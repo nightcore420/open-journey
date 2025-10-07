@@ -61,7 +61,9 @@ git push -u origin --tags
 ### 2. GitHub Repository Settings
 
 #### A. Add Topics
+
 Go to your repository → Settings → About → Add topics:
+
 - `hacktoberfest`
 - `good-first-issue`
 - `beginner-friendly`
@@ -69,7 +71,9 @@ Go to your repository → Settings → About → Add topics:
 - `indonesia`
 
 #### B. Create Labels
+
 Create these labels in Issues → Labels:
+
 - `hacktoberfest` (purple/pink)
 - `good first issue` (purple)
 - `documentation` (blue)
@@ -79,7 +83,9 @@ Create these labels in Issues → Labels:
 - `spam` (red)
 
 #### C. Enable Branch Protection
+
 Settings → Branches → Add rule for `main`:
+
 - Require pull request reviews
 - Require status checks (markdown-link-check)
 - Require conversation resolution
@@ -87,12 +93,14 @@ Settings → Branches → Add rule for `main`:
 ### 3. Install GitHub Apps
 
 #### Welcome Bot
+
 1. Visit: https://github.com/apps/welcome
 2. Click "Install"
 3. Select your repository
 4. Configuration is already in `.github/config.yml`
 
 #### All Contributors Bot (Optional)
+
 1. Visit: https://github.com/apps/allcontributors
 2. Click "Install"
 3. Select your repository
@@ -110,6 +118,7 @@ Use templates from `.github/SAMPLE_ISSUES.md` to create 5-10 good first issues:
 6. **Improve templates** - Enhance project structure
 
 Create these via:
+
 - GitHub web interface (Issues → New Issue)
 - GitHub CLI: `gh issue create --title "..." --body "..." --label "good first issue,hacktoberfest"`
 
@@ -123,6 +132,7 @@ Create these via:
 ### 6. Promote Your Repository
 
 Share on:
+
 - Twitter/X with #Hacktoberfest #OpenSource #Indonesia
 - Dev.to or Hashnode blog post
 - Indonesian tech communities (Telegram, Discord, Facebook groups)
@@ -131,10 +141,11 @@ Share on:
 - LinkedIn
 
 Sample announcement:
-```
-🎃 Hacktoberfest 2025 is here! 
 
-I've set up a beginner-friendly repository for Indonesian developers 
+```
+🎃 Hacktoberfest 2025 is here!
+
+I've set up a beginner-friendly repository for Indonesian developers
 to make their first open source contribution!
 
 🇮🇩 Fully localized in Bahasa Indonesia
@@ -173,6 +184,7 @@ Before announcing your repository, verify:
 ## 🎯 Hacktoberfest Contribution Quality Standards
 
 ### ✅ Valid Contributions
+
 - Adding name to Contributors.md (first contribution)
 - Fixing actual bugs or typos
 - Adding meaningful documentation
@@ -180,6 +192,7 @@ Before announcing your repository, verify:
 - Improving existing content
 
 ### ❌ Invalid Contributions
+
 - Whitespace-only changes
 - Automated/scripted spam PRs
 - Minor formatting that doesn't improve readability
@@ -190,6 +203,7 @@ Before announcing your repository, verify:
 ### 🛡️ Spam Prevention
 
 Mark spam PRs with:
+
 ```
 label: spam
 # or
@@ -199,6 +213,7 @@ label: invalid
 This prevents them from counting toward Hacktoberfest.
 
 **Best Practices**:
+
 1. Review PRs promptly (within 1-3 days)
 2. Provide constructive feedback
 3. Be patient with beginners
@@ -210,18 +225,21 @@ This prevents them from counting toward Hacktoberfest.
 ## 📊 Monitoring and Maintenance
 
 ### Daily Tasks (During Hacktoberfest)
+
 - Check new issues and PRs
 - Respond to questions in discussions
 - Review and merge valid contributions
 - Mark spam appropriately
 
 ### Weekly Tasks
+
 - Update good first issues as they're completed
 - Create new beginner-friendly issues
 - Update Contributors list
 - Share progress and encourage contributors
 
 ### Tools to Help
+
 - GitHub Insights → Community
 - GitHub Insights → Traffic
 - GitHub Notifications
@@ -232,18 +250,22 @@ This prevents them from counting toward Hacktoberfest.
 ## 🆘 Troubleshooting Common Issues
 
 ### Contributors Can't Push
+
 → They need to fork first, not clone directly
 
 ### PR Checks Failing
+
 → Check `.github/workflows/` for workflow errors
 → Verify markdown-link-check-config.json is correct
 
 ### Bot Not Working
+
 → Verify bot is installed for your repository
 → Check bot has required permissions
 → Verify config file syntax
 
 ### Too Many Spam PRs
+
 → Add more specific contribution guidelines
 → Require issue assignment before PR
 → Review and mark spam immediately
@@ -254,6 +276,7 @@ This prevents them from counting toward Hacktoberfest.
 ## 🌟 Success Metrics
 
 Track these to measure success:
+
 - Total PRs received
 - PRs merged vs rejected
 - Number of first-time contributors
@@ -267,16 +290,19 @@ Track these to measure success:
 ## 📚 Resources
 
 ### For You (Maintainer)
+
 - [Hacktoberfest Maintainer Guide](https://hacktoberfest.com/participation/#maintainers)
 - [GitHub Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
 - [Managing Large PRs](https://github.com/dear-github/dear-github)
 
 ### For Contributors
+
 - [First Contributions Tutorial](https://github.com/firstcontributions/first-contributions)
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 - [GitHub Skills](https://skills.github.com/)
 
 ### Indonesian Resources
+
 - [Git & GitHub Bahasa Indonesia](https://github.com/endymuhardin/belajarGit)
 - [Panduan Kontribusi Open Source](https://opensource.id/)
 
@@ -293,6 +319,7 @@ Your repository is fully configured for Hacktoberfest 2025! Here's what makes it
 🤝 **Welcoming**: Code of conduct and friendly templates
 
 **Now it's time to:**
+
 1. Complete the setup steps above
 2. Create your first issues
 3. Test the contribution flow
@@ -304,6 +331,7 @@ Your repository is fully configured for Hacktoberfest 2025! Here's what makes it
 ## 💬 Questions or Issues?
 
 If you encounter problems:
+
 1. Check `.github/GIT_SETUP_INSTRUCTIONS.md`
 2. Review GitHub documentation
 3. Search for similar issues on GitHub
@@ -315,6 +343,7 @@ If you encounter problems:
 ## 🙏 Thank You!
 
 Thank you for creating a welcoming space for new contributors! Your effort helps:
+
 - Students learn real-world skills
 - Beginners gain confidence
 - Open source grow more inclusive
@@ -325,6 +354,6 @@ Thank you for creating a welcoming space for new contributors! Your effort helps
 
 ---
 
-*This setup was created with ❤️ for the Indonesian open source community.*
+_This setup was created with ❤️ for the Indonesian open source community._
 
-*Last updated: October 7, 2025*
+_Last updated: October 7, 2025_

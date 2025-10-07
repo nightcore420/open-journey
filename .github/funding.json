@@ -22,15 +22,8 @@
       "repositoryUrl": {
         "url": "https://github.com/firstcontributions/first-contributions"
       },
-      "licenses": [
-        "spdx:MIT"
-      ],
-      "tags": [
-        "tutorial",
-        "beginner",
-        "open-source",
-        "contribution"
-      ]
+      "licenses": ["spdx:MIT"],
+      "tags": ["tutorial", "beginner", "open-source", "contribution"]
     }
   ],
   "funding": {
@@ -57,10 +50,7 @@
         "amount": 30000,
         "currency": "USD",
         "frequency": "yearly",
-        "channels": [
-          "opencollective",
-          "github-sponsors"
-        ]
+        "channels": ["opencollective", "github-sponsors"]
       },
       {
         "guid": "hosting-monthly",
@@ -70,10 +60,7 @@
         "amount": 30,
         "currency": "USD",
         "frequency": "monthly",
-        "channels": [
-          "opencollective",
-          "github-sponsors"
-        ]
+        "channels": ["opencollective", "github-sponsors"]
       }
     ],
     "history": [
