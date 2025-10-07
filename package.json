@@ -1,0 +1,24 @@
+{
+  "name": "first-contributions",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Help beginners make their first contribution to open source projects",
+  "scripts": {
+    "showcase:build": "node tools/showcase/build-table.mjs",
+    "showcase:check": "node tools/showcase/check.mjs"
+  },
+  "devDependencies": {
+    "glob": "^10.3.10",
+    "gray-matter": "^4.0.3",
+    "markdown-table": "^3.0.3"
+  },
+  "keywords": [
+    "open-source",
+    "contributions",
+    "git",
+    "github",
+    "beginners"
+  ],
+  "author": "First Contributions",
+  "license": "MIT"
+}

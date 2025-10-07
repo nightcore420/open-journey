@@ -56,6 +56,66 @@ We accept various types of contributions:
 - Add learning resources
 - Create glossaries or cheat sheets
 
+### 🌟 Project Showcase / Galeri Proyek
+- Menambahkan proyek pribadi ke showcase
+- Membagikan aplikasi atau tool yang telah dibuat
+- Menampilkan portfolio dan karya kreatif
+- Add personal projects to showcase
+- Share applications or tools you've built
+- Display portfolio and creative works
+
+---
+
+## 🌟 Showcase Contribution Guidelines / Panduan Kontribusi Showcase
+
+### 📋 Required Fields / Field yang Diperlukan
+
+When adding a project to the showcase, ensure your markdown file includes these required YAML front-matter fields:
+
+Ketika menambahkan proyek ke showcase, pastikan file markdown Anda menyertakan field YAML front-matter yang diperlukan:
+
+```yaml
+---
+title: "Your Project Name"           # Required
+contributor: "Your Name"             # Required  
+description: "Brief description"     # Required
+year: 2025                          # Required (YYYY format)
+github: "https://github.com/you"    # Optional
+repo: "https://github.com/you/repo" # Optional
+demo: "https://your-demo.com"       # Optional
+tags: ["tag1", "tag2"]             # Optional
+screenshot: "https://img-url.com"   # Optional
+---
+```
+
+### ✅ Validation Rules / Aturan Validasi
+
+- **Title**: Must be a non-empty string
+- **Contributor**: Must be a non-empty string  
+- **Description**: Must be a non-empty string
+- **Year**: Must be a number between 2000-2100
+- **File Location**: Must be in `showcase/YYYY/filename.md` format
+- **Table Update**: Run `npm run showcase:build` after adding files
+
+- **Title**: Harus berupa string yang tidak kosong
+- **Contributor**: Harus berupa string yang tidak kosong
+- **Description**: Harus berupa string yang tidak kosong  
+- **Year**: Harus berupa angka antara 2000-2100
+- **Lokasi File**: Harus dalam format `showcase/YYYY/filename.md`
+- **Update Tabel**: Jalankan `npm run showcase:build` setelah menambahkan file
+
+### 🚨 Common Issues / Masalah Umum
+
+- Missing required fields → Add all required YAML fields
+- Invalid year format → Use 4-digit year (e.g., 2025)
+- Table not updated → Run `npm run showcase:build`
+- File in wrong location → Move to `showcase/YYYY/` directory
+
+- Field yang diperlukan hilang → Tambahkan semua field YAML yang diperlukan
+- Format tahun tidak valid → Gunakan tahun 4 digit (contoh: 2025)
+- Tabel tidak terupdate → Jalankan `npm run showcase:build`
+- File di lokasi salah → Pindahkan ke direktori `showcase/YYYY/`
+
 ---
 
 ## 🚀 Langkah-langkah Kontribusi / Contribution Steps
