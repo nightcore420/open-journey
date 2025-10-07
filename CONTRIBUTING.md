@@ -239,6 +239,35 @@ Before creating a Pull Request, make sure:
 
 ---
 
+## 🔗 Docs Link Check
+
+### Automated Link Checking
+
+This repository uses Lychee for fast, reliable markdown link checking:
+
+- **Scope**: Only changed Markdown files in PRs are checked for performance
+- **Local testing**: Run `cargo install lychee` (optional) or rely on CI
+- **Configuration**: See `lychee.toml` for settings (timeouts, retries, exclusions)
+- **Reports**: Check artifacts and job summaries for detailed results
+- **Fork safety**: PR comments are only posted for same-repo branches to avoid 403 errors
+
+### Manual Link Check
+
+To check links locally before submitting a PR:
+
+```bash
+# Install Lychee (if not already installed)
+cargo install lychee
+
+# Check all markdown files
+lychee --config lychee.toml **/*.md
+
+# Check specific files
+lychee --config lychee.toml README.md CONTRIBUTING.md
+```
+
+---
+
 ## 🎯 Issue Guidelines
 
 ### Sebelum Membuat Issue Baru / Before Creating a New Issue
