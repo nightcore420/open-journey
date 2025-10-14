@@ -1428,3 +1428,4 @@
 - [Raúl López](https://github.com/ralopezv)
 - [Thanh Trinh] (https://github.com/thanhtrinh-code)
 - [Ayush Upadhyay] (https://github.com/A-yushupadhyay/)
+- [Alif Fzi] (https://github.com/aliffauzi34)
