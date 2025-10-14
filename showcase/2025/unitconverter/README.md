@@ -1,18 +1,55 @@
 # 🧮 Simple Unit Converter
 
-A small web tool for converting between common units:  
-**length**, **weight**, and **temperature**.
+> A lightweight, browser-based unit converter built for **#Hacktoberfest2025**  
+> Made with ❤️ for [Open Journey](https://github.com/faiqxid/open-journey)
 
-Built as a public utility showcase for **Open Journey Hacktoberfest 2025**.
+---
 
-## ⚡ Features
-- Convert meters ↔ centimeters ↔ inches ↔ feet  
-- Convert kilograms ↔ grams ↔ pounds ↔ ounces  
-- Convert Celsius ↔ Fahrenheit ↔ Kelvin  
-- Responsive, no external dependencies
+## 📸 Preview
 
-## 🧑‍💻 How to Use
-1. Open `index.html` in any browser  
-2. Select category → enter value → choose units → click **Convert**
+![Simple Unit Converter Preview](preview.png)
 
-## 📂 Folder
+---
+
+## ✨ About
+
+**Simple Unit Converter** is a tiny yet practical web tool that lets you quickly convert between common units — right from your browser, no installation needed.
+
+Built with pure **HTML**, **CSS**, and **JavaScript**, this project demonstrates how a simple idea can still be useful and beginner-friendly for open source collaboration.
+
+---
+
+## ⚙️ Features
+
+✅ Convert **Length**, **Weight**, and **Temperature** units  
+✅ Fully responsive design — works on both mobile & desktop  
+✅ No external libraries or dependencies  
+✅ Instant calculation with clean UI  
+✅ Perfect for beginners joining **Hacktoberfest 2025**
+
+---
+
+## 📚 Supported Units
+
+### 📏 Length
+- meter (m), centimeter (cm), kilometer (km), inch (inch), foot (ft)
+
+### ⚖️ Weight
+- kilogram (kg), gram (g), pound (lb), ounce (oz)
+
+### 🌡 Temperature
+- Celsius (°C), Fahrenheit (°F), Kelvin (K)
+
+---
+
+## 🚀 How to Run
+
+You can open the project **directly in your browser** or serve it locally:
+
+### Option 1 — Open directly
+Just open `index.html` in your browser.
+
+### Option 2 — Run local server (Termux / PC)
+```bash
+cd showcase/2025/unitconvert
+python3 -m http.server 8000
