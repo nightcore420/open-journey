@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>💱 Currency Converter</h1>
+    <p>Convert between currencies using static offline rates</p>
+  </header>
+
+  <section class="container">
+    <input type="number" id="amount" placeholder="Enter amount" />
+
+    <div class="selectors">
+      <select id="fromCurrency"></select>
+      <span>→</span>
+      <select id="toCurrency"></select>
+    </div>
+
+    <button onclick="convert()">Convert</button>
+
+    <div id="result"></div>
+  </section>
+
+  <footer>
+    <p>Made with 💱 by <a href="https://github.com/faiqxid">faiqxid</a> for
+      <a href="https://github.com/faiqxid/open-journey">Open Journey 2025</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
