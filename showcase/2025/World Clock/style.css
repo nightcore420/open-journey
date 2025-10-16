@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #eaf4ff, #f8fcff);
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+header h1 {
+  color: #0077cc;
+  margin-bottom: 0.3rem;
+}
+
+.clock-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+.city {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0077cc;
+}
+.time {
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+}
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+footer a {
+  color: #0077cc;
+  text-decoration: none;
+}
