@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Unit Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🧮 Simple Unit Converter</h1>
+  <p>Convert between units easily — built for #Hacktoberfest2025</p>
+
+  <div class="converter">
+    <select id="type">
+      <option value="length">Length</option>
+      <option value="weight">Weight</option>
+      <option value="temperature">Temperature</option>
+    </select>
+
+    <input type="number" id="inputValue" placeholder="Enter value" />
+
+    <select id="fromUnit"></select>
+    <select id="toUnit"></select>
+
+    <button id="convertBtn">Convert</button>
+
+    <h2 id="result">Result: —</h2>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ for <a href="https://github.com/nightcore420/open-journey">Open Journey</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
