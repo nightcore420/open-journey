@@ -11,7 +11,7 @@ This project runs offline and has a clean, mobile-friendly UI.
 ---
 
 ## 📸 Preview
-![BMI Calculator Preview](preview.png)
+![BMI Calculator Preview : ](preview.png)
 
 ---
 
@@ -27,3 +27,4 @@ This project runs offline and has a clean, mobile-friendly UI.
 1. Open `index.html` directly in your browser, or
    ```bash
    python3 -m http.server 8000
+
